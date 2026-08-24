@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-08-24T19:00:22.007871+08:00",
+  "records": [
+    {
+      "data_day": "2026-08-21",
+      "ticker": "601919",
+      "company_name": "601919",
+      "display_name": "601919",
+      "trigger_count": 1,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 17.01,
+      "latest_change_pct": 2.223557692307687,
+      "created_at": "2026-08-24T19:00:22.007833+08:00"
+    },
+    {
+      "data_day": "2026-08-21",
+      "ticker": "603666",
+      "company_name": "603666",
+      "display_name": "603666",
+      "trigger_count": 1,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 26.57,
+      "latest_change_pct": 1.9179133103183643,
+      "created_at": "2026-08-24T19:00:22.007858+08:00"
+    },
+    {
+      "data_day": "2026-08-21",
+      "ticker": "002165",
+      "company_name": "002165",
+      "display_name": "002165",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 7.72,
+      "latest_change_pct": -0.898587933247752,
+      "created_at": "2026-08-24T19:00:22.007867+08:00"
+    }
+  ]
+}
