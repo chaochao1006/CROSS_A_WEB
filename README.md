@@ -16,11 +16,10 @@ streamlit run streamlit_app.py
 `.github/workflows/a-cross-monitor.yml` 已设置：
 
 ```yaml
-cron: "0 6 * * 1-5"
-timezone: "Asia/Shanghai"
+cron: "0 22 * * 0-4"
 ```
 
-它对应北京时间周一到周五早上 6:00。
+GitHub Actions 的 cron 使用 UTC 时间，所以它对应北京时间周一到周五早上 6:00。
 
 ## Streamlit Community Cloud 部署
 

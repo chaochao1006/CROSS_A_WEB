@@ -2,8 +2,9 @@ name: A-CROSS Monitor
 
 on:
   schedule:
-    - cron: "0 6 * * 1-5"
-      timezone: "Asia/Shanghai"
+    # GitHub Actions cron uses UTC.
+    # 22:00 UTC Sunday-Thursday = 06:00 Beijing time Monday-Friday.
+    - cron: "0 22 * * 0-4"
   workflow_dispatch:
 
 permissions:
