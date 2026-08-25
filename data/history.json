@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T19:00:22.007871+08:00",
+  "updated_at": "2026-08-25T06:39:28.953580+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -36,6 +36,78 @@
       "latest_close": 7.72,
       "latest_change_pct": -0.898587933247752,
       "created_at": "2026-08-24T19:00:22.007867+08:00"
+    },
+    {
+      "data_day": "2026-08-24",
+      "ticker": "601918",
+      "company_name": "新集能源",
+      "display_name": "601918（新集能源）",
+      "trigger_count": 1,
+      "total_score": 84.0,
+      "signal_level": "强势金叉",
+      "latest_close": 10.92,
+      "latest_change_pct": 8.118811881188126,
+      "created_at": "2026-08-25T06:39:28.953516+08:00"
+    },
+    {
+      "data_day": "2026-08-24",
+      "ticker": "601101",
+      "company_name": "昊华能源",
+      "display_name": "601101（昊华能源）",
+      "trigger_count": 1,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "latest_close": 13.51,
+      "latest_change_pct": 6.2106918238993725,
+      "created_at": "2026-08-25T06:39:28.953536+08:00"
+    },
+    {
+      "data_day": "2026-08-24",
+      "ticker": "601919",
+      "company_name": "中远海控",
+      "display_name": "601919（中远海控）",
+      "trigger_count": 2,
+      "total_score": 73.0,
+      "signal_level": "较强金叉",
+      "latest_close": 17.42,
+      "latest_change_pct": 2.41034685479129,
+      "created_at": "2026-08-25T06:39:28.953546+08:00"
+    },
+    {
+      "data_day": "2026-08-24",
+      "ticker": "002165",
+      "company_name": "红宝丽",
+      "display_name": "002165（红宝丽）",
+      "trigger_count": 2,
+      "total_score": 73.0,
+      "signal_level": "较强金叉",
+      "latest_close": 8.07,
+      "latest_change_pct": 4.5336787564767,
+      "created_at": "2026-08-25T06:39:28.953556+08:00"
+    },
+    {
+      "data_day": "2026-08-24",
+      "ticker": "002506",
+      "company_name": "协鑫集成",
+      "display_name": "002506（协鑫集成）",
+      "trigger_count": 1,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 2.78,
+      "latest_change_pct": 6.513409961685812,
+      "created_at": "2026-08-25T06:39:28.953567+08:00"
+    },
+    {
+      "data_day": "2026-08-24",
+      "ticker": "601088",
+      "company_name": "中国神华",
+      "display_name": "601088（中国神华）",
+      "trigger_count": 1,
+      "total_score": 60.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 46.89,
+      "latest_change_pct": 1.034259857789288,
+      "created_at": "2026-08-25T06:39:28.953575+08:00"
     }
   ]
 }
