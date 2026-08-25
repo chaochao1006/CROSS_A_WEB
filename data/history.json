@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T06:39:28.953580+08:00",
+  "updated_at": "2026-08-26T06:37:07.339449+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -108,6 +108,66 @@
       "latest_close": 46.89,
       "latest_change_pct": 1.034259857789288,
       "created_at": "2026-08-25T06:39:28.953575+08:00"
+    },
+    {
+      "data_day": "2026-08-25",
+      "ticker": "601686",
+      "company_name": "友发集团",
+      "display_name": "601686（友发集团）",
+      "trigger_count": 1,
+      "total_score": 72.0,
+      "signal_level": "较强金叉",
+      "latest_close": 5.23,
+      "latest_change_pct": 0.5769230769230749,
+      "created_at": "2026-08-26T06:37:07.339387+08:00"
+    },
+    {
+      "data_day": "2026-08-25",
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "display_name": "601869（长飞光纤）",
+      "trigger_count": 1,
+      "total_score": 71.0,
+      "signal_level": "较强金叉",
+      "latest_close": 394.5,
+      "latest_change_pct": 4.037553732957089,
+      "created_at": "2026-08-26T06:37:07.339409+08:00"
+    },
+    {
+      "data_day": "2026-08-25",
+      "ticker": "002506",
+      "company_name": "协鑫集成",
+      "display_name": "002506（协鑫集成）",
+      "trigger_count": 2,
+      "total_score": 71.0,
+      "signal_level": "较强金叉",
+      "latest_close": 2.74,
+      "latest_change_pct": -1.4388489208632893,
+      "created_at": "2026-08-26T06:37:07.339421+08:00"
+    },
+    {
+      "data_day": "2026-08-25",
+      "ticker": "002837",
+      "company_name": "英维克",
+      "display_name": "002837（英维克）",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 60.23,
+      "latest_change_pct": 10.009132420091316,
+      "created_at": "2026-08-26T06:37:07.339433+08:00"
+    },
+    {
+      "data_day": "2026-08-25",
+      "ticker": "002886",
+      "company_name": "沃特股份",
+      "display_name": "002886（沃特股份）",
+      "trigger_count": 1,
+      "total_score": 61.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 21.26,
+      "latest_change_pct": 3.80859375,
+      "created_at": "2026-08-26T06:37:07.339443+08:00"
     }
   ]
 }
