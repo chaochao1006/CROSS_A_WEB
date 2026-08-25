@@ -114,9 +114,3 @@ if history_records:
     st.dataframe(history_df[existing_columns].sort_values(["data_day", "total_score"], ascending=[False, False]), use_container_width=True, hide_index=True)
 else:
     st.info("暂无历史触发记录。")
-
-with st.sidebar:
-    st.header("股票池")
-    tickers = latest.get("tickers", [])
-    st.write(f"共 {len(tickers)} 只")
-    st.code("\n".join(tickers), language="text")
