@@ -55,7 +55,6 @@ if not latest:
     st.stop()
 
 triggered = latest.get("triggered", [])
-all_results = latest.get("all_results", [])
 
 metric_cols = st.columns(5)
 metric_cols[0].metric("数据交易日", latest.get("data_day", "N/A"))
@@ -68,7 +67,7 @@ st.caption(f"最近运行时间（北京时间）：{latest.get('run_time_cn', '
 
 st.divider()
 
-st.subheader("触发股票")
+st.subheader("今日触发")
 if triggered:
     trigger_df = pd.DataFrame(
         [
@@ -106,25 +105,6 @@ if triggered:
                     st.write(f"- {risk}")
 else:
     st.success("本交易日没有股票达到触发阈值。")
-
-st.subheader("全部评分")
-if all_results:
-    all_df = pd.DataFrame(
-        [
-            {
-                "代码": item.get("ticker"),
-                "中文名": item.get("company_name"),
-                "评分": item.get("total_score"),
-                "信号等级": item.get("signal_level"),
-                "最新价": item.get("latest_close"),
-                "涨跌幅": fmt_pct(item.get("latest_change_pct")),
-                "成交量倍数": item.get("volume_ratio"),
-                "数据状态": item.get("data_error") or "正常",
-            }
-            for item in all_results
-        ]
-    )
-    st.dataframe(all_df.sort_values("评分", ascending=False), use_container_width=True, hide_index=True)
 
 st.subheader("历史触发")
 if history_records:
