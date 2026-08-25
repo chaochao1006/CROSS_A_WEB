@@ -3,9 +3,7 @@ from __future__ import annotations
 import json
 import logging
 import math
-import os
 import time
-from dataclasses import asdict
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Dict, List
@@ -20,6 +18,7 @@ DATA_DIR = PROJECT_DIR / "data"
 LATEST_PATH = DATA_DIR / "latest.json"
 HISTORY_PATH = DATA_DIR / "history.json"
 LOG_PATH = DATA_DIR / "last_run.log"
+MAX_HISTORY_RECORDS = 200
 
 
 def json_safe(value: Any) -> Any:
@@ -122,7 +121,7 @@ def update_history(data_day: date, triggered: List[core.StockResult]) -> Dict[st
         HISTORY_PATH,
         {
             "updated_at": core.china_now().isoformat(),
-            "records": records,
+            "records": records[-MAX_HISTORY_RECORDS:],
         },
     )
     return trigger_counts
@@ -142,7 +141,7 @@ def run_monitor() -> Path:
 
     now_cn = core.china_now()
     data_day = core.latest_official_trading_day(now_cn)
-    technical_results: List[core.StockResult] = []
+    triggered: List[core.StockResult] = []
     success_count = 0
 
     logging.info("开始扫描 %s 只股票，数据交易日：%s", len(core.TICKERS), data_day)
@@ -154,16 +153,14 @@ def run_monitor() -> Path:
                 success_count += 1
             if result.total_score >= core.TRIGGER_SCORE and not result.data_error:
                 core.analyze_reason(result)
+                triggered.append(result)
                 logging.info("%s 触发，评分 %.1f", ticker, result.total_score)
             else:
                 logging.info("%s 未触发，评分 %.1f", ticker, result.total_score)
-            technical_results.append(result)
         except Exception as exc:
             logging.exception("%s 分析失败：%s", ticker, exc)
-            technical_results.append(core.StockResult(ticker=ticker, company_name=core.get_company_name(ticker), data_error=str(exc)))
         time.sleep(core.SLEEP_BETWEEN_TICKERS)
 
-    triggered = [r for r in technical_results if not r.data_error and r.total_score >= core.TRIGGER_SCORE]
     triggered.sort(key=lambda item: item.total_score, reverse=True)
     trigger_counts = update_history(data_day, triggered)
 
@@ -175,9 +172,7 @@ def run_monitor() -> Path:
         "stock_pool_count": len(core.TICKERS),
         "success_count": success_count,
         "triggered_count": len(triggered),
-        "tickers": core.TICKERS,
         "triggered": [result_to_dict(r, trigger_counts.get(r.ticker, 1)) for r in triggered],
-        "all_results": [result_to_dict(r) for r in technical_results],
     }
     save_json(LATEST_PATH, payload)
     logging.info("写入网页数据：%s，触发 %s 只。", LATEST_PATH, len(triggered))
