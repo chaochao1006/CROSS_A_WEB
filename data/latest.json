@@ -1,43 +1,12 @@
 {
   "app": "A-CROSS",
-  "run_time_cn": "2026-08-26T06:37:07.340042+08:00",
+  "run_time_cn": "2026-08-26T10:52:58.677912+08:00",
   "data_day": "2026-08-25",
   "trigger_score": 60,
-  "stock_pool_count": 135,
-  "success_count": 132,
-  "triggered_count": 5,
+  "stock_pool_count": 105,
+  "success_count": 102,
+  "triggered_count": 3,
   "triggered": [
-    {
-      "ticker": "601686",
-      "company_name": "友发集团",
-      "display_name": "601686（友发集团）",
-      "trigger_count": 1,
-      "data_date": "2026-08-25T00:00:00",
-      "latest_close": 5.23,
-      "latest_change_pct": 0.5769230769230749,
-      "volume_ratio": 0.8504326191712862,
-      "total_score": 72.0,
-      "signal_level": "较强金叉",
-      "macd_status": "最近两个交易日内有效金叉",
-      "kdj_status": "无金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 35.0,
-        "KDJ": 8.0,
-        "RSI": 19.0,
-        "PriceTrend": 10.0,
-        "Volume": 0
-      },
-      "technical_summary": "MACD最近两个交易日内有效金叉，DIF/DEA为0.0155/0.0145；RSI状态为RSI多头排列，RSI12为57.3；股价站上MA20和MA50。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "成交量未明显放大，需防信号确认不足。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
-      "data_error": ""
-    },
     {
       "ticker": "601869",
       "company_name": "长飞光纤",
@@ -97,7 +66,7 @@
       "risks": [
         "重点观察次日量能和指标延续性。"
       ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
     },
     {
@@ -127,37 +96,6 @@
       "confidence": "技术指标判断",
       "risks": [
         "股价远离MA20超过10%，短线追高风险较高。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
-      "data_error": ""
-    },
-    {
-      "ticker": "002886",
-      "company_name": "沃特股份",
-      "display_name": "002886（沃特股份）",
-      "trigger_count": 1,
-      "data_date": "2026-08-25T00:00:00",
-      "latest_close": 21.26,
-      "latest_change_pct": 3.80859375,
-      "volume_ratio": 2.3139946603748136,
-      "total_score": 61.0,
-      "signal_level": "普通有效信号",
-      "macd_status": "无金叉",
-      "kdj_status": "最近两个交易日内有效金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 9.0,
-        "KDJ": 20.0,
-        "RSI": 17.0,
-        "PriceTrend": 5.0,
-        "Volume": 10
-      },
-      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为63.0/58.4/72.2；RSI状态为RSI多头排列，RSI12为57.7；股价站上部分均线。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "重点观察次日量能和指标延续性。"
       ],
       "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
       "data_error": ""
