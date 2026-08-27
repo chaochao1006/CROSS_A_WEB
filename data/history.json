@@ -15,18 +15,6 @@
     },
     {
       "data_day": "2026-08-21",
-      "ticker": "603666",
-      "company_name": "603666",
-      "display_name": "603666",
-      "trigger_count": 1,
-      "total_score": 69.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 26.57,
-      "latest_change_pct": 1.9179133103183643,
-      "created_at": "2026-08-24T19:00:22.007858+08:00"
-    },
-    {
-      "data_day": "2026-08-21",
       "ticker": "002165",
       "company_name": "002165",
       "display_name": "002165",
@@ -87,18 +75,6 @@
     },
     {
       "data_day": "2026-08-24",
-      "ticker": "002506",
-      "company_name": "协鑫集成",
-      "display_name": "002506（协鑫集成）",
-      "trigger_count": 1,
-      "total_score": 70.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 2.78,
-      "latest_change_pct": 6.513409961685812,
-      "created_at": "2026-08-25T06:39:28.953567+08:00"
-    },
-    {
-      "data_day": "2026-08-24",
       "ticker": "601088",
       "company_name": "中国神华",
       "display_name": "601088（中国神华）",
@@ -132,18 +108,6 @@
       "latest_close": 394.5,
       "latest_change_pct": 4.037553732957089,
       "created_at": "2026-08-26T06:37:07.339409+08:00"
-    },
-    {
-      "data_day": "2026-08-25",
-      "ticker": "002506",
-      "company_name": "协鑫集成",
-      "display_name": "002506（协鑫集成）",
-      "trigger_count": 2,
-      "total_score": 71.0,
-      "signal_level": "较强金叉",
-      "latest_close": 2.74,
-      "latest_change_pct": -1.4388489208632893,
-      "created_at": "2026-08-26T06:37:07.339421+08:00"
     },
     {
       "data_day": "2026-08-25",

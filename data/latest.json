@@ -3,9 +3,9 @@
   "run_time_cn": "2026-08-26T10:52:58.677912+08:00",
   "data_day": "2026-08-25",
   "trigger_score": 60,
-  "stock_pool_count": 105,
+  "stock_pool_count": 101,
   "success_count": 102,
-  "triggered_count": 3,
+  "triggered_count": 2,
   "triggered": [
     {
       "ticker": "601869",
@@ -34,37 +34,6 @@
       "confidence": "技术指标判断",
       "risks": [
         "股价远离MA20超过10%，短线追高风险较高。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
-      "data_error": ""
-    },
-    {
-      "ticker": "002506",
-      "company_name": "协鑫集成",
-      "display_name": "002506（协鑫集成）",
-      "trigger_count": 2,
-      "data_date": "2026-08-25T00:00:00",
-      "latest_close": 2.74,
-      "latest_change_pct": -1.4388489208632893,
-      "volume_ratio": 2.003110090829807,
-      "total_score": 71.0,
-      "signal_level": "较强金叉",
-      "macd_status": "无金叉",
-      "kdj_status": "最近两个交易日内有效金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 18.0,
-        "KDJ": 20.0,
-        "RSI": 13.0,
-        "PriceTrend": 10.0,
-        "Volume": 10
-      },
-      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为50.1/45.0/60.4；RSI状态为RSI多头排列，RSI12为54.2；股价站上MA20和MA50。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "重点观察次日量能和指标延续性。"
       ],
       "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
