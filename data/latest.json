@@ -1,35 +1,35 @@
 {
   "app": "A-CROSS",
-  "run_time_cn": "2026-08-26T10:52:58.677912+08:00",
-  "data_day": "2026-08-25",
+  "run_time_cn": "2026-08-27T09:41:40.310595+08:00",
+  "data_day": "2026-08-26",
   "trigger_score": 60,
   "stock_pool_count": 101,
-  "success_count": 102,
+  "success_count": 101,
   "triggered_count": 2,
   "triggered": [
     {
-      "ticker": "601869",
-      "company_name": "长飞光纤",
-      "display_name": "601869（长飞光纤）",
-      "trigger_count": 1,
-      "data_date": "2026-08-25T00:00:00",
-      "latest_close": 394.5,
-      "latest_change_pct": 4.037553732957089,
-      "volume_ratio": 1.4801575949492576,
-      "total_score": 71.0,
+      "ticker": "002837",
+      "company_name": "英维克",
+      "display_name": "002837（英维克）",
+      "trigger_count": 2,
+      "data_date": "2026-08-26T00:00:00",
+      "latest_close": 62.07,
+      "latest_change_pct": 3.0549560019923705,
+      "volume_ratio": 2.403987545664138,
+      "total_score": 72.0,
       "signal_level": "较强金叉",
       "macd_status": "无金叉",
       "kdj_status": "最近两个交易日内有效金叉",
       "rsi_status": "RSI多头排列",
       "near_cross_notes": [],
       "score_parts": {
-        "MACD": 18.0,
+        "MACD": 12.0,
         "KDJ": 20.0,
         "RSI": 20.0,
-        "PriceTrend": 5.0,
-        "Volume": 8
+        "PriceTrend": 10.0,
+        "Volume": 10
       },
-      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为67.1/65.5/70.2；RSI状态为RSI多头排列，RSI12为60.1；股价站上部分均线；接近突破过去20日高点。",
+      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为70.3/59.6/91.7；RSI状态为RSI多头排列，RSI12为60.3；股价站上部分均线；收盘价突破过去20日高点。",
       "trigger_basis": "技术性突破",
       "confidence": "技术指标判断",
       "risks": [
@@ -39,34 +39,35 @@
       "data_error": ""
     },
     {
-      "ticker": "002837",
-      "company_name": "英维克",
-      "display_name": "002837（英维克）",
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "display_name": "603083（剑桥科技）",
       "trigger_count": 1,
-      "data_date": "2026-08-25T00:00:00",
-      "latest_close": 60.23,
-      "latest_change_pct": 10.009132420091316,
-      "volume_ratio": 2.19166701783747,
-      "total_score": 66.0,
+      "data_date": "2026-08-26T00:00:00",
+      "latest_close": 190.85,
+      "latest_change_pct": 9.999999999999986,
+      "volume_ratio": 1.0035925350703172,
+      "total_score": 64.0,
       "signal_level": "普通有效信号",
       "macd_status": "无金叉",
       "kdj_status": "最近两个交易日内有效金叉",
-      "rsi_status": "RSI多头排列",
+      "rsi_status": "RSI6上穿RSI12",
       "near_cross_notes": [],
       "score_parts": {
-        "MACD": 9.0,
+        "MACD": 15.0,
         "KDJ": 20.0,
-        "RSI": 17.0,
+        "RSI": 19.0,
         "PriceTrend": 10.0,
-        "Volume": 10
+        "Volume": 0
       },
-      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为60.8/54.2/73.9；RSI状态为RSI多头排列，RSI12为57.2；股价站上部分均线；收盘价突破过去20日高点。",
+      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为67.1/66.6/68.1；RSI状态为RSI6上穿RSI12，RSI12为59.8；股价站上MA20和MA50；接近突破过去20日高点。",
       "trigger_basis": "技术性突破",
       "confidence": "技术指标判断",
       "risks": [
-        "股价远离MA20超过10%，短线追高风险较高。"
+        "股价远离MA20超过10%，短线追高风险较高。",
+        "成交量未明显放大，需防信号确认不足。"
       ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
     }
   ]

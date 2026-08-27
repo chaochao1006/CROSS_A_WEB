@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T10:52:58.677360+08:00",
+  "updated_at": "2026-08-27T09:41:40.310005+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -132,6 +132,78 @@
       "latest_close": 21.26,
       "latest_change_pct": 3.80859375,
       "created_at": "2026-08-26T06:37:07.339443+08:00"
+    },
+    {
+      "data_day": "2026-08-26",
+      "ticker": "002583",
+      "company_name": "海能达",
+      "display_name": "002583（海能达）",
+      "trigger_count": 1,
+      "total_score": 74.0,
+      "signal_level": "较强金叉",
+      "latest_close": 8.46,
+      "latest_change_pct": 1.0752688172043223,
+      "created_at": "2026-08-27T09:41:40.309949+08:00"
+    },
+    {
+      "data_day": "2026-08-26",
+      "ticker": "002837",
+      "company_name": "英维克",
+      "display_name": "002837（英维克）",
+      "trigger_count": 2,
+      "total_score": 72.0,
+      "signal_level": "较强金叉",
+      "latest_close": 62.07,
+      "latest_change_pct": 3.0549560019923705,
+      "created_at": "2026-08-27T09:41:40.309969+08:00"
+    },
+    {
+      "data_day": "2026-08-26",
+      "ticker": "603666",
+      "company_name": "亿嘉和",
+      "display_name": "603666（亿嘉和）",
+      "trigger_count": 2,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 27.66,
+      "latest_change_pct": 6.058282208588972,
+      "created_at": "2026-08-27T09:41:40.309978+08:00"
+    },
+    {
+      "data_day": "2026-08-26",
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "display_name": "603083（剑桥科技）",
+      "trigger_count": 1,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 190.85,
+      "latest_change_pct": 9.999999999999986,
+      "created_at": "2026-08-27T09:41:40.309986+08:00"
+    },
+    {
+      "data_day": "2026-08-26",
+      "ticker": "002506",
+      "company_name": "协鑫集成",
+      "display_name": "002506（协鑫集成）",
+      "trigger_count": 3,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 2.75,
+      "latest_change_pct": 0.36496350364962904,
+      "created_at": "2026-08-27T09:41:40.309993+08:00"
+    },
+    {
+      "data_day": "2026-08-26",
+      "ticker": "603086",
+      "company_name": "先达股份",
+      "display_name": "603086（先达股份）",
+      "trigger_count": 1,
+      "total_score": 61.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 5.7,
+      "latest_change_pct": 0.7067137809187329,
+      "created_at": "2026-08-27T09:41:40.310001+08:00"
     }
   ]
 }
