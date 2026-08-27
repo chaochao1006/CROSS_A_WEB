@@ -1,10 +1,10 @@
 {
   "app": "A-CROSS",
-  "run_time_cn": "2026-08-27T09:41:40.310595+08:00",
+  "run_time_cn": "2026-08-27T10:34:34.728343+08:00",
   "data_day": "2026-08-26",
   "trigger_score": 60,
   "stock_pool_count": 101,
-  "success_count": 101,
+  "success_count": 98,
   "triggered_count": 2,
   "triggered": [
     {
@@ -35,7 +35,7 @@
       "risks": [
         "股价远离MA20超过10%，短线追高风险较高。"
       ],
-      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
       "data_error": ""
     },
     {
