@@ -1,5 +1,6 @@
 streamlit>=1.36
 akshare==1.16.99
+yfinance
 pandas>=2.0,<2.4
 numpy<2
 openpyxl

@@ -30,6 +30,11 @@ except Exception:
     ak = None
 
 try:
+    import yfinance as yf
+except Exception:
+    yf = None
+
+try:
     from docx import Document
     from docx.shared import Pt
 except Exception:
@@ -67,7 +72,7 @@ TICKERS = [
     "002709", "603881", "603667", "605123", "601991", "600396", "600143", "000969",
     "002741", "300308", "002185", "601208", "688825", "688836", "000657", "002364",
     "603618", "600522", "603011", "605358", "600487", "002916", "600641", "603773",
-    "600206", "603986", "603186"
+    "600206", "603986", "603186", "02476.HK", "02513.HK", "01191.HK", "03308.HK"
 ]
 
 AK_ADJUST = "qfq"
@@ -192,10 +197,10 @@ def split_trigger_record(line: str) -> Tuple[str, str, str]:
 
 def parse_stock_symbol_text(symbol_text: str) -> Tuple[str, str]:
     text = clean_text(symbol_text)
-    match = re.match(r"^(?P<ticker>\d{6})(?:[（(](?P<name>.*?)[）)])?", text)
+    match = re.match(r"^(?P<ticker>(?:\d{6}|\d{4,5}\.HK))(?:[（(](?P<name>.*?)[）)])?", text, re.IGNORECASE)
     if not match:
         return text, ""
-    ticker = match.group("ticker")
+    ticker = match.group("ticker").upper()
     name = clean_text(match.group("name") or "")
     if re.fullmatch(r"第\d+次", name):
         name = ""
@@ -207,6 +212,31 @@ def safe_filename_part(text: str) -> str:
     safe = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', "_", safe)
     safe = re.sub(r"\s+", "_", safe).strip(" ._")
     return safe[:80]
+
+
+def is_hk_ticker(ticker: str) -> bool:
+    """判断是否为港股代码，港股在本程序里统一使用 5 位代码 + .HK。"""
+    return bool(re.fullmatch(r"\d{4,5}\.HK", str(ticker).strip().upper()))
+
+
+def format_hk_ticker(ticker: str) -> str:
+    """将港股代码规范为 5 位代码 + .HK，例如 2476.HK -> 02476.HK。"""
+    text = str(ticker).strip().upper()
+    code = text.replace(".HK", "")
+    return f"{code.zfill(5)}.HK"
+
+
+def hk_code(ticker: str) -> str:
+    """返回 AKShare 港股接口使用的 5 位数字代码。"""
+    return format_hk_ticker(ticker).replace(".HK", "")
+
+
+def yfinance_hk_symbols(ticker: str) -> List[str]:
+    """生成 Yahoo Finance 可能接受的港股代码候选。"""
+    code = hk_code(ticker)
+    compact = f"{int(code)}.HK"
+    standard = f"{code}.HK"
+    return list(dict.fromkeys([standard, compact]))
 
 
 _A_STOCK_NAME_MAP: Optional[Dict[str, str]] = None
@@ -235,6 +265,7 @@ STATIC_A_STOCK_NAMES = {
     "603011": "合锻智能",
     "605358": "立昂微", "600487": "亨通光电", "002916": "深南电路", "600641": "先导基电",
     "603773": "沃格光电", "600206": "有研新材", "603986": "兆易创新", "603186": "华正新材",
+    "02476.HK": "胜宏科技", "02513.HK": "智谱", "01191.HK": "海光芯正", "03308.HK": "中际旭创",
 }
 
 
@@ -262,6 +293,9 @@ def get_a_stock_name_map() -> Dict[str, str]:
 
 
 def get_company_name(ticker: str) -> str:
+    ticker = ticker.strip().upper()
+    if is_hk_ticker(ticker):
+        return STATIC_A_STOCK_NAMES.get(format_hk_ticker(ticker), ticker)
     code = ticker.zfill(6)
     return STATIC_A_STOCK_NAMES.get(code) or get_a_stock_name_map().get(code, ticker)
 
@@ -360,6 +394,47 @@ def normalize_akshare_hist(df: pd.DataFrame) -> pd.DataFrame:
     return ensure_ohlcv(df)
 
 
+def fetch_yfinance_hk(ticker: str, start_date: str, end_date: str) -> Tuple[pd.DataFrame, str]:
+    if yf is None:
+        raise RuntimeError("未安装或无法导入 yfinance")
+    start = datetime.strptime(start_date, "%Y%m%d").date().isoformat()
+    end = (datetime.strptime(end_date, "%Y%m%d").date() + timedelta(days=1)).isoformat()
+    errors = []
+    for symbol in yfinance_hk_symbols(ticker):
+        try:
+            with contextlib.redirect_stdout(StringIO()), contextlib.redirect_stderr(StringIO()):
+                df = yf.download(
+                    symbol,
+                    start=start,
+                    end=end,
+                    interval="1d",
+                    auto_adjust=False,
+                    progress=False,
+                    threads=False,
+                )
+            df = ensure_ohlcv(df)
+            if not df.empty:
+                return df, f"yfinance {symbol}"
+            errors.append(f"{symbol} 返回空数据")
+        except Exception as exc:
+            errors.append(f"{symbol}: {exc}")
+    raise RuntimeError("；".join(errors[-3:]))
+
+
+def fetch_akshare_hk(ticker: str, start_date: str, end_date: str) -> Tuple[pd.DataFrame, str]:
+    if ak is None:
+        raise RuntimeError("未安装或无法导入 AKShare")
+    with contextlib.redirect_stdout(StringIO()), contextlib.redirect_stderr(StringIO()):
+        df = ak.stock_hk_hist(
+            symbol=hk_code(ticker),
+            period="daily",
+            start_date=start_date,
+            end_date=end_date,
+            adjust=AK_ADJUST,
+        )
+    return normalize_akshare_hist(df), "AKShare stock_hk_hist"
+
+
 def market_prefixed_symbol(ticker: str) -> str:
     code = ticker.zfill(6)
     prefix = "sh" if code.startswith(("5", "6", "9")) else "sz"
@@ -403,17 +478,20 @@ def fetch_akshare_sina(ticker: str, start_date: str, end_date: str) -> Tuple[pd.
 
 def fetch_ohlcv(ticker: str, data_day: date) -> Tuple[pd.DataFrame, str, str]:
     errors = []
-    if ak is None:
-        return pd.DataFrame(), "", "未安装或无法导入 AKShare；请先运行 pip install akshare"
     end_date = data_day.strftime("%Y%m%d")
     start_date = (data_day - timedelta(days=AK_LOOKBACK_DAYS)).strftime("%Y%m%d")
-    sources = (fetch_akshare_em, fetch_akshare_tx, fetch_akshare_sina)
+    if is_hk_ticker(ticker):
+        sources = (fetch_yfinance_hk, fetch_akshare_hk)
+    else:
+        if ak is None:
+            return pd.DataFrame(), "", "未安装或无法导入 AKShare；请先运行 pip install akshare"
+        sources = (fetch_akshare_em, fetch_akshare_tx, fetch_akshare_sina)
     for source_func in sources:
         for attempt in range(1, AK_FETCH_RETRIES + 1):
             try:
                 df, source = source_func(ticker, start_date, end_date)
                 if df.empty:
-                    errors.append(f"{source_func.__name__} 第 {attempt} 次：返回空数据或缺少 A 股日线 OHLCV 字段")
+                    errors.append(f"{source_func.__name__} 第 {attempt} 次：返回空数据或缺少日线 OHLCV 字段")
                     continue
                 df = df[df.index.date <= data_day]
                 if df.empty:
