@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T10:34:34.727775+08:00",
+  "updated_at": "2026-08-28T09:33:19.314677+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -204,6 +204,90 @@
       "latest_close": 5.7,
       "latest_change_pct": 0.7067137809187329,
       "created_at": "2026-08-27T09:41:40.310001+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "display_name": "603083（剑桥科技）",
+      "trigger_count": 2,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "latest_close": 198.21,
+      "latest_change_pct": 3.856431752685352,
+      "created_at": "2026-08-28T09:33:19.314620+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "002837",
+      "company_name": "英维克",
+      "display_name": "002837（英维克）",
+      "trigger_count": 3,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 65.97,
+      "latest_change_pct": 6.28322861285644,
+      "created_at": "2026-08-28T09:33:19.314638+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "display_name": "600183（生益科技）",
+      "trigger_count": 1,
+      "total_score": 67.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 140.97,
+      "latest_change_pct": 8.43012075994154,
+      "created_at": "2026-08-28T09:33:19.314647+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603618",
+      "company_name": "杭电股份",
+      "display_name": "603618（杭电股份）",
+      "trigger_count": 1,
+      "total_score": 67.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 35.11,
+      "latest_change_pct": 9.993734335839587,
+      "created_at": "2026-08-28T09:33:19.314655+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "display_name": "002463（沪电股份）",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 122.02,
+      "latest_change_pct": 2.348599228317405,
+      "created_at": "2026-08-28T09:33:19.314662+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603011",
+      "company_name": "合锻智能",
+      "display_name": "603011（合锻智能）",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 25.14,
+      "latest_change_pct": 10.021881838074398,
+      "created_at": "2026-08-28T09:33:19.314667+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "display_name": "603186（华正新材）",
+      "trigger_count": 1,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 183.39,
+      "latest_change_pct": 4.58511548331908,
+      "created_at": "2026-08-28T09:33:19.314674+08:00"
     }
   ]
 }
