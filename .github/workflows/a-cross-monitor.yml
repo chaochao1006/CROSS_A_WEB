@@ -3,8 +3,8 @@ name: A-CROSS Monitor
 on:
   schedule:
     # GitHub Actions cron uses UTC.
-    # 22:00 UTC Sunday-Thursday = 06:00 Beijing time Monday-Friday.
-    - cron: "0 22 * * 0-4"
+    # 22:17 UTC Sunday-Thursday = 06:17 Beijing time Monday-Friday.
+    - cron: "17 22 * * 0-4"
   workflow_dispatch:
 
 permissions:
