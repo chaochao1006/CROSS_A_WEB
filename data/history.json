@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T10:34:34.727775+08:00",
+  "updated_at": "2026-08-31T09:30:40.373879+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -204,6 +204,174 @@
       "latest_close": 5.7,
       "latest_change_pct": 0.7067137809187329,
       "created_at": "2026-08-27T09:41:40.310001+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "display_name": "603083（剑桥科技）",
+      "trigger_count": 2,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "latest_close": 198.21,
+      "latest_change_pct": 3.856431752685352,
+      "created_at": "2026-08-28T09:33:19.314620+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "002837",
+      "company_name": "英维克",
+      "display_name": "002837（英维克）",
+      "trigger_count": 3,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 65.97,
+      "latest_change_pct": 6.28322861285644,
+      "created_at": "2026-08-28T09:33:19.314638+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "display_name": "600183（生益科技）",
+      "trigger_count": 1,
+      "total_score": 67.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 140.97,
+      "latest_change_pct": 8.43012075994154,
+      "created_at": "2026-08-28T09:33:19.314647+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603618",
+      "company_name": "杭电股份",
+      "display_name": "603618（杭电股份）",
+      "trigger_count": 1,
+      "total_score": 67.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 35.11,
+      "latest_change_pct": 9.993734335839587,
+      "created_at": "2026-08-28T09:33:19.314655+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "display_name": "002463（沪电股份）",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 122.02,
+      "latest_change_pct": 2.348599228317405,
+      "created_at": "2026-08-28T09:33:19.314662+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603011",
+      "company_name": "合锻智能",
+      "display_name": "603011（合锻智能）",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 25.14,
+      "latest_change_pct": 10.021881838074398,
+      "created_at": "2026-08-28T09:33:19.314667+08:00"
+    },
+    {
+      "data_day": "2026-08-27",
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "display_name": "603186（华正新材）",
+      "trigger_count": 1,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 183.39,
+      "latest_change_pct": 4.58511548331908,
+      "created_at": "2026-08-28T09:33:19.314674+08:00"
+    },
+    {
+      "data_day": "2026-08-28",
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "display_name": "603596（伯特利）",
+      "trigger_count": 1,
+      "total_score": 85.0,
+      "signal_level": "强势金叉",
+      "latest_close": 28.0,
+      "latest_change_pct": 8.108108108108114,
+      "created_at": "2026-08-31T08:48:25.174224+08:00"
+    },
+    {
+      "data_day": "2026-08-28",
+      "ticker": "603011",
+      "company_name": "合锻智能",
+      "display_name": "603011（合锻智能）",
+      "trigger_count": 2,
+      "total_score": 82.0,
+      "signal_level": "强势金叉",
+      "latest_close": 27.65,
+      "latest_change_pct": 9.984089101034211,
+      "created_at": "2026-08-31T08:48:25.174243+08:00"
+    },
+    {
+      "data_day": "2026-08-28",
+      "ticker": "600641",
+      "company_name": "先导基电",
+      "display_name": "600641（先导基电）",
+      "trigger_count": 1,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "latest_close": 34.8,
+      "latest_change_pct": 2.35294117647058,
+      "created_at": "2026-08-31T08:48:25.174250+08:00"
+    },
+    {
+      "data_day": "2026-08-28",
+      "ticker": "601208",
+      "company_name": "东材科技",
+      "display_name": "601208（东材科技）",
+      "trigger_count": 1,
+      "total_score": 78.0,
+      "signal_level": "较强金叉",
+      "latest_close": 51.28,
+      "latest_change_pct": 4.439918533604881,
+      "created_at": "2026-08-31T08:48:25.174257+08:00"
+    },
+    {
+      "data_day": "2026-08-28",
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "display_name": "600183（生益科技）",
+      "trigger_count": 2,
+      "total_score": 75.0,
+      "signal_level": "较强金叉",
+      "latest_close": 145.65,
+      "latest_change_pct": 3.3198552883592303,
+      "created_at": "2026-08-31T08:48:25.174262+08:00"
+    },
+    {
+      "data_day": "2026-08-28",
+      "ticker": "603618",
+      "company_name": "杭电股份",
+      "display_name": "603618（杭电股份）",
+      "trigger_count": 2,
+      "total_score": 72.0,
+      "signal_level": "较强金叉",
+      "latest_close": 35.92,
+      "latest_change_pct": 2.307035032754201,
+      "created_at": "2026-08-31T08:48:25.174267+08:00"
+    },
+    {
+      "data_day": "2026-08-28",
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "display_name": "002916（深南电路）",
+      "trigger_count": 1,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 362.4,
+      "latest_change_pct": -0.7395234182415944,
+      "created_at": "2026-08-31T08:48:25.174272+08:00"
     }
   ]
 }
