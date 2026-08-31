@@ -1,6 +1,6 @@
 {
   "app": "A-CROSS",
-  "run_time_cn": "2026-08-31T08:48:25.174870+08:00",
+  "run_time_cn": "2026-08-31T09:30:40.374358+08:00",
   "data_day": "2026-08-28",
   "trigger_score": 60,
   "stock_pool_count": 71,
@@ -66,7 +66,7 @@
       "risks": [
         "股价远离MA20超过10%，短线追高风险较高。"
       ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
     },
     {
@@ -97,7 +97,7 @@
       "risks": [
         "收盘位置靠近当日低位，存在冲高回落风险。"
       ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
     },
     {
@@ -128,7 +128,7 @@
       "risks": [
         "股价远离MA20超过10%，短线追高风险较高。"
       ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
     },
     {
@@ -223,7 +223,7 @@
         "收盘位置靠近当日低位，存在冲高回落风险。",
         "成交量未明显放大，需防信号确认不足。"
       ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
     }
   ]
