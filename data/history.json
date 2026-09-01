@@ -267,18 +267,6 @@
     },
     {
       "data_day": "2026-08-27",
-      "ticker": "603011",
-      "company_name": "合锻智能",
-      "display_name": "603011（合锻智能）",
-      "trigger_count": 1,
-      "total_score": 66.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 25.14,
-      "latest_change_pct": 10.021881838074398,
-      "created_at": "2026-08-28T09:33:19.314667+08:00"
-    },
-    {
-      "data_day": "2026-08-27",
       "ticker": "603186",
       "company_name": "华正新材",
       "display_name": "603186（华正新材）",
@@ -300,18 +288,6 @@
       "latest_close": 28.0,
       "latest_change_pct": 8.108108108108114,
       "created_at": "2026-08-31T08:48:25.174224+08:00"
-    },
-    {
-      "data_day": "2026-08-28",
-      "ticker": "603011",
-      "company_name": "合锻智能",
-      "display_name": "603011（合锻智能）",
-      "trigger_count": 2,
-      "total_score": 82.0,
-      "signal_level": "强势金叉",
-      "latest_close": 27.65,
-      "latest_change_pct": 9.984089101034211,
-      "created_at": "2026-08-31T08:48:25.174243+08:00"
     },
     {
       "data_day": "2026-08-28",
@@ -423,30 +399,6 @@
     },
     {
       "data_day": "2026-08-31",
-      "ticker": "301217",
-      "company_name": "铜冠铜箔",
-      "display_name": "301217（铜冠铜箔）",
-      "trigger_count": 1,
-      "total_score": 70.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 123.97,
-      "latest_change_pct": 8.3748579421278,
-      "created_at": "2026-09-01T09:25:50.484955+08:00"
-    },
-    {
-      "data_day": "2026-08-31",
-      "ticker": "002407",
-      "company_name": "多氟多",
-      "display_name": "002407（多氟多）",
-      "trigger_count": 1,
-      "total_score": 69.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 36.47,
-      "latest_change_pct": -1.2723335138061675,
-      "created_at": "2026-09-01T09:25:50.484960+08:00"
-    },
-    {
-      "data_day": "2026-08-31",
       "ticker": "002916",
       "company_name": "深南电路",
       "display_name": "002916（深南电路）",
@@ -468,30 +420,6 @@
       "latest_close": 64.56,
       "latest_change_pct": 1.2705882352941122,
       "created_at": "2026-09-01T09:25:50.484972+08:00"
-    },
-    {
-      "data_day": "2026-08-31",
-      "ticker": "605123",
-      "company_name": "派克新材",
-      "display_name": "605123（派克新材）",
-      "trigger_count": 1,
-      "total_score": 62.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 80.59,
-      "latest_change_pct": 5.208877284595315,
-      "created_at": "2026-09-01T09:25:50.484977+08:00"
-    },
-    {
-      "data_day": "2026-08-31",
-      "ticker": "000969",
-      "company_name": "安泰科技",
-      "display_name": "000969（安泰科技）",
-      "trigger_count": 1,
-      "total_score": 62.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 18.01,
-      "latest_change_pct": 4.043905257076852,
-      "created_at": "2026-09-01T09:25:50.484981+08:00"
     },
     {
       "data_day": "2026-08-31",
@@ -519,18 +447,6 @@
     },
     {
       "data_day": "2026-08-31",
-      "ticker": "603011",
-      "company_name": "合锻智能",
-      "display_name": "603011（合锻智能）",
-      "trigger_count": 3,
-      "total_score": 60.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 26.8,
-      "latest_change_pct": -3.0741410488245857,
-      "created_at": "2026-09-01T09:25:50.484995+08:00"
-    },
-    {
-      "data_day": "2026-08-31",
       "ticker": "603186",
       "company_name": "华正新材",
       "display_name": "603186（华正新材）",
@@ -541,5 +457,6 @@
       "latest_change_pct": -0.5991285403050051,
       "created_at": "2026-09-01T09:25:50.485000+08:00"
     }
-  ]
+  ],
+  "record_count": 38
 }

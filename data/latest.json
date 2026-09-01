@@ -3,9 +3,9 @@
   "run_time_cn": "2026-09-01T09:25:50.485744+08:00",
   "data_day": "2026-08-31",
   "trigger_score": 60,
-  "stock_pool_count": 69,
+  "stock_pool_count": 64,
   "success_count": 63,
-  "triggered_count": 14,
+  "triggered_count": 9,
   "triggered": [
     {
       "ticker": "000977",
@@ -134,68 +134,6 @@
       "data_error": ""
     },
     {
-      "ticker": "301217",
-      "company_name": "铜冠铜箔",
-      "display_name": "301217（铜冠铜箔）",
-      "trigger_count": 1,
-      "data_date": "2026-08-31T00:00:00",
-      "latest_close": 123.97,
-      "latest_change_pct": 8.3748579421278,
-      "volume_ratio": 1.111146476117047,
-      "total_score": 70.0,
-      "signal_level": "普通有效信号",
-      "macd_status": "无金叉",
-      "kdj_status": "最近两个交易日内有效金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 21.0,
-        "KDJ": 20.0,
-        "RSI": 19.0,
-        "PriceTrend": 10.0,
-        "Volume": 0
-      },
-      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为51.4/37.1/79.8；RSI状态为RSI多头排列，RSI12为58.9；股价站上MA20和MA50。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "成交量未明显放大，需防信号确认不足。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
-      "data_error": ""
-    },
-    {
-      "ticker": "002407",
-      "company_name": "多氟多",
-      "display_name": "002407（多氟多）",
-      "trigger_count": 1,
-      "data_date": "2026-08-31T00:00:00",
-      "latest_close": 36.47,
-      "latest_change_pct": -1.2723335138061675,
-      "volume_ratio": 0.72018280387063,
-      "total_score": 69.0,
-      "signal_level": "普通有效信号",
-      "macd_status": "最近两个交易日内有效金叉",
-      "kdj_status": "最近两个交易日内有效金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 31.0,
-        "KDJ": 20.0,
-        "RSI": 13.0,
-        "PriceTrend": 5.0,
-        "Volume": 0
-      },
-      "technical_summary": "MACD最近两个交易日内有效金叉，DIF/DEA为-0.0221/-0.0266；KDJ最近两个交易日内有效金叉，K/D/J为44.5/36.4/60.6；RSI状态为RSI多头排列，RSI12为52.4；股价站上部分均线。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "成交量未明显放大，需防信号确认不足。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
-      "data_error": ""
-    },
-    {
       "ticker": "002916",
       "company_name": "深南电路",
       "display_name": "002916（深南电路）",
@@ -255,68 +193,6 @@
         "成交量未明显放大，需防信号确认不足。"
       ],
       "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
-      "data_error": ""
-    },
-    {
-      "ticker": "605123",
-      "company_name": "派克新材",
-      "display_name": "605123（派克新材）",
-      "trigger_count": 1,
-      "data_date": "2026-08-31T00:00:00",
-      "latest_close": 80.59,
-      "latest_change_pct": 5.208877284595315,
-      "volume_ratio": 1.2022451789783077,
-      "total_score": 62.0,
-      "signal_level": "普通有效信号",
-      "macd_status": "无金叉",
-      "kdj_status": "最近两个交易日内有效金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 15.0,
-        "KDJ": 20.0,
-        "RSI": 17.0,
-        "PriceTrend": 5.0,
-        "Volume": 5
-      },
-      "technical_summary": "KDJ最近两个交易日内有效金叉，K/D/J为42.0/32.7/60.5；RSI状态为RSI多头排列，RSI12为56.4；股价站上部分均线。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "重点观察次日量能和指标延续性。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
-      "data_error": ""
-    },
-    {
-      "ticker": "000969",
-      "company_name": "安泰科技",
-      "display_name": "000969（安泰科技）",
-      "trigger_count": 1,
-      "data_date": "2026-08-31T00:00:00",
-      "latest_close": 18.01,
-      "latest_change_pct": 4.043905257076852,
-      "volume_ratio": 1.7172304943766432,
-      "total_score": 62.0,
-      "signal_level": "普通有效信号",
-      "macd_status": "无金叉",
-      "kdj_status": "无金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 15.0,
-        "KDJ": 10.0,
-        "RSI": 17.0,
-        "PriceTrend": 10.0,
-        "Volume": 10
-      },
-      "technical_summary": "RSI状态为RSI多头排列，RSI12为59.8；股价站上部分均线；收盘价突破过去20日高点。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "仅少数指标确认，可能是假突破。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
       "data_error": ""
     },
     {
@@ -382,38 +258,6 @@
         "仅少数指标确认，可能是假突破。"
       ],
       "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
-      "data_error": ""
-    },
-    {
-      "ticker": "603011",
-      "company_name": "合锻智能",
-      "display_name": "603011（合锻智能）",
-      "trigger_count": 3,
-      "data_date": "2026-08-31T00:00:00",
-      "latest_close": 26.8,
-      "latest_change_pct": -3.0741410488245857,
-      "volume_ratio": 1.1823716017679538,
-      "total_score": 60.0,
-      "signal_level": "普通有效信号",
-      "macd_status": "无金叉",
-      "kdj_status": "无金叉",
-      "rsi_status": "RSI多头排列",
-      "near_cross_notes": [],
-      "score_parts": {
-        "MACD": 25.0,
-        "KDJ": 10.0,
-        "RSI": 15.0,
-        "PriceTrend": 10.0,
-        "Volume": 0
-      },
-      "technical_summary": "RSI状态为RSI多头排列，RSI12为62.5；股价站上MA20和MA50。",
-      "trigger_basis": "技术性突破",
-      "confidence": "技术指标判断",
-      "risks": [
-        "股价远离MA20超过10%，短线追高风险较高。",
-        "成交量未明显放大，需防信号确认不足。"
-      ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
       "data_error": ""
     },
     {
