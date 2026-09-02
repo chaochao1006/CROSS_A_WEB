@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T09:25:50.485002+08:00",
+  "updated_at": "2026-09-02T08:22:30.158424+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -456,7 +456,42 @@
       "latest_close": 182.5,
       "latest_change_pct": -0.5991285403050051,
       "created_at": "2026-09-01T09:25:50.485000+08:00"
+    },
+    {
+      "data_day": "2026-09-01",
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "display_name": "000977（浪潮信息）",
+      "trigger_count": 2,
+      "total_score": 88.0,
+      "signal_level": "强势金叉",
+      "latest_close": 85.6,
+      "latest_change_pct": 0.4930734914299073,
+      "created_at": "2026-09-02T08:22:30.158387+08:00"
+    },
+    {
+      "data_day": "2026-09-01",
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "display_name": "603596（伯特利）",
+      "trigger_count": 3,
+      "total_score": 80.0,
+      "signal_level": "强势金叉",
+      "latest_close": 29.84,
+      "latest_change_pct": 6.305664410402567,
+      "created_at": "2026-09-02T08:22:30.158410+08:00"
+    },
+    {
+      "data_day": "2026-09-01",
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "display_name": "300604（长川科技）",
+      "trigger_count": 1,
+      "total_score": 72.0,
+      "signal_level": "较强金叉",
+      "latest_close": 284.27,
+      "latest_change_pct": 1.8779342723004744,
+      "created_at": "2026-09-02T08:22:30.158420+08:00"
     }
-  ],
-  "record_count": 38
+  ]
 }
