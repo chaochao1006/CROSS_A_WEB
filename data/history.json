@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T08:24:57.822733+08:00",
+  "updated_at": "2026-09-04T08:16:03.495025+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -528,6 +528,66 @@
       "latest_close": 85.69,
       "latest_change_pct": 0.10514018691589744,
       "created_at": "2026-09-03T08:24:57.822728+08:00"
+    },
+    {
+      "data_day": "2026-09-03",
+      "ticker": "002498",
+      "company_name": "汉缆股份",
+      "display_name": "002498（汉缆股份）",
+      "trigger_count": 1,
+      "total_score": 80.0,
+      "signal_level": "强势金叉",
+      "latest_close": 6.87,
+      "latest_change_pct": 5.368098159509205,
+      "created_at": "2026-09-04T08:16:03.494973+08:00"
+    },
+    {
+      "data_day": "2026-09-03",
+      "ticker": "603618",
+      "company_name": "杭电股份",
+      "display_name": "603618（杭电股份）",
+      "trigger_count": 4,
+      "total_score": 72.0,
+      "signal_level": "较强金叉",
+      "latest_close": 39.25,
+      "latest_change_pct": 5.454056958624398,
+      "created_at": "2026-09-04T08:16:03.494996+08:00"
+    },
+    {
+      "data_day": "2026-09-03",
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "display_name": "603596（伯特利）",
+      "trigger_count": 5,
+      "total_score": 71.0,
+      "signal_level": "较强金叉",
+      "latest_close": 30.45,
+      "latest_change_pct": 1.1964107676968982,
+      "created_at": "2026-09-04T08:16:03.495005+08:00"
+    },
+    {
+      "data_day": "2026-09-03",
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "display_name": "600703（三安光电）",
+      "trigger_count": 1,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 13.89,
+      "latest_change_pct": 9.976247030878849,
+      "created_at": "2026-09-04T08:16:03.495014+08:00"
+    },
+    {
+      "data_day": "2026-09-03",
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "display_name": "000977（浪潮信息）",
+      "trigger_count": 4,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 86.35,
+      "latest_change_pct": 0.7702182284980763,
+      "created_at": "2026-09-04T08:16:03.495021+08:00"
     }
   ]
 }
