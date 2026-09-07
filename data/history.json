@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T08:16:03.495025+08:00",
+  "updated_at": "2026-09-07T08:02:50.201456+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -588,6 +588,30 @@
       "latest_close": 86.35,
       "latest_change_pct": 0.7702182284980763,
       "created_at": "2026-09-04T08:16:03.495021+08:00"
+    },
+    {
+      "data_day": "2026-09-04",
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "display_name": "002472（双环传动）",
+      "trigger_count": 1,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "latest_close": 38.05,
+      "latest_change_pct": 7.42518351214001,
+      "created_at": "2026-09-07T08:02:50.201427+08:00"
+    },
+    {
+      "data_day": "2026-09-04",
+      "ticker": "002498",
+      "company_name": "汉缆股份",
+      "display_name": "002498（汉缆股份）",
+      "trigger_count": 2,
+      "total_score": 67.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 6.61,
+      "latest_change_pct": -3.784570596797665,
+      "created_at": "2026-09-07T08:02:50.201450+08:00"
     }
   ]
 }
