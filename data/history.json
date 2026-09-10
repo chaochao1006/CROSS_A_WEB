@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T08:23:56.951432+08:00",
+  "updated_at": "2026-09-10T08:24:08.720434+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -756,6 +756,114 @@
       "latest_close": 902.37,
       "latest_change_pct": 0.4351891013512077,
       "created_at": "2026-09-09T08:23:56.951428+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "display_name": "601869（长飞光纤）",
+      "trigger_count": 2,
+      "total_score": 80.0,
+      "signal_level": "强势金叉",
+      "latest_close": 442.03,
+      "latest_change_pct": 6.0405421614489585,
+      "created_at": "2026-09-10T08:24:08.720361+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "603618",
+      "company_name": "杭电股份",
+      "display_name": "603618（杭电股份）",
+      "trigger_count": 6,
+      "total_score": 80.0,
+      "signal_level": "强势金叉",
+      "latest_close": 41.58,
+      "latest_change_pct": 3.6649214659685736,
+      "created_at": "2026-09-10T08:24:08.720383+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "display_name": "600105（永鼎股份）",
+      "trigger_count": 1,
+      "total_score": 78.0,
+      "signal_level": "较强金叉",
+      "latest_close": 41.48,
+      "latest_change_pct": 6.059831245205816,
+      "created_at": "2026-09-10T08:24:08.720392+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "002498",
+      "company_name": "汉缆股份",
+      "display_name": "002498（汉缆股份）",
+      "trigger_count": 3,
+      "total_score": 75.0,
+      "signal_level": "较强金叉",
+      "latest_close": 7.08,
+      "latest_change_pct": 9.937888198757761,
+      "created_at": "2026-09-10T08:24:08.720401+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "display_name": "002916（深南电路）",
+      "trigger_count": 4,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 383.3,
+      "latest_change_pct": 0.20915032679738044,
+      "created_at": "2026-09-10T08:24:08.720407+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "display_name": "603186（华正新材）",
+      "trigger_count": 5,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 212.06,
+      "latest_change_pct": 10.001037452017837,
+      "created_at": "2026-09-10T08:24:08.720412+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "display_name": "002384（东山精密）",
+      "trigger_count": 1,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 196.06,
+      "latest_change_pct": 5.171118978650369,
+      "created_at": "2026-09-10T08:24:08.720418+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "300408",
+      "company_name": "三环集团",
+      "display_name": "300408（三环集团）",
+      "trigger_count": 1,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 117.77,
+      "latest_change_pct": 2.257532343492219,
+      "created_at": "2026-09-10T08:24:08.720427+08:00"
+    },
+    {
+      "data_day": "2026-09-09",
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "display_name": "002463（沪电股份）",
+      "trigger_count": 5,
+      "total_score": 60.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 127.55,
+      "latest_change_pct": 2.1216973578862985,
+      "created_at": "2026-09-10T08:24:08.720432+08:00"
     }
   ]
 }
