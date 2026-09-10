@@ -55,6 +55,7 @@ if not latest:
     st.stop()
 
 triggered = latest.get("triggered", [])
+boll_rankings = latest.get("boll_rankings", [])
 
 metric_cols = st.columns(5)
 metric_cols[0].metric("数据交易日", latest.get("data_day", "N/A"))
@@ -105,6 +106,28 @@ if triggered:
                     st.write(f"- {risk}")
 else:
     st.success("本交易日没有股票达到触发阈值。")
+
+st.subheader("BOLL分位排名")
+if boll_rankings:
+    boll_df = pd.DataFrame(
+        [
+            {
+                "代码": item.get("ticker"),
+                "中文名": item.get("company_name"),
+                "BOLL带宽": fmt_pct(item.get("boll_bandwidth_pct")),
+                "8个月历史分位": fmt_pct(item.get("boll_percentile_pct")),
+                "最新价": item.get("latest_close"),
+                "中轨": fmt_num(item.get("boll_middle"), 2),
+                "上轨": fmt_num(item.get("boll_upper"), 2),
+                "下轨": fmt_num(item.get("boll_lower"), 2),
+            }
+            for item in boll_rankings
+        ]
+    )
+    st.dataframe(boll_df, use_container_width=True, hide_index=True)
+    st.caption("按近 8 个月 BOLL 带宽历史分位从低到高排列。分位越低，说明当前 BOLL 通道越接近历史收窄区间。")
+else:
+    st.info("暂无 BOLL 分位排名数据。GitHub Actions 下一次运行后会自动生成。")
 
 st.subheader("历史触发")
 if history_records:
