@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T14:30:12.116968+08:00",
+  "updated_at": "2026-09-11T09:50:37.311582+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -864,6 +864,114 @@
       "latest_close": 127.55,
       "latest_change_pct": 2.1216973578862985,
       "created_at": "2026-09-10T08:24:08.720432+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "601991",
+      "company_name": "大唐发电",
+      "display_name": "601991（大唐发电）",
+      "trigger_count": 1,
+      "total_score": 76.0,
+      "signal_level": "较强金叉",
+      "latest_close": 6.02,
+      "latest_change_pct": 3.2590051457976,
+      "created_at": "2026-09-11T09:50:37.311507+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "600396",
+      "company_name": "华电辽能",
+      "display_name": "600396（华电辽能）",
+      "trigger_count": 1,
+      "total_score": 74.0,
+      "signal_level": "较强金叉",
+      "latest_close": 15.51,
+      "latest_change_pct": 5.1525423728813635,
+      "created_at": "2026-09-11T09:50:37.311526+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "002498",
+      "company_name": "汉缆股份",
+      "display_name": "002498（汉缆股份）",
+      "trigger_count": 4,
+      "total_score": 72.0,
+      "signal_level": "较强金叉",
+      "latest_close": 6.84,
+      "latest_change_pct": -3.3898305084745783,
+      "created_at": "2026-09-11T09:50:37.311532+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "display_name": "603083（剑桥科技）",
+      "trigger_count": 5,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 234.43,
+      "latest_change_pct": 7.0505502534362385,
+      "created_at": "2026-09-11T09:50:37.311538+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "display_name": "601869（长飞光纤）",
+      "trigger_count": 3,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 435.74,
+      "latest_change_pct": -1.4229803407008523,
+      "created_at": "2026-09-11T09:50:37.311543+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "display_name": "603186（华正新材）",
+      "trigger_count": 6,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 217.99,
+      "latest_change_pct": 2.7963783834763722,
+      "created_at": "2026-09-11T09:50:37.311561+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "display_name": "600105（永鼎股份）",
+      "trigger_count": 2,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 40.38,
+      "latest_change_pct": -2.6518804243008565,
+      "created_at": "2026-09-11T09:50:37.311568+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "display_name": "002463（沪电股份）",
+      "trigger_count": 6,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 127.92,
+      "latest_change_pct": 0.290082320658569,
+      "created_at": "2026-09-11T09:50:37.311574+08:00"
+    },
+    {
+      "data_day": "2026-09-10",
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "display_name": "002916（深南电路）",
+      "trigger_count": 5,
+      "total_score": 61.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 392.31,
+      "latest_change_pct": 2.350639186016168,
+      "created_at": "2026-09-11T09:50:37.311579+08:00"
     }
   ]
 }
