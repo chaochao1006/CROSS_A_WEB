@@ -123,6 +123,50 @@ def calculate_boll_ranking_item(result: core.StockResult) -> Dict[str, Any] | No
     }
 
 
+def fetch_market_turnover_snapshot(data_day: date) -> Dict[str, Any]:
+    if core.ak is None:
+        return {
+            "data_day": data_day.isoformat(),
+            "status": "error",
+            "error": "未安装或无法导入 AKShare",
+        }
+
+    try:
+        df = core.ak.stock_zh_a_spot_em()
+        if df is None or df.empty:
+            raise RuntimeError("AKShare 返回空数据")
+        if "成交量" not in df.columns or "成交额" not in df.columns:
+            raise RuntimeError("AKShare 返回数据缺少成交量或成交额字段")
+
+        code_col = "代码" if "代码" in df.columns else None
+        if code_col:
+            codes = df[code_col].astype(str).str.zfill(6)
+            df = df[codes.str.fullmatch(r"\d{6}", na=False)].copy()
+
+        volume_hands = pd.to_numeric(df["成交量"], errors="coerce").sum()
+        amount_yuan = pd.to_numeric(df["成交额"], errors="coerce").sum()
+        if not math.isfinite(float(volume_hands)) or not math.isfinite(float(amount_yuan)):
+            raise RuntimeError("成交量或成交额汇总结果无效")
+
+        return {
+            "data_day": data_day.isoformat(),
+            "status": "ok",
+            "source": "AKShare stock_zh_a_spot_em",
+            "stock_count": int(len(df)),
+            "volume_hands": float(volume_hands),
+            "volume_yi_hands": float(volume_hands) / 100_000_000,
+            "amount_yuan": float(amount_yuan),
+            "amount_yi_yuan": float(amount_yuan) / 100_000_000,
+            "amount_wan_yi_yuan": float(amount_yuan) / 1_000_000_000_000,
+        }
+    except Exception as exc:
+        return {
+            "data_day": data_day.isoformat(),
+            "status": "error",
+            "error": str(exc),
+        }
+
+
 def load_history() -> List[Dict[str, Any]]:
     if not HISTORY_PATH.exists():
         return []
@@ -204,6 +248,16 @@ def run_monitor() -> Path:
     success_count = 0
 
     logging.info("开始扫描 %s 只股票，数据交易日：%s", len(core.TICKERS), data_day)
+    market_turnover = fetch_market_turnover_snapshot(data_day)
+    if market_turnover.get("status") == "ok":
+        logging.info(
+            "全A成交量：%.2f 亿手，成交额：%.2f 万亿。",
+            market_turnover.get("volume_yi_hands") or 0,
+            market_turnover.get("amount_wan_yi_yuan") or 0,
+        )
+    else:
+        logging.warning("全A成交量获取失败：%s", market_turnover.get("error", "未知错误"))
+
     for index, ticker in enumerate(core.TICKERS, start=1):
         logging.info("[%s/%s] %s", index, len(core.TICKERS), ticker)
         try:
@@ -238,6 +292,7 @@ def run_monitor() -> Path:
         "triggered": [result_to_dict(r, trigger_counts.get(r.ticker, 1)) for r in triggered],
         "boll_ranking_count": len(boll_rankings),
         "boll_rankings": boll_rankings,
+        "market_turnover": market_turnover,
     }
     save_json(LATEST_PATH, payload)
     logging.info("写入网页数据：%s，触发 %s 只。", LATEST_PATH, len(triggered))

@@ -44,6 +44,15 @@ def fmt_num(value: Any, digits: int = 2) -> str:
         return "N/A"
 
 
+def fmt_yi_hands(value: Any) -> str:
+    try:
+        if value is None:
+            return "N/A"
+        return f"{float(value):.2f}亿手"
+    except Exception:
+        return "N/A"
+
+
 latest: Dict[str, Any] = load_json(LATEST_PATH, {})
 history_payload: Dict[str, Any] = load_json(HISTORY_PATH, {"records": []})
 history_records: List[Dict[str, Any]] = history_payload.get("records", [])
@@ -56,13 +65,15 @@ if not latest:
 
 triggered = latest.get("triggered", [])
 boll_rankings = latest.get("boll_rankings", [])
+market_turnover = latest.get("market_turnover") or {}
 
-metric_cols = st.columns(5)
+metric_cols = st.columns(6)
 metric_cols[0].metric("数据交易日", latest.get("data_day", "N/A"))
 metric_cols[1].metric("股票池", latest.get("stock_pool_count", 0))
 metric_cols[2].metric("成功取数", latest.get("success_count", 0))
 metric_cols[3].metric("触发数量", latest.get("triggered_count", 0))
 metric_cols[4].metric("触发阈值", latest.get("trigger_score", 60))
+metric_cols[5].metric("全A成交量", fmt_yi_hands(market_turnover.get("volume_yi_hands")))
 
 st.caption(f"最近运行时间（北京时间）：{latest.get('run_time_cn', 'N/A')}")
 
