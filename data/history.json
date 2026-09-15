@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T08:19:40.949958+08:00",
+  "updated_at": "2026-09-15T08:47:30.055987+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -1080,6 +1080,30 @@
       "latest_close": 128.25,
       "latest_change_pct": 0.2579737335834942,
       "created_at": "2026-09-14T08:19:40.949955+08:00"
+    },
+    {
+      "data_day": "2026-09-14",
+      "ticker": "000636",
+      "company_name": "风华高科",
+      "display_name": "000636（风华高科）",
+      "trigger_count": 2,
+      "total_score": 75.0,
+      "signal_level": "较强金叉",
+      "latest_close": 58.9,
+      "latest_change_pct": 5.197356670834075,
+      "created_at": "2026-09-15T08:47:30.055964+08:00"
+    },
+    {
+      "data_day": "2026-09-14",
+      "ticker": "300408",
+      "company_name": "三环集团",
+      "display_name": "300408（三环集团）",
+      "trigger_count": 3,
+      "total_score": 65.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 125.83,
+      "latest_change_pct": 1.1820521067867462,
+      "created_at": "2026-09-15T08:47:30.055983+08:00"
     }
   ]
 }
