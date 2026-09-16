@@ -1,6 +1,6 @@
 {
   "app": "A-CROSS",
-  "run_time_cn": "2026-09-16T18:05:29.529470+08:00",
+  "run_time_cn": "2026-09-16T18:26:33.559642+08:00",
   "data_day": "2026-09-15",
   "trigger_score": 60,
   "stock_pool_count": 64,
@@ -85,11 +85,7 @@
       "boll_bandwidth": 0.1244849360772608,
       "boll_bandwidth_pct": 12.44849360772608,
       "boll_percentile": 0.005952380952380952,
-      "boll_percentile_pct": 0.5952380952380952,
-      "pe_static": 151.84848,
-      "pe_dynamic": null,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 0.5952380952380952
     },
     {
       "ticker": "001309",
@@ -103,11 +99,7 @@
       "boll_bandwidth": 0.14019504186410578,
       "boll_bandwidth_pct": 14.019504186410577,
       "boll_percentile": 0.005952380952380952,
-      "boll_percentile_pct": 0.5952380952380952,
-      "pe_static": 13.510781,
-      "pe_dynamic": 9.477665,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 0.5952380952380952
     },
     {
       "ticker": "002879",
@@ -121,11 +113,7 @@
       "boll_bandwidth": 0.091613072865645,
       "boll_bandwidth_pct": 9.1613072865645,
       "boll_percentile": 0.005952380952380952,
-      "boll_percentile_pct": 0.5952380952380952,
-      "pe_static": 23.15493,
-      "pe_dynamic": 14.295653,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 0.5952380952380952
     },
     {
       "ticker": "600879",
@@ -139,11 +127,7 @@
       "boll_bandwidth": 0.060576322663008705,
       "boll_bandwidth_pct": 6.05763226630087,
       "boll_percentile": 0.005952380952380952,
-      "boll_percentile_pct": 0.5952380952380952,
-      "pe_static": 486.33334,
-      "pe_dynamic": 56.115387,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 0.5952380952380952
     },
     {
       "ticker": "603019",
@@ -157,11 +141,7 @@
       "boll_bandwidth": 0.08414992464936681,
       "boll_bandwidth_pct": 8.414992464936681,
       "boll_percentile": 0.005952380952380952,
-      "boll_percentile_pct": 0.5952380952380952,
-      "pe_static": 50.180725,
-      "pe_dynamic": 33.055557,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 0.5952380952380952
     },
     {
       "ticker": "603667",
@@ -175,11 +155,7 @@
       "boll_bandwidth": 0.10761901182292012,
       "boll_bandwidth_pct": 10.761901182292013,
       "boll_percentile": 0.005952380952380952,
-      "boll_percentile_pct": 0.5952380952380952,
-      "pe_static": 243.65,
-      "pe_dynamic": 90.24074,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 0.5952380952380952
     },
     {
       "ticker": "300623",
@@ -193,11 +169,7 @@
       "boll_bandwidth": 0.08485804071867992,
       "boll_bandwidth_pct": 8.485804071867992,
       "boll_percentile": 0.011904761904761904,
-      "boll_percentile_pct": 1.1904761904761905,
-      "pe_static": 49.555553,
-      "pe_dynamic": 40.545456,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 1.1904761904761905
     },
     {
       "ticker": "603986",
@@ -211,11 +183,7 @@
       "boll_bandwidth": 0.15049757234284722,
       "boll_bandwidth_pct": 15.049757234284723,
       "boll_percentile": 0.011904761904761904,
-      "boll_percentile_pct": 1.1904761904761905,
-      "pe_static": 32.817944,
-      "pe_dynamic": 24.277164,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 1.1904761904761905
     },
     {
       "ticker": "605358",
@@ -229,11 +197,7 @@
       "boll_bandwidth": 0.13528147192675055,
       "boll_bandwidth_pct": 13.528147192675055,
       "boll_percentile": 0.011904761904761904,
-      "boll_percentile_pct": 1.1904761904761905,
-      "pe_static": 448.69998,
-      "pe_dynamic": 33.948704,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 1.1904761904761905
     },
     {
       "ticker": "002050",
@@ -247,11 +211,7 @@
       "boll_bandwidth": 0.08177011126611514,
       "boll_bandwidth_pct": 8.177011126611514,
       "boll_percentile": 0.017857142857142856,
-      "boll_percentile_pct": 1.7857142857142856,
-      "pe_static": 35.505264,
-      "pe_dynamic": 26.676262,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 1.7857142857142856
     },
     {
       "ticker": "600105",
@@ -265,11 +225,7 @@
       "boll_bandwidth": 0.13277764614261953,
       "boll_bandwidth_pct": 13.277764614261953,
       "boll_percentile": 0.017857142857142856,
-      "boll_percentile_pct": 1.7857142857142856,
-      "pe_static": 155.93105,
-      "pe_dynamic": 24.942497,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 1.7857142857142856
     },
     {
       "ticker": "002472",
@@ -283,11 +239,7 @@
       "boll_bandwidth": 0.095519331993964,
       "boll_bandwidth_pct": 9.5519331993964,
       "boll_percentile": 0.023809523809523808,
-      "boll_percentile_pct": 2.380952380952381,
-      "pe_static": 23.60265,
-      "pe_dynamic": 18.37265,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 2.380952380952381
     },
     {
       "ticker": "002364",
@@ -301,11 +253,7 @@
       "boll_bandwidth": 0.1594899392071267,
       "boll_bandwidth_pct": 15.94899392071267,
       "boll_percentile": 0.02976190476190476,
-      "boll_percentile_pct": 2.976190476190476,
-      "pe_static": 150.58333,
-      "pe_dynamic": 76.893616,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 2.976190476190476
     },
     {
       "ticker": "300604",
@@ -319,11 +267,7 @@
       "boll_bandwidth": 0.12820593849657808,
       "boll_bandwidth_pct": 12.820593849657808,
       "boll_percentile": 0.041666666666666664,
-      "boll_percentile_pct": 4.166666666666666,
-      "pe_static": 92.61512,
-      "pe_dynamic": 202.6391,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 4.166666666666666
     },
     {
       "ticker": "002428",
@@ -337,11 +281,7 @@
       "boll_bandwidth": 0.21915495518616104,
       "boll_bandwidth_pct": 21.915495518616105,
       "boll_percentile": 0.05357142857142857,
-      "boll_percentile_pct": 5.357142857142857,
-      "pe_static": 859.90906,
-      "pe_dynamic": 65.69617,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 5.357142857142857
     },
     {
       "ticker": "600522",
@@ -355,11 +295,7 @@
       "boll_bandwidth": 0.12875198365862478,
       "boll_bandwidth_pct": 12.875198365862477,
       "boll_percentile": 0.05357142857142857,
-      "boll_percentile_pct": 5.357142857142857,
-      "pe_static": 32.2844,
-      "pe_dynamic": 11.803219,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 5.357142857142857
     },
     {
       "ticker": "600703",
@@ -373,11 +309,7 @@
       "boll_bandwidth": 0.12873989988936071,
       "boll_bandwidth_pct": 12.87398998893607,
       "boll_percentile": 0.05357142857142857,
-      "boll_percentile_pct": 5.357142857142857,
-      "pe_static": null,
-      "pe_dynamic": 428.3322,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 5.357142857142857
     },
     {
       "ticker": "000657",
@@ -391,11 +323,7 @@
       "boll_bandwidth": 0.20920530112788555,
       "boll_bandwidth_pct": 20.920530112788555,
       "boll_percentile": 0.05952380952380952,
-      "boll_percentile_pct": 5.952380952380952,
-      "pe_static": 50.032257,
-      "pe_dynamic": 50.032257,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 5.952380952380952
     },
     {
       "ticker": "601991",
@@ -409,11 +337,7 @@
       "boll_bandwidth": 0.09714437133695109,
       "boll_bandwidth_pct": 9.714437133695109,
       "boll_percentile": 0.05952380952380952,
-      "boll_percentile_pct": 5.952380952380952,
-      "pe_static": 14.710526,
-      "pe_dynamic": 19.275864,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 5.952380952380952
     },
     {
       "ticker": "600487",
@@ -427,11 +351,7 @@
       "boll_bandwidth": 0.17796642580847097,
       "boll_bandwidth_pct": 17.796642580847095,
       "boll_percentile": 0.06547619047619048,
-      "boll_percentile_pct": 6.547619047619048,
-      "pe_static": 37.803467,
-      "pe_dynamic": 17.952238,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 6.547619047619048
     },
     {
       "ticker": "002384",
@@ -445,11 +365,7 @@
       "boll_bandwidth": 0.1388782669385804,
       "boll_bandwidth_pct": 13.887826693858042,
       "boll_percentile": 0.07142857142857142,
-      "boll_percentile_pct": 7.142857142857142,
-      "pe_static": 97.95918,
-      "pe_dynamic": 52.054386,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 7.142857142857142
     },
     {
       "ticker": "002498",
@@ -463,11 +379,7 @@
       "boll_bandwidth": 0.16159787161886494,
       "boll_bandwidth_pct": 16.159787161886495,
       "boll_percentile": 0.07142857142857142,
-      "boll_percentile_pct": 7.142857142857142,
-      "pe_static": 38.941174,
-      "pe_dynamic": 24.518517,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 7.142857142857142
     },
     {
       "ticker": "000988",
@@ -481,11 +393,7 @@
       "boll_bandwidth": 0.1169271861046163,
       "boll_bandwidth_pct": 11.69271861046163,
       "boll_percentile": 0.07738095238095238,
-      "boll_percentile_pct": 7.738095238095238,
-      "pe_static": 60.908047,
-      "pe_dynamic": 40.605366,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 7.738095238095238
     },
     {
       "ticker": "002185",
@@ -499,11 +407,7 @@
       "boll_bandwidth": 0.1293274058229337,
       "boll_bandwidth_pct": 12.93274058229337,
       "boll_percentile": 0.07738095238095238,
-      "boll_percentile_pct": 7.738095238095238,
-      "pe_static": 43.20513,
-      "pe_dynamic": 70.208336,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 7.738095238095238
     },
     {
       "ticker": "605376",
@@ -517,11 +421,7 @@
       "boll_bandwidth": 0.2061522874442825,
       "boll_bandwidth_pct": 20.61522874442825,
       "boll_percentile": 0.07738095238095238,
-      "boll_percentile_pct": 7.738095238095238,
-      "pe_static": 144.07292,
-      "pe_dynamic": 223.08064,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 7.738095238095238
     },
     {
       "ticker": "000636",
@@ -535,11 +435,7 @@
       "boll_bandwidth": 0.2205175979155396,
       "boll_bandwidth_pct": 22.05175979155396,
       "boll_percentile": 0.08928571428571429,
-      "boll_percentile_pct": 8.928571428571429,
-      "pe_static": 167.37143,
-      "pe_dynamic": 112.653854,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 8.928571428571429
     },
     {
       "ticker": "002741",
@@ -553,11 +449,7 @@
       "boll_bandwidth": 0.1406104020072577,
       "boll_bandwidth_pct": 14.061040200725769,
       "boll_percentile": 0.08928571428571429,
-      "boll_percentile_pct": 8.928571428571429,
-      "pe_static": 85.73333,
-      "pe_dynamic": 197.84616,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 8.928571428571429
     },
     {
       "ticker": "600089",
@@ -571,11 +463,7 @@
       "boll_bandwidth": 0.10684939690076731,
       "boll_bandwidth_pct": 10.68493969007673,
       "boll_percentile": 0.08928571428571429,
-      "boll_percentile_pct": 8.928571428571429,
-      "pe_static": 17.423079,
-      "pe_dynamic": 11.980641,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 8.928571428571429
     },
     {
       "ticker": "002156",
@@ -589,11 +477,7 @@
       "boll_bandwidth": 0.1675534730540042,
       "boll_bandwidth_pct": 16.75534730540042,
       "boll_percentile": 0.10119047619047619,
-      "boll_percentile_pct": 10.119047619047619,
-      "pe_static": 35.668674,
-      "pe_dynamic": 74.94936,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 10.119047619047619
     },
     {
       "ticker": "002405",
@@ -607,11 +491,7 @@
       "boll_bandwidth": 0.0796153472224553,
       "boll_bandwidth_pct": 7.9615347222455295,
       "boll_percentile": 0.10119047619047619,
-      "boll_percentile_pct": 10.119047619047619,
-      "pe_static": null,
-      "pe_dynamic": -17.2,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 10.119047619047619
     },
     {
       "ticker": "002409",
@@ -625,11 +505,7 @@
       "boll_bandwidth": 0.1500802013905561,
       "boll_bandwidth_pct": 15.008020139055612,
       "boll_percentile": 0.13690476190476192,
-      "boll_percentile_pct": 13.690476190476192,
-      "pe_static": 62.894493,
-      "pe_dynamic": 39.174286,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 13.690476190476192
     },
     {
       "ticker": "300115",
@@ -643,11 +519,7 @@
       "boll_bandwidth": 0.14847398030629902,
       "boll_bandwidth_pct": 14.847398030629902,
       "boll_percentile": 0.16666666666666666,
-      "boll_percentile_pct": 16.666666666666664,
-      "pe_static": 105.36364,
-      "pe_dynamic": 31.753424,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 16.666666666666664
     },
     {
       "ticker": "300308",
@@ -661,11 +533,7 @@
       "boll_bandwidth": 0.15916145741646998,
       "boll_bandwidth_pct": 15.916145741646998,
       "boll_percentile": 0.17261904761904762,
-      "boll_percentile_pct": 17.261904761904763,
-      "pe_static": 49.552402,
-      "pe_dynamic": 13.652,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 17.261904761904763
     },
     {
       "ticker": "300408",
@@ -679,11 +547,7 @@
       "boll_bandwidth": 0.19812930381993807,
       "boll_bandwidth_pct": 19.812930381993805,
       "boll_percentile": 0.21428571428571427,
-      "boll_percentile_pct": 21.428571428571427,
-      "pe_static": 75.07515,
-      "pe_dynamic": 35.985516,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 21.428571428571427
     },
     {
       "ticker": "600396",
@@ -697,11 +561,7 @@
       "boll_bandwidth": 0.1526927881004421,
       "boll_bandwidth_pct": 15.26927881004421,
       "boll_percentile": 0.21428571428571427,
-      "boll_percentile_pct": 21.428571428571427,
-      "pe_static": 451.6667,
-      "pe_dynamic": null,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 21.428571428571427
     },
     {
       "ticker": "603629",
@@ -710,16 +570,12 @@
       "data_date": "2026-09-15T00:00:00",
       "latest_close": 108.2,
       "boll_middle": 116.1135,
-      "boll_upper": 132.9067966090631,
-      "boll_lower": 99.32020339093692,
-      "boll_bandwidth": 0.2892565741117628,
-      "boll_bandwidth_pct": 28.92565741117628,
+      "boll_upper": 132.90679660906446,
+      "boll_lower": 99.32020339093555,
+      "boll_bandwidth": 0.2892565741117864,
+      "boll_bandwidth_pct": 28.92565741117864,
       "boll_percentile": 0.22023809523809523,
-      "boll_percentile_pct": 22.023809523809522,
-      "pe_static": 42.146156,
-      "pe_dynamic": null,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 22.023809523809522
     },
     {
       "ticker": "002463",
@@ -733,11 +589,7 @@
       "boll_bandwidth": 0.1689501285959401,
       "boll_bandwidth_pct": 16.89501285959401,
       "boll_percentile": 0.25,
-      "boll_percentile_pct": 25.0,
-      "pe_static": 49.15385,
-      "pe_dynamic": 27.50712,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 25.0
     },
     {
       "ticker": "600584",
@@ -751,11 +603,7 @@
       "boll_bandwidth": 0.22613889201512735,
       "boll_bandwidth_pct": 22.613889201512734,
       "boll_percentile": 0.2619047619047619,
-      "boll_percentile_pct": 26.190476190476193,
-      "pe_static": 64.39815,
-      "pe_dynamic": 42.352757,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 26.190476190476193
     },
     {
       "ticker": "002150",
@@ -769,11 +617,7 @@
       "boll_bandwidth": 0.18257653804905277,
       "boll_bandwidth_pct": 18.257653804905278,
       "boll_percentile": 0.2857142857142857,
-      "boll_percentile_pct": 28.57142857142857,
-      "pe_static": 29.657145,
-      "pe_dynamic": 12.284023,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 28.57142857142857
     },
     {
       "ticker": "600143",
@@ -787,11 +631,7 @@
       "boll_bandwidth": 0.12318742128039514,
       "boll_bandwidth_pct": 12.318742128039514,
       "boll_percentile": 0.2857142857142857,
-      "boll_percentile_pct": 28.57142857142857,
-      "pe_static": 27.083334,
-      "pe_dynamic": 17.393864,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 28.57142857142857
     },
     {
       "ticker": "002916",
@@ -805,11 +645,7 @@
       "boll_bandwidth": 0.2170426092399999,
       "boll_bandwidth_pct": 21.70426092399999,
       "boll_percentile": 0.2916666666666667,
-      "boll_percentile_pct": 29.166666666666668,
-      "pe_static": 63.306454,
-      "pe_dynamic": 31.948233,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 29.166666666666668
     },
     {
       "ticker": "600667",
@@ -823,11 +659,7 @@
       "boll_bandwidth": 0.2369953240046797,
       "boll_bandwidth_pct": 23.69953240046797,
       "boll_percentile": 0.2916666666666667,
-      "boll_percentile_pct": 29.166666666666668,
-      "pe_static": 101.149994,
-      "pe_dynamic": 38.903847,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 29.166666666666668
     },
     {
       "ticker": "600183",
@@ -841,11 +673,7 @@
       "boll_bandwidth": 0.25072532220850374,
       "boll_bandwidth_pct": 25.072532220850373,
       "boll_percentile": 0.32142857142857145,
-      "boll_percentile_pct": 32.142857142857146,
-      "pe_static": 71.85116,
-      "pe_dynamic": 32.737484,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 32.142857142857146
     },
     {
       "ticker": "603773",
@@ -859,11 +687,7 @@
       "boll_bandwidth": 0.2748499607008516,
       "boll_bandwidth_pct": 27.48499607008516,
       "boll_percentile": 0.32142857142857145,
-      "boll_percentile_pct": 32.142857142857146,
-      "pe_static": null,
-      "pe_dynamic": null,
-      "pe_ttm": null,
-      "pe_source": ""
+      "boll_percentile_pct": 32.142857142857146
     },
     {
       "ticker": "300383",
@@ -877,11 +701,7 @@
       "boll_bandwidth": 0.17023126244223427,
       "boll_bandwidth_pct": 17.023126244223427,
       "boll_percentile": 0.35119047619047616,
-      "boll_percentile_pct": 35.11904761904761,
-      "pe_static": null,
-      "pe_dynamic": 44.16,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 35.11904761904761
     },
     {
       "ticker": "601869",
@@ -895,11 +715,7 @@
       "boll_bandwidth": 0.337117906745868,
       "boll_bandwidth_pct": 33.7117906745868,
       "boll_percentile": 0.36904761904761907,
-      "boll_percentile_pct": 36.904761904761905,
-      "pe_static": 108.47059,
-      "pe_dynamic": 29.877794,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 36.904761904761905
     },
     {
       "ticker": "002709",
@@ -913,11 +729,7 @@
       "boll_bandwidth": 0.20684977056347217,
       "boll_bandwidth_pct": 20.68497705634722,
       "boll_percentile": 0.4226190476190476,
-      "boll_percentile_pct": 42.26190476190476,
-      "pe_static": 16.71717,
-      "pe_dynamic": 9.924501,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 42.26190476190476
     },
     {
       "ticker": "002371",
@@ -931,11 +743,7 @@
       "boll_bandwidth": 0.1881388398511365,
       "boll_bandwidth_pct": 18.813883985113648,
       "boll_percentile": 0.4583333333333333,
-      "boll_percentile_pct": 45.83333333333333,
-      "pe_static": 84.44459,
-      "pe_dynamic": 46.015717,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 45.83333333333333
     },
     {
       "ticker": "02513.HK",
@@ -949,11 +757,7 @@
       "boll_bandwidth": 0.583237829394498,
       "boll_bandwidth_pct": 58.3237829394498,
       "boll_percentile": 0.48514851485148514,
-      "boll_percentile_pct": 48.51485148514851,
-      "pe_static": null,
-      "pe_dynamic": null,
-      "pe_ttm": null,
-      "pe_source": ""
+      "boll_percentile_pct": 48.51485148514851
     },
     {
       "ticker": "000725",
@@ -967,11 +771,7 @@
       "boll_bandwidth": 0.1623702840409514,
       "boll_bandwidth_pct": 16.237028404095142,
       "boll_percentile": 0.49404761904761907,
-      "boll_percentile_pct": 49.404761904761905,
-      "pe_static": 25.69,
-      "pe_dynamic": 19.24,
-      "pe_ttm": 34.47,
-      "pe_source": "Eastmoney stock/get"
+      "boll_percentile_pct": 49.404761904761905
     },
     {
       "ticker": "600206",
@@ -985,11 +785,7 @@
       "boll_bandwidth": 0.30151623858479204,
       "boll_bandwidth_pct": 30.151623858479205,
       "boll_percentile": 0.5059523809523809,
-      "boll_percentile_pct": 50.595238095238095,
-      "pe_static": 135.86842,
-      "pe_dynamic": 71.70833,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 50.595238095238095
     },
     {
       "ticker": "603186",
@@ -1003,11 +799,7 @@
       "boll_bandwidth": 0.5028351728777934,
       "boll_bandwidth_pct": 50.28351728777935,
       "boll_percentile": 0.5297619047619048,
-      "boll_percentile_pct": 52.976190476190474,
-      "pe_static": 92.69708,
-      "pe_dynamic": 167.0987,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 52.976190476190474
     },
     {
       "ticker": "002837",
@@ -1021,11 +813,7 @@
       "boll_bandwidth": 0.30579102767307265,
       "boll_bandwidth_pct": 30.579102767307266,
       "boll_percentile": 0.5476190476190477,
-      "boll_percentile_pct": 54.761904761904766,
-      "pe_static": 159.05128,
-      "pe_dynamic": 55.192722,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 54.761904761904766
     },
     {
       "ticker": "600580",
@@ -1039,11 +827,7 @@
       "boll_bandwidth": 0.22942811775064967,
       "boll_bandwidth_pct": 22.942811775064968,
       "boll_percentile": 0.6130952380952381,
-      "boll_percentile_pct": 61.30952380952381,
-      "pe_static": 44.466667,
-      "pe_dynamic": null,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 61.30952380952381
     },
     {
       "ticker": "603083",
@@ -1057,11 +841,7 @@
       "boll_bandwidth": 0.3953902805523878,
       "boll_bandwidth_pct": 39.53902805523878,
       "boll_percentile": 0.6130952380952381,
-      "boll_percentile_pct": 61.30952380952381,
-      "pe_static": 156.38463,
-      "pe_dynamic": 438.4902,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 61.30952380952381
     },
     {
       "ticker": "603618",
@@ -1075,11 +855,7 @@
       "boll_bandwidth": 0.5621451717830854,
       "boll_bandwidth_pct": 56.21451717830854,
       "boll_percentile": 0.6726190476190477,
-      "boll_percentile_pct": 67.26190476190477,
-      "pe_static": 447.44443,
-      "pe_dynamic": null,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 67.26190476190477
     },
     {
       "ticker": "603881",
@@ -1093,11 +869,7 @@
       "boll_bandwidth": 0.25701628832458456,
       "boll_bandwidth_pct": 25.701628832458457,
       "boll_percentile": 0.7202380952380952,
-      "boll_percentile_pct": 72.02380952380952,
-      "pe_static": 148.0625,
-      "pe_dynamic": 59.059635,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 72.02380952380952
     },
     {
       "ticker": "000977",
@@ -1111,11 +883,7 @@
       "boll_bandwidth": 0.2922983170065038,
       "boll_bandwidth_pct": 29.229831700650383,
       "boll_percentile": 0.7678571428571429,
-      "boll_percentile_pct": 76.78571428571429,
-      "pe_static": 22.88,
-      "pe_dynamic": 17.7,
-      "pe_ttm": 43.3,
-      "pe_source": "Eastmoney stock/get"
+      "boll_percentile_pct": 76.78571428571429
     },
     {
       "ticker": "603596",
@@ -1129,11 +897,7 @@
       "boll_bandwidth": 0.27895759194151726,
       "boll_bandwidth_pct": 27.895759194151726,
       "boll_percentile": 0.8809523809523809,
-      "boll_percentile_pct": 88.09523809523809,
-      "pe_static": 19.006804,
-      "pe_dynamic": 13.104021,
-      "pe_ttm": null,
-      "pe_source": "yfinance trailingPE/forwardPE"
+      "boll_percentile_pct": 88.09523809523809
     }
   ],
   "market_turnover": {
