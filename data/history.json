@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T08:47:30.055987+08:00",
+  "updated_at": "2026-09-16T08:28:15.528133+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -1104,6 +1104,30 @@
       "latest_close": 125.83,
       "latest_change_pct": 1.1820521067867462,
       "created_at": "2026-09-15T08:47:30.055983+08:00"
+    },
+    {
+      "data_day": "2026-09-15",
+      "ticker": "002741",
+      "company_name": "光华科技",
+      "display_name": "002741（光华科技）",
+      "trigger_count": 1,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 24.98,
+      "latest_change_pct": 3.0528052805280703,
+      "created_at": "2026-09-16T08:28:15.528106+08:00"
+    },
+    {
+      "data_day": "2026-09-15",
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "display_name": "603186（华正新材）",
+      "trigger_count": 8,
+      "total_score": 65.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 251.57,
+      "latest_change_pct": 10.000000000000009,
+      "created_at": "2026-09-16T08:28:15.528127+08:00"
     }
   ]
 }
