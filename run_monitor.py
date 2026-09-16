@@ -6,10 +6,9 @@ import math
 import time
 from datetime import date, datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 import pandas as pd
-import requests
 
 import a_cross_core as core
 
@@ -23,13 +22,6 @@ MAX_HISTORY_RECORDS = 200
 BOLL_PERIOD = 20
 BOLL_STD_MULTIPLIER = 2
 BOLL_LOOKBACK_DAYS = 168
-XQ_VALUATION_SLEEP_SECONDS = 0.05
-EASTMONEY_VALUATION_TIMEOUT = 8
-HTTP_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
-    "Referer": "https://quote.eastmoney.com/",
-}
 
 
 def json_safe(value: Any) -> Any:
@@ -48,19 +40,6 @@ def json_safe(value: Any) -> Any:
     if isinstance(value, (list, tuple)):
         return [json_safe(v) for v in value]
     return str(value)
-
-
-def safe_float(value: Any) -> Optional[float]:
-    try:
-        if value is None:
-            return None
-        numeric = pd.to_numeric(value, errors="coerce")
-        if pd.isna(numeric):
-            return None
-        numeric = float(numeric)
-        return numeric if math.isfinite(numeric) else None
-    except Exception:
-        return None
 
 
 def result_to_dict(result: core.StockResult, trigger_count: int = 0) -> Dict[str, Any]:
@@ -142,140 +121,6 @@ def calculate_boll_ranking_item(result: core.StockResult) -> Dict[str, Any] | No
         "boll_percentile": json_safe(percentile),
         "boll_percentile_pct": json_safe(percentile * 100),
     }
-
-
-def xq_symbol(ticker: str) -> str:
-    code = str(ticker).strip().upper()
-    if core.is_hk_ticker(code):
-        return code
-    code = code.zfill(6)
-    if code.startswith(("4", "8")):
-        return f"BJ{code}"
-    if code.startswith(("5", "6", "9")):
-        return f"SH{code}"
-    return f"SZ{code}"
-
-
-def eastmoney_secid(ticker: str) -> str:
-    code = str(ticker).strip().upper().zfill(6)
-    market_code = "1" if code.startswith(("5", "6", "9")) else "0"
-    return f"{market_code}.{code}"
-
-
-def fetch_eastmoney_valuation(ticker: str) -> Dict[str, Any]:
-    if core.is_hk_ticker(ticker):
-        return {}
-    try:
-        url = "https://push2.eastmoney.com/api/qt/stock/get"
-        params = {
-            "fltt": "2",
-            "invt": "2",
-            "secid": eastmoney_secid(ticker),
-            "fields": "f57,f58,f162,f163,f164",
-        }
-        response = requests.get(url, params=params, headers=HTTP_HEADERS, timeout=EASTMONEY_VALUATION_TIMEOUT)
-        response.raise_for_status()
-        payload = response.json()
-        data = payload.get("data") or {}
-        if not data:
-            return {}
-        return {
-            "pe_dynamic": safe_float(data.get("f162")),
-            "pe_ttm": safe_float(data.get("f163")),
-            "pe_static": safe_float(data.get("f164")),
-            "source": "Eastmoney stock/get",
-        }
-    except Exception:
-        return {}
-
-
-def yfinance_symbol(ticker: str) -> str:
-    code = str(ticker).strip().upper()
-    if core.is_hk_ticker(code):
-        return core.format_hk_ticker(code)
-    code = code.zfill(6)
-    suffix = ".SS" if code.startswith(("5", "6", "9")) else ".SZ"
-    return f"{code}{suffix}"
-
-
-def fetch_yfinance_valuation(ticker: str) -> Dict[str, Any]:
-    if core.yf is None:
-        return {}
-    try:
-        info = core.yf.Ticker(yfinance_symbol(ticker)).get_info()
-        if not isinstance(info, dict) or not info:
-            return {}
-        trailing_pe = safe_float(info.get("trailingPE"))
-        forward_pe = safe_float(info.get("forwardPE"))
-        if trailing_pe is None and forward_pe is None:
-            return {}
-        return {
-            "pe_static": trailing_pe,
-            "pe_dynamic": forward_pe,
-            "source": "yfinance trailingPE/forwardPE",
-        }
-    except Exception:
-        return {}
-
-
-def fetch_xq_valuation(ticker: str) -> Dict[str, Any]:
-    if core.ak is None or core.is_hk_ticker(ticker):
-        return {}
-    try:
-        df = core.ak.stock_individual_spot_xq(symbol=xq_symbol(ticker), timeout=8)
-        if df is None or df.empty or "item" not in df.columns or "value" not in df.columns:
-            return {}
-        values = dict(zip(df["item"].astype(str), df["value"]))
-        return {
-            "pe_static": safe_float(values.get("市盈率(静)")),
-            "pe_dynamic": safe_float(values.get("市盈率(动)")),
-            "pe_ttm": safe_float(values.get("市盈率(TTM)")),
-            "source": "AKShare stock_individual_spot_xq",
-        }
-    except Exception:
-        return {}
-
-
-def fetch_valuation_snapshot(tickers: List[str]) -> Dict[str, Dict[str, Any]]:
-    valuations: Dict[str, Dict[str, Any]] = {ticker: {} for ticker in tickers}
-    if core.ak is None:
-        return valuations
-
-    try:
-        df = core.ak.stock_zh_a_spot_em()
-        if df is not None and not df.empty and {"代码", "市盈率-动态"}.issubset(df.columns):
-            for _, row in df.iterrows():
-                code = str(row.get("代码", "")).zfill(6)
-                if code in valuations:
-                    valuations[code]["pe_dynamic"] = safe_float(row.get("市盈率-动态"))
-                    valuations[code]["source"] = "AKShare stock_zh_a_spot_em"
-    except Exception:
-        pass
-
-    for ticker in tickers:
-        if core.is_hk_ticker(ticker):
-            continue
-        em_values = fetch_eastmoney_valuation(ticker)
-        if em_values:
-            valuations[ticker].update({k: v for k, v in em_values.items() if v is not None or k == "source"})
-        if not valuations[ticker].get("pe_static"):
-            xq_values = fetch_xq_valuation(ticker)
-            if xq_values:
-                valuations[ticker].update({k: v for k, v in xq_values.items() if v is not None or k == "source"})
-        if not valuations[ticker].get("pe_static"):
-            yf_values = fetch_yfinance_valuation(ticker)
-            if yf_values:
-                for key, value in yf_values.items():
-                    if key == "source":
-                        if not valuations[ticker].get("source"):
-                            valuations[ticker]["source"] = value
-                        elif not valuations[ticker].get("fallback_source"):
-                            valuations[ticker]["fallback_source"] = value
-                    elif value is not None and valuations[ticker].get(key) is None:
-                        valuations[ticker][key] = value
-        time.sleep(XQ_VALUATION_SLEEP_SECONDS)
-
-    return valuations
 
 
 def fetch_market_turnover_snapshot(data_day: date) -> Dict[str, Any]:
@@ -403,11 +248,6 @@ def run_monitor() -> Path:
     success_count = 0
 
     logging.info("开始扫描 %s 只股票，数据交易日：%s", len(core.TICKERS), data_day)
-    valuations = fetch_valuation_snapshot(core.TICKERS)
-    valuation_count = sum(
-        1 for item in valuations.values() if item.get("pe_static") is not None or item.get("pe_dynamic") is not None
-    )
-    logging.info("市盈率取数完成：%s/%s 只股票有估值数据。", valuation_count, len(core.TICKERS))
     market_turnover = fetch_market_turnover_snapshot(data_day)
     if market_turnover.get("status") == "ok":
         logging.info(
@@ -426,11 +266,6 @@ def run_monitor() -> Path:
                 success_count += 1
                 boll_item = calculate_boll_ranking_item(result)
                 if boll_item:
-                    valuation = valuations.get(ticker, {})
-                    boll_item["pe_static"] = json_safe(valuation.get("pe_static"))
-                    boll_item["pe_dynamic"] = json_safe(valuation.get("pe_dynamic"))
-                    boll_item["pe_ttm"] = json_safe(valuation.get("pe_ttm"))
-                    boll_item["pe_source"] = valuation.get("source", "")
                     boll_rankings.append(boll_item)
             if result.total_score >= core.TRIGGER_SCORE and not result.data_error:
                 core.analyze_reason(result)
