@@ -6,7 +6,7 @@ import math
 import time
 from datetime import date, datetime
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 import pandas as pd
 
@@ -22,6 +22,7 @@ MAX_HISTORY_RECORDS = 200
 BOLL_PERIOD = 20
 BOLL_STD_MULTIPLIER = 2
 BOLL_LOOKBACK_DAYS = 168
+XQ_VALUATION_SLEEP_SECONDS = 0.05
 
 
 def json_safe(value: Any) -> Any:
@@ -40,6 +41,19 @@ def json_safe(value: Any) -> Any:
     if isinstance(value, (list, tuple)):
         return [json_safe(v) for v in value]
     return str(value)
+
+
+def safe_float(value: Any) -> Optional[float]:
+    try:
+        if value is None:
+            return None
+        numeric = pd.to_numeric(value, errors="coerce")
+        if pd.isna(numeric):
+            return None
+        numeric = float(numeric)
+        return numeric if math.isfinite(numeric) else None
+    except Exception:
+        return None
 
 
 def result_to_dict(result: core.StockResult, trigger_count: int = 0) -> Dict[str, Any]:
@@ -121,6 +135,63 @@ def calculate_boll_ranking_item(result: core.StockResult) -> Dict[str, Any] | No
         "boll_percentile": json_safe(percentile),
         "boll_percentile_pct": json_safe(percentile * 100),
     }
+
+
+def xq_symbol(ticker: str) -> str:
+    code = str(ticker).strip().upper()
+    if core.is_hk_ticker(code):
+        return code
+    code = code.zfill(6)
+    if code.startswith(("4", "8")):
+        return f"BJ{code}"
+    if code.startswith(("5", "6", "9")):
+        return f"SH{code}"
+    return f"SZ{code}"
+
+
+def fetch_xq_valuation(ticker: str) -> Dict[str, Any]:
+    if core.ak is None or core.is_hk_ticker(ticker):
+        return {}
+    try:
+        df = core.ak.stock_individual_spot_xq(symbol=xq_symbol(ticker), timeout=8)
+        if df is None or df.empty or "item" not in df.columns or "value" not in df.columns:
+            return {}
+        values = dict(zip(df["item"].astype(str), df["value"]))
+        return {
+            "pe_static": safe_float(values.get("市盈率(静)")),
+            "pe_dynamic": safe_float(values.get("市盈率(动)")),
+            "pe_ttm": safe_float(values.get("市盈率(TTM)")),
+            "source": "AKShare stock_individual_spot_xq",
+        }
+    except Exception:
+        return {}
+
+
+def fetch_valuation_snapshot(tickers: List[str]) -> Dict[str, Dict[str, Any]]:
+    valuations: Dict[str, Dict[str, Any]] = {ticker: {} for ticker in tickers}
+    if core.ak is None:
+        return valuations
+
+    try:
+        df = core.ak.stock_zh_a_spot_em()
+        if df is not None and not df.empty and {"代码", "市盈率-动态"}.issubset(df.columns):
+            for _, row in df.iterrows():
+                code = str(row.get("代码", "")).zfill(6)
+                if code in valuations:
+                    valuations[code]["pe_dynamic"] = safe_float(row.get("市盈率-动态"))
+                    valuations[code]["source"] = "AKShare stock_zh_a_spot_em"
+    except Exception:
+        pass
+
+    for ticker in tickers:
+        if core.is_hk_ticker(ticker):
+            continue
+        xq_values = fetch_xq_valuation(ticker)
+        if xq_values:
+            valuations[ticker].update({k: v for k, v in xq_values.items() if v is not None or k == "source"})
+        time.sleep(XQ_VALUATION_SLEEP_SECONDS)
+
+    return valuations
 
 
 def fetch_market_turnover_snapshot(data_day: date) -> Dict[str, Any]:
@@ -248,6 +319,7 @@ def run_monitor() -> Path:
     success_count = 0
 
     logging.info("开始扫描 %s 只股票，数据交易日：%s", len(core.TICKERS), data_day)
+    valuations = fetch_valuation_snapshot(core.TICKERS)
     market_turnover = fetch_market_turnover_snapshot(data_day)
     if market_turnover.get("status") == "ok":
         logging.info(
@@ -266,6 +338,11 @@ def run_monitor() -> Path:
                 success_count += 1
                 boll_item = calculate_boll_ranking_item(result)
                 if boll_item:
+                    valuation = valuations.get(ticker, {})
+                    boll_item["pe_static"] = json_safe(valuation.get("pe_static"))
+                    boll_item["pe_dynamic"] = json_safe(valuation.get("pe_dynamic"))
+                    boll_item["pe_ttm"] = json_safe(valuation.get("pe_ttm"))
+                    boll_item["pe_source"] = valuation.get("source", "")
                     boll_rankings.append(boll_item)
             if result.total_score >= core.TRIGGER_SCORE and not result.data_error:
                 core.analyze_reason(result)

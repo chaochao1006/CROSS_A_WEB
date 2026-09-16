@@ -128,9 +128,8 @@ if boll_rankings:
                 "BOLL带宽": fmt_pct(item.get("boll_bandwidth_pct")),
                 "8个月历史分位": fmt_pct(item.get("boll_percentile_pct")),
                 "最新价": item.get("latest_close"),
-                "中轨": fmt_num(item.get("boll_middle"), 2),
-                "上轨": fmt_num(item.get("boll_upper"), 2),
-                "下轨": fmt_num(item.get("boll_lower"), 2),
+                "市盈率(静)": fmt_num(item.get("pe_static"), 2),
+                "市盈率(动)": fmt_num(item.get("pe_dynamic"), 2),
             }
             for item in boll_rankings
         ]
