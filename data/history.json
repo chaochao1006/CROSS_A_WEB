@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T18:26:33.557964+08:00",
+  "updated_at": "2026-09-17T08:38:51.711312+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -1128,6 +1128,114 @@
       "latest_close": 251.57,
       "latest_change_pct": 10.000000000000009,
       "created_at": "2026-09-16T08:28:15.528127+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "300623",
+      "company_name": "捷捷微电",
+      "display_name": "300623（捷捷微电）",
+      "trigger_count": 1,
+      "total_score": 82.0,
+      "signal_level": "强势金叉",
+      "latest_close": 31.22,
+      "latest_change_pct": 6.262763784887682,
+      "created_at": "2026-09-17T08:38:51.711242+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "600667",
+      "company_name": "太极实业",
+      "display_name": "600667（太极实业）",
+      "trigger_count": 1,
+      "total_score": 74.0,
+      "signal_level": "较强金叉",
+      "latest_close": 20.23,
+      "latest_change_pct": 6.980433632998406,
+      "created_at": "2026-09-17T08:38:51.711262+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "002741",
+      "company_name": "光华科技",
+      "display_name": "002741（光华科技）",
+      "trigger_count": 2,
+      "total_score": 74.0,
+      "signal_level": "较强金叉",
+      "latest_close": 25.72,
+      "latest_change_pct": 2.9623698959167166,
+      "created_at": "2026-09-17T08:38:51.711272+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "display_name": "605358（立昂微）",
+      "trigger_count": 1,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 44.87,
+      "latest_change_pct": 10.002451581269911,
+      "created_at": "2026-09-17T08:38:51.711280+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "display_name": "600105（永鼎股份）",
+      "trigger_count": 4,
+      "total_score": 67.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 45.22,
+      "latest_change_pct": 9.997567501824367,
+      "created_at": "2026-09-17T08:38:51.711286+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "display_name": "600522（中天科技）",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 35.19,
+      "latest_change_pct": 1.9113814074717572,
+      "created_at": "2026-09-17T08:38:51.711291+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "display_name": "603186（华正新材）",
+      "trigger_count": 9,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 253.99,
+      "latest_change_pct": 0.961958898119808,
+      "created_at": "2026-09-17T08:38:51.711297+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "display_name": "600183（生益科技）",
+      "trigger_count": 6,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 154.48,
+      "latest_change_pct": 2.815307820299484,
+      "created_at": "2026-09-17T08:38:51.711303+08:00"
+    },
+    {
+      "data_day": "2026-09-16",
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "display_name": "603773（沃格光电）",
+      "trigger_count": 1,
+      "total_score": 61.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 92.6,
+      "latest_change_pct": 2.4562956406284586,
+      "created_at": "2026-09-17T08:38:51.711309+08:00"
     }
   ]
 }
