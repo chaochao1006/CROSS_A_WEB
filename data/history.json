@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:25:02.979306+08:00",
+  "updated_at": "2026-09-21T08:25:10.930776+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -1380,6 +1380,186 @@
       "latest_close": 25.04,
       "latest_change_pct": -2.6438569206842955,
       "created_at": "2026-09-18T08:25:02.979304+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "display_name": "600487（亨通光电）",
+      "trigger_count": 2,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "latest_close": 69.49,
+      "latest_change_pct": 1.4600671630895068,
+      "created_at": "2026-09-21T08:25:10.930652+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "300623",
+      "company_name": "捷捷微电",
+      "display_name": "300623（捷捷微电）",
+      "trigger_count": 3,
+      "total_score": 78.0,
+      "signal_level": "较强金叉",
+      "latest_close": 35.3,
+      "latest_change_pct": 7.262230325129138,
+      "created_at": "2026-09-21T08:25:10.930674+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "600206",
+      "company_name": "有研新材",
+      "display_name": "600206（有研新材）",
+      "trigger_count": 2,
+      "total_score": 76.0,
+      "signal_level": "较强金叉",
+      "latest_close": 51.6,
+      "latest_change_pct": 2.077151335311589,
+      "created_at": "2026-09-21T08:25:10.930683+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "display_name": "000725（京东方A）",
+      "trigger_count": 2,
+      "total_score": 74.0,
+      "signal_level": "较强金叉",
+      "latest_close": 5.92,
+      "latest_change_pct": 2.9565217391304355,
+      "created_at": "2026-09-21T08:25:10.930691+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "display_name": "300604（长川科技）",
+      "trigger_count": 2,
+      "total_score": 71.0,
+      "signal_level": "较强金叉",
+      "latest_close": 279.73,
+      "latest_change_pct": 4.7089650009358275,
+      "created_at": "2026-09-21T08:25:10.930698+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "display_name": "605358（立昂微）",
+      "trigger_count": 3,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 46.5,
+      "latest_change_pct": 2.717031146454607,
+      "created_at": "2026-09-21T08:25:10.930709+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "display_name": "600105（永鼎股份）",
+      "trigger_count": 6,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 46.47,
+      "latest_change_pct": 2.94638901196278,
+      "created_at": "2026-09-21T08:25:10.930717+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "display_name": "002185（华天科技）",
+      "trigger_count": 1,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 18.03,
+      "latest_change_pct": 10.006101281269064,
+      "created_at": "2026-09-21T08:25:10.930725+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "display_name": "600584（长电科技）",
+      "trigger_count": 1,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 73.0,
+      "latest_change_pct": 7.749077490774914,
+      "created_at": "2026-09-21T08:25:10.930731+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "display_name": "002156（通富微电）",
+      "trigger_count": 2,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 61.38,
+      "latest_change_pct": 5.26496312810838,
+      "created_at": "2026-09-21T08:25:10.930738+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "002741",
+      "company_name": "光华科技",
+      "display_name": "002741（光华科技）",
+      "trigger_count": 4,
+      "total_score": 65.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 25.38,
+      "latest_change_pct": 1.3578274760383424,
+      "created_at": "2026-09-21T08:25:10.930745+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "display_name": "002371（北方华创）",
+      "trigger_count": 1,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 686.51,
+      "latest_change_pct": 3.157024793388419,
+      "created_at": "2026-09-21T08:25:10.930752+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "002837",
+      "company_name": "英维克",
+      "display_name": "002837（英维克）",
+      "trigger_count": 5,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 63.28,
+      "latest_change_pct": 2.477732793522258,
+      "created_at": "2026-09-21T08:25:10.930758+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "600667",
+      "company_name": "太极实业",
+      "display_name": "600667（太极实业）",
+      "trigger_count": 3,
+      "total_score": 61.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 20.46,
+      "latest_change_pct": -0.5347593582887722,
+      "created_at": "2026-09-21T08:25:10.930765+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "display_name": "300115（长盈精密）",
+      "trigger_count": 2,
+      "total_score": 60.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 24.48,
+      "latest_change_pct": -0.8103727714748765,
+      "created_at": "2026-09-21T08:25:10.930772+08:00"
     }
   ]
 }
