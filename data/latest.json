@@ -1,12 +1,74 @@
 {
   "app": "A-CROSS",
-  "run_time_cn": "2026-09-21T08:25:10.932946+08:00",
+  "run_time_cn": "2026-09-21T15:43:39.503848+08:00",
   "data_day": "2026-09-18",
   "trigger_score": 60,
-  "stock_pool_count": 64,
-  "success_count": 60,
-  "triggered_count": 15,
+  "stock_pool_count": 73,
+  "success_count": 69,
+  "triggered_count": 21,
   "triggered": [
+    {
+      "ticker": "600845",
+      "company_name": "宝信软件",
+      "display_name": "600845（宝信软件）",
+      "trigger_count": 1,
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 17.97,
+      "latest_change_pct": 6.964285714285712,
+      "volume_ratio": 3.51038418544449,
+      "total_score": 90.0,
+      "signal_level": "强势金叉",
+      "macd_status": "最近两个交易日内有效金叉",
+      "kdj_status": "最近两个交易日内有效金叉",
+      "rsi_status": "RSI6上穿RSI12；RSI12上穿RSI24",
+      "near_cross_notes": [],
+      "score_parts": {
+        "MACD": 25.0,
+        "KDJ": 20.0,
+        "RSI": 20.0,
+        "PriceTrend": 15.0,
+        "Volume": 10
+      },
+      "technical_summary": "MACD最近两个交易日内有效金叉，DIF/DEA为-0.2227/-0.2830；KDJ最近两个交易日内有效金叉，K/D/J为45.9/31.4/74.7；RSI状态为RSI6上穿RSI12；RSI12上穿RSI24，RSI12为61.1；股价站上MA20和MA50；收盘价突破过去20日高点。",
+      "trigger_basis": "技术性突破",
+      "confidence": "技术指标判断",
+      "risks": [
+        "重点观察次日量能和指标延续性。"
+      ],
+      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_error": ""
+    },
+    {
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "display_name": "600699（均胜电子）",
+      "trigger_count": 1,
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 20.14,
+      "latest_change_pct": 1.3588324106693417,
+      "volume_ratio": 2.6988898686514213,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "macd_status": "最近两个交易日内有效金叉",
+      "kdj_status": "最近两个交易日内有效金叉",
+      "rsi_status": "RSI多头排列",
+      "near_cross_notes": [],
+      "score_parts": {
+        "MACD": 22.0,
+        "KDJ": 20.0,
+        "RSI": 17.0,
+        "PriceTrend": 10.0,
+        "Volume": 10
+      },
+      "technical_summary": "MACD最近两个交易日内有效金叉，DIF/DEA为-0.3016/-0.4130；KDJ最近两个交易日内有效金叉，K/D/J为49.3/37.7/72.6；RSI状态为RSI多头排列，RSI12为57.3；股价站上MA20和MA50；接近突破过去20日高点。",
+      "trigger_basis": "技术性突破",
+      "confidence": "技术指标判断",
+      "risks": [
+        "收盘位置靠近当日低位，存在冲高回落风险。"
+      ],
+      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_error": ""
+    },
     {
       "ticker": "600487",
       "company_name": "亨通光电",
@@ -129,7 +191,7 @@
       "risks": [
         "重点观察次日量能和指标延续性。"
       ],
-      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
       "data_error": ""
     },
     {
@@ -195,6 +257,71 @@
       "data_error": ""
     },
     {
+      "ticker": "002241",
+      "company_name": "歌尔股份",
+      "display_name": "002241（歌尔股份）",
+      "trigger_count": 1,
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 23.33,
+      "latest_change_pct": 4.712746858168759,
+      "volume_ratio": 1.6649110529998894,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "macd_status": "即将金叉",
+      "kdj_status": "最近两个交易日内有效金叉",
+      "rsi_status": "RSI12上穿RSI24",
+      "near_cross_notes": [
+        "MACD 即将金叉"
+      ],
+      "score_parts": {
+        "MACD": 10.0,
+        "KDJ": 20.0,
+        "RSI": 19.0,
+        "PriceTrend": 10.0,
+        "Volume": 10
+      },
+      "technical_summary": "MACD即将金叉，DIF/DEA为-0.2029/-0.1007；KDJ最近两个交易日内有效金叉，K/D/J为37.2/24.5/62.6；RSI状态为RSI12上穿RSI24，RSI12为55.1；股价站上MA20和MA50。",
+      "trigger_basis": "技术性突破",
+      "confidence": "技术指标判断",
+      "risks": [
+        "重点观察次日量能和指标延续性。"
+      ],
+      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_error": ""
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "display_name": "002281（光迅科技）",
+      "trigger_count": 1,
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 195.4,
+      "latest_change_pct": 2.1859638113168156,
+      "volume_ratio": 1.3589341396461307,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "macd_status": "无金叉",
+      "kdj_status": "无金叉",
+      "rsi_status": "RSI多头排列",
+      "near_cross_notes": [],
+      "score_parts": {
+        "MACD": 21.0,
+        "KDJ": 10.0,
+        "RSI": 20.0,
+        "PriceTrend": 10.0,
+        "Volume": 8
+      },
+      "technical_summary": "RSI状态为RSI多头排列，RSI12为60.6；股价站上MA20和MA50；接近突破过去20日高点。",
+      "trigger_basis": "技术性突破",
+      "confidence": "技术指标判断",
+      "risks": [
+        "股价远离MA20超过10%，短线追高风险较高。",
+        "仅少数指标确认，可能是假突破。"
+      ],
+      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_error": ""
+    },
+    {
       "ticker": "600105",
       "company_name": "永鼎股份",
       "display_name": "600105（永鼎股份）",
@@ -222,6 +349,38 @@
       "risks": [
         "股价远离MA20超过10%，短线追高风险较高。",
         "仅少数指标确认，可能是假突破。"
+      ],
+      "data_source": "AKShare stock_zh_a_hist(adjust=qfq)",
+      "data_error": ""
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "display_name": "603650（彤程新材）",
+      "trigger_count": 1,
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 73.55,
+      "latest_change_pct": 1.799307958477514,
+      "volume_ratio": 1.5212477627205319,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "macd_status": "无金叉",
+      "kdj_status": "无金叉",
+      "rsi_status": "RSI多头排列",
+      "near_cross_notes": [],
+      "score_parts": {
+        "MACD": 25.0,
+        "KDJ": 3.0,
+        "RSI": 20.0,
+        "PriceTrend": 10.0,
+        "Volume": 10
+      },
+      "technical_summary": "RSI状态为RSI多头排列，RSI12为69.4；股价站上MA20和MA50。",
+      "trigger_basis": "技术性突破",
+      "confidence": "技术指标判断",
+      "risks": [
+        "RSI6高于80，短线存在过热风险。",
+        "股价远离MA20超过10%，短线追高风险较高。"
       ],
       "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
       "data_error": ""
@@ -415,6 +574,37 @@
       "data_error": ""
     },
     {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "display_name": "300346（南大光电）",
+      "trigger_count": 1,
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 56.0,
+      "latest_change_pct": 1.137800252844512,
+      "volume_ratio": 1.7808524076490935,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "macd_status": "无金叉",
+      "kdj_status": "无金叉",
+      "rsi_status": "RSI多头排列",
+      "near_cross_notes": [],
+      "score_parts": {
+        "MACD": 15.0,
+        "KDJ": 10.0,
+        "RSI": 17.0,
+        "PriceTrend": 10.0,
+        "Volume": 10
+      },
+      "technical_summary": "RSI状态为RSI多头排列，RSI12为56.8；股价站上MA20和MA50。",
+      "trigger_basis": "技术性突破",
+      "confidence": "技术指标判断",
+      "risks": [
+        "仅少数指标确认，可能是假突破。"
+      ],
+      "data_source": "AKShare stock_zh_a_hist_tx(adjust=qfq)",
+      "data_error": ""
+    },
+    {
       "ticker": "600667",
       "company_name": "太极实业",
       "display_name": "600667（太极实业）",
@@ -478,7 +668,7 @@
       "data_error": ""
     }
   ],
-  "boll_ranking_count": 59,
+  "boll_ranking_count": 68,
   "boll_rankings": [
     {
       "ticker": "001270",
@@ -663,6 +853,20 @@
       "boll_percentile_pct": 2.976190476190476
     },
     {
+      "ticker": "002938",
+      "company_name": "鹏鼎控股",
+      "display_name": "002938（鹏鼎控股）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 89.88,
+      "boll_middle": 89.003,
+      "boll_upper": 94.06085369500218,
+      "boll_lower": 83.94514630499782,
+      "boll_bandwidth": 0.11365580250108828,
+      "boll_bandwidth_pct": 11.365580250108827,
+      "boll_percentile": 0.02976190476190476,
+      "boll_percentile_pct": 2.976190476190476
+    },
+    {
       "ticker": "002498",
       "company_name": "汉缆股份",
       "display_name": "002498（汉缆股份）",
@@ -767,10 +971,10 @@
       "data_date": "2026-09-18T00:00:00",
       "latest_close": 113.6,
       "boll_middle": 113.3905,
-      "boll_upper": 124.83560808162028,
-      "boll_lower": 101.94539191837973,
-      "boll_bandwidth": 0.20187066961730085,
-      "boll_bandwidth_pct": 20.187066961730086,
+      "boll_upper": 124.8356080816223,
+      "boll_lower": 101.94539191837771,
+      "boll_bandwidth": 0.20187066961733643,
+      "boll_bandwidth_pct": 20.187066961733642,
       "boll_percentile": 0.047619047619047616,
       "boll_percentile_pct": 4.761904761904762
     },
@@ -789,6 +993,20 @@
       "boll_percentile_pct": 5.357142857142857
     },
     {
+      "ticker": "600845",
+      "company_name": "宝信软件",
+      "display_name": "600845（宝信软件）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 17.97,
+      "boll_middle": 17.278,
+      "boll_upper": 17.90267911762567,
+      "boll_lower": 16.653320882374327,
+      "boll_bandwidth": 0.07230919291881832,
+      "boll_bandwidth_pct": 7.230919291881833,
+      "boll_percentile": 0.05357142857142857,
+      "boll_percentile_pct": 5.357142857142857
+    },
+    {
       "ticker": "002384",
       "company_name": "东山精密",
       "display_name": "002384（东山精密）",
@@ -799,6 +1017,20 @@
       "boll_lower": 178.5640713124297,
       "boll_bandwidth": 0.1271647601986519,
       "boll_bandwidth_pct": 12.716476019865189,
+      "boll_percentile": 0.05952380952380952,
+      "boll_percentile_pct": 5.952380952380952
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "display_name": "300346（南大光电）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 56.0,
+      "boll_middle": 53.527,
+      "boll_upper": 57.29234248110373,
+      "boll_lower": 49.76165751889627,
+      "boll_bandwidth": 0.14068946442370128,
+      "boll_bandwidth_pct": 14.068946442370128,
       "boll_percentile": 0.05952380952380952,
       "boll_percentile_pct": 5.952380952380952
     },
@@ -971,6 +1203,20 @@
       "boll_percentile_pct": 16.071428571428573
     },
     {
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "display_name": "600699（均胜电子）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 20.14,
+      "boll_middle": 19.206500000000002,
+      "boll_upper": 20.35983039498631,
+      "boll_lower": 18.053169605013693,
+      "boll_bandwidth": 0.12009792465949641,
+      "boll_bandwidth_pct": 12.00979246594964,
+      "boll_percentile": 0.18452380952380953,
+      "boll_percentile_pct": 18.452380952380953
+    },
+    {
       "ticker": "002463",
       "company_name": "沪电股份",
       "display_name": "002463（沪电股份）",
@@ -999,6 +1245,20 @@
       "boll_percentile_pct": 20.833333333333336
     },
     {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "display_name": "002281（光迅科技）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 195.4,
+      "boll_middle": 177.13799999999998,
+      "boll_upper": 192.93689565760576,
+      "boll_lower": 161.3391043423942,
+      "boll_bandwidth": 0.17837951944366295,
+      "boll_bandwidth_pct": 17.837951944366296,
+      "boll_percentile": 0.21428571428571427,
+      "boll_percentile_pct": 21.428571428571427
+    },
+    {
       "ticker": "600396",
       "company_name": "华电辽能",
       "display_name": "600396（华电辽能）",
@@ -1011,6 +1271,20 @@
       "boll_bandwidth_pct": 16.908568522883694,
       "boll_percentile": 0.22023809523809523,
       "boll_percentile_pct": 22.023809523809522
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "display_name": "601689（拓普集团）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 45.0,
+      "boll_middle": 45.5045,
+      "boll_upper": 49.07202281002203,
+      "boll_lower": 41.93697718997797,
+      "boll_bandwidth": 0.15679868188957252,
+      "boll_bandwidth_pct": 15.679868188957252,
+      "boll_percentile": 0.2261904761904762,
+      "boll_percentile_pct": 22.61904761904762
     },
     {
       "ticker": "600183",
@@ -1039,6 +1313,20 @@
       "boll_bandwidth_pct": 20.76851778717355,
       "boll_percentile": 0.25,
       "boll_percentile_pct": 25.0
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "display_name": "002475（立讯精密）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 54.1,
+      "boll_middle": 55.089,
+      "boll_upper": 58.60602089843167,
+      "boll_lower": 51.571979101568324,
+      "boll_bandwidth": 0.1276850514052415,
+      "boll_bandwidth_pct": 12.76850514052415,
+      "boll_percentile": 0.2857142857142857,
+      "boll_percentile_pct": 28.57142857142857
     },
     {
       "ticker": "002837",
@@ -1237,6 +1525,20 @@
       "boll_percentile_pct": 45.83333333333333
     },
     {
+      "ticker": "002241",
+      "company_name": "歌尔股份",
+      "display_name": "002241（歌尔股份）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 23.33,
+      "boll_middle": 23.145500000000002,
+      "boll_upper": 24.818204098160237,
+      "boll_lower": 21.472795901839767,
+      "boll_bandwidth": 0.1445381692476062,
+      "boll_bandwidth_pct": 14.45381692476062,
+      "boll_percentile": 0.5119047619047619,
+      "boll_percentile_pct": 51.19047619047619
+    },
+    {
       "ticker": "603083",
       "company_name": "剑桥科技",
       "display_name": "603083（剑桥科技）",
@@ -1247,6 +1549,20 @@
       "boll_lower": 164.9808833837678,
       "boll_bandwidth": 0.37815980040434904,
       "boll_bandwidth_pct": 37.8159800404349,
+      "boll_percentile": 0.5833333333333334,
+      "boll_percentile_pct": 58.333333333333336
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "display_name": "603650（彤程新材）",
+      "data_date": "2026-09-18T00:00:00",
+      "latest_close": 73.55,
+      "boll_middle": 63.802499999999995,
+      "boll_upper": 72.48431288671804,
+      "boll_lower": 55.120687113281946,
+      "boll_bandwidth": 0.27214647973725326,
+      "boll_bandwidth_pct": 27.214647973725327,
       "boll_percentile": 0.5833333333333334,
       "boll_percentile_pct": 58.333333333333336
     },

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T08:25:10.930776+08:00",
+  "updated_at": "2026-09-21T15:43:39.501287+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -1560,6 +1560,78 @@
       "latest_close": 24.48,
       "latest_change_pct": -0.8103727714748765,
       "created_at": "2026-09-21T08:25:10.930772+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "600845",
+      "company_name": "宝信软件",
+      "display_name": "600845（宝信软件）",
+      "trigger_count": 1,
+      "total_score": 90.0,
+      "signal_level": "强势金叉",
+      "latest_close": 17.97,
+      "latest_change_pct": 6.964285714285712,
+      "created_at": "2026-09-21T15:43:39.501211+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "display_name": "600699（均胜电子）",
+      "trigger_count": 1,
+      "total_score": 79.0,
+      "signal_level": "较强金叉",
+      "latest_close": 20.14,
+      "latest_change_pct": 1.3588324106693417,
+      "created_at": "2026-09-21T15:43:39.501234+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "002241",
+      "company_name": "歌尔股份",
+      "display_name": "002241（歌尔股份）",
+      "trigger_count": 1,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 23.33,
+      "latest_change_pct": 4.712746858168759,
+      "created_at": "2026-09-21T15:43:39.501249+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "display_name": "002281（光迅科技）",
+      "trigger_count": 1,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 195.4,
+      "latest_change_pct": 2.1859638113168156,
+      "created_at": "2026-09-21T15:43:39.501258+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "display_name": "603650（彤程新材）",
+      "trigger_count": 1,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 73.55,
+      "latest_change_pct": 1.799307958477514,
+      "created_at": "2026-09-21T15:43:39.501270+08:00"
+    },
+    {
+      "data_day": "2026-09-18",
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "display_name": "300346（南大光电）",
+      "trigger_count": 1,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 56.0,
+      "latest_change_pct": 1.137800252844512,
+      "created_at": "2026-09-21T15:43:39.501281+08:00"
     }
   ]
 }
