@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T08:43:51.506008+08:00",
+  "updated_at": "2026-09-24T08:41:22.864022+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -2016,6 +2016,138 @@
       "latest_close": 36.88,
       "latest_change_pct": -0.18944519621110212,
       "created_at": "2026-09-23T08:43:51.506005+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "002879",
+      "company_name": "长缆科技",
+      "display_name": "002879（长缆科技）",
+      "trigger_count": 2,
+      "total_score": 83.0,
+      "signal_level": "强势金叉",
+      "latest_close": 16.85,
+      "latest_change_pct": 0.059382422802856105,
+      "created_at": "2026-09-24T08:41:22.863969+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "display_name": "002916（深南电路）",
+      "trigger_count": 7,
+      "total_score": 78.0,
+      "signal_level": "较强金叉",
+      "latest_close": 414.77,
+      "latest_change_pct": 3.6924999999999875,
+      "created_at": "2026-09-24T08:41:22.863984+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "display_name": "002463（沪电股份）",
+      "trigger_count": 8,
+      "total_score": 73.0,
+      "signal_level": "较强金叉",
+      "latest_close": 128.1,
+      "latest_change_pct": 2.365350807096056,
+      "created_at": "2026-09-24T08:41:22.863989+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "display_name": "600699（均胜电子）",
+      "trigger_count": 4,
+      "total_score": 71.0,
+      "signal_level": "较强金叉",
+      "latest_close": 21.53,
+      "latest_change_pct": 3.5096153846153832,
+      "created_at": "2026-09-24T08:41:22.863992+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "display_name": "603773（沃格光电）",
+      "trigger_count": 4,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 102.5,
+      "latest_change_pct": 10.00214638334407,
+      "created_at": "2026-09-24T08:41:22.863996+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "002741",
+      "company_name": "光华科技",
+      "display_name": "002741（光华科技）",
+      "trigger_count": 7,
+      "total_score": 65.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 27.47,
+      "latest_change_pct": 2.576549663928307,
+      "created_at": "2026-09-24T08:41:22.864001+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "display_name": "605358（立昂微）",
+      "trigger_count": 5,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 48.03,
+      "latest_change_pct": 2.4093816631130194,
+      "created_at": "2026-09-24T08:41:22.864004+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "600667",
+      "company_name": "太极实业",
+      "display_name": "600667（太极实业）",
+      "trigger_count": 4,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 20.59,
+      "latest_change_pct": 3.6235530951182593,
+      "created_at": "2026-09-24T08:41:22.864008+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "002241",
+      "company_name": "歌尔股份",
+      "display_name": "002241（歌尔股份）",
+      "trigger_count": 4,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 24.45,
+      "latest_change_pct": -0.7711038961038974,
+      "created_at": "2026-09-24T08:41:22.864012+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "display_name": "002185（华天科技）",
+      "trigger_count": 3,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 18.37,
+      "latest_change_pct": 0.4923413566739532,
+      "created_at": "2026-09-24T08:41:22.864015+08:00"
+    },
+    {
+      "data_day": "2026-09-23",
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "display_name": "000725（京东方A）",
+      "trigger_count": 4,
+      "total_score": 60.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 6.02,
+      "latest_change_pct": 0.3333333333333188,
+      "created_at": "2026-09-24T08:41:22.864020+08:00"
     }
   ]
 }
