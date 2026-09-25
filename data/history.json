@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T08:41:22.864022+08:00",
+  "updated_at": "2026-09-25T08:45:54.158239+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -2148,6 +2148,66 @@
       "latest_close": 6.02,
       "latest_change_pct": 0.3333333333333188,
       "created_at": "2026-09-24T08:41:22.864020+08:00"
+    },
+    {
+      "data_day": "2026-09-24",
+      "ticker": "002879",
+      "company_name": "长缆科技",
+      "display_name": "002879（长缆科技）",
+      "trigger_count": 3,
+      "total_score": 90.0,
+      "signal_level": "强势金叉",
+      "latest_close": 17.92,
+      "latest_change_pct": 6.350148367952513,
+      "created_at": "2026-09-25T08:45:54.158205+08:00"
+    },
+    {
+      "data_day": "2026-09-24",
+      "ticker": "002741",
+      "company_name": "光华科技",
+      "display_name": "002741（光华科技）",
+      "trigger_count": 8,
+      "total_score": 73.0,
+      "signal_level": "较强金叉",
+      "latest_close": 28.6,
+      "latest_change_pct": 4.113578449217337,
+      "created_at": "2026-09-25T08:45:54.158221+08:00"
+    },
+    {
+      "data_day": "2026-09-24",
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "display_name": "600699（均胜电子）",
+      "trigger_count": 5,
+      "total_score": 72.0,
+      "signal_level": "较强金叉",
+      "latest_close": 22.62,
+      "latest_change_pct": 5.062703204830465,
+      "created_at": "2026-09-25T08:45:54.158227+08:00"
+    },
+    {
+      "data_day": "2026-09-24",
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "display_name": "002472（双环传动）",
+      "trigger_count": 4,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 38.94,
+      "latest_change_pct": 3.618946248004251,
+      "created_at": "2026-09-25T08:45:54.158232+08:00"
+    },
+    {
+      "data_day": "2026-09-24",
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "display_name": "605358（立昂微）",
+      "trigger_count": 6,
+      "total_score": 64.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 48.34,
+      "latest_change_pct": 0.6454299396210672,
+      "created_at": "2026-09-25T08:45:54.158236+08:00"
     }
   ]
 }
