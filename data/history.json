@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:54:40.924597+08:00",
+  "updated_at": "2026-09-29T09:59:42.706222+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -2208,6 +2208,54 @@
       "latest_close": 48.34,
       "latest_change_pct": 0.6454299396210672,
       "created_at": "2026-09-25T08:45:54.158236+08:00"
+    },
+    {
+      "data_day": "2026-09-28",
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "display_name": "600699（均胜电子）",
+      "trigger_count": 6,
+      "total_score": 75.0,
+      "signal_level": "较强金叉",
+      "latest_close": 24.02,
+      "latest_change_pct": 6.189213085764811,
+      "created_at": "2026-09-29T09:59:42.706191+08:00"
+    },
+    {
+      "data_day": "2026-09-28",
+      "ticker": "002879",
+      "company_name": "长缆科技",
+      "display_name": "002879（长缆科技）",
+      "trigger_count": 4,
+      "total_score": 67.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 17.41,
+      "latest_change_pct": -2.845982142857151,
+      "created_at": "2026-09-29T09:59:42.706210+08:00"
+    },
+    {
+      "data_day": "2026-09-28",
+      "ticker": "600206",
+      "company_name": "有研新材",
+      "display_name": "600206（有研新材）",
+      "trigger_count": 3,
+      "total_score": 66.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 51.63,
+      "latest_change_pct": 3.6538847620959602,
+      "created_at": "2026-09-29T09:59:42.706216+08:00"
+    },
+    {
+      "data_day": "2026-09-28",
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "display_name": "603773（沃格光电）",
+      "trigger_count": 5,
+      "total_score": 60.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 99.99,
+      "latest_change_pct": 2.3439099283520948,
+      "created_at": "2026-09-29T09:59:42.706220+08:00"
     }
   ]
 }
