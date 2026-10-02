@@ -1,6 +1,6 @@
 {
   "app": "A-CROSS",
-  "run_time_cn": "2026-10-01T09:30:11.099606+08:00",
+  "run_time_cn": "2026-10-02T09:53:11.591788+08:00",
   "data_day": "2026-09-30",
   "trigger_score": 60,
   "stock_pool_count": 74,
@@ -100,10 +100,10 @@
       "data_date": "2026-09-30T00:00:00",
       "latest_close": 95.96,
       "boll_middle": 108.303,
-      "boll_upper": 119.01671662869691,
-      "boll_lower": 97.58928337130308,
-      "boll_bandwidth": 0.19784708879157392,
-      "boll_bandwidth_pct": 19.784708879157392,
+      "boll_upper": 119.01671662869474,
+      "boll_lower": 97.58928337130526,
+      "boll_bandwidth": 0.19784708879153376,
+      "boll_bandwidth_pct": 19.784708879153374,
       "boll_percentile": 0.041666666666666664,
       "boll_percentile_pct": 4.166666666666666
     },
