@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T09:59:23.552515+08:00",
+  "updated_at": "2026-10-09T10:15:02.273261+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -2268,6 +2268,18 @@
       "latest_close": 47.35,
       "latest_change_pct": 1.8279569892473146,
       "created_at": "2026-09-30T09:26:56.312196+08:00"
+    },
+    {
+      "data_day": "2026-10-08",
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "display_name": "002709（天赐材料）",
+      "trigger_count": 1,
+      "total_score": 62.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 32.69,
+      "latest_change_pct": 4.775641025641031,
+      "created_at": "2026-10-09T10:15:02.273251+08:00"
     }
   ]
 }
