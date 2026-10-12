@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T10:15:02.273261+08:00",
+  "updated_at": "2026-10-12T09:29:03.802977+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -2280,6 +2280,30 @@
       "latest_close": 32.69,
       "latest_change_pct": 4.775641025641031,
       "created_at": "2026-10-09T10:15:02.273251+08:00"
+    },
+    {
+      "data_day": "2026-10-09",
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "display_name": "002709（天赐材料）",
+      "trigger_count": 2,
+      "total_score": 88.0,
+      "signal_level": "强势金叉",
+      "latest_close": 35.68,
+      "latest_change_pct": 9.146527990211073,
+      "created_at": "2026-10-12T09:29:03.802959+08:00"
+    },
+    {
+      "data_day": "2026-10-09",
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "display_name": "002405（四维图新）",
+      "trigger_count": 1,
+      "total_score": 70.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 6.09,
+      "latest_change_pct": 3.22033898305083,
+      "created_at": "2026-10-12T09:29:03.802973+08:00"
     }
   ]
 }
