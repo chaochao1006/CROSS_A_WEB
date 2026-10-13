@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T09:29:03.802977+08:00",
+  "updated_at": "2026-10-13T11:06:37.218071+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -2304,6 +2304,18 @@
       "latest_close": 6.09,
       "latest_change_pct": 3.22033898305083,
       "created_at": "2026-10-12T09:29:03.802973+08:00"
+    },
+    {
+      "data_day": "2026-10-12",
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "display_name": "002405（四维图新）",
+      "trigger_count": 2,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 6.12,
+      "latest_change_pct": 0.49261083743843415,
+      "created_at": "2026-10-13T11:06:37.218057+08:00"
     }
   ]
 }
