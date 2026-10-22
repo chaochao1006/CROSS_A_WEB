@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T08:48:39.048222+08:00",
+  "updated_at": "2026-10-22T08:53:03.912697+08:00",
   "records": [
     {
       "data_day": "2026-08-21",
@@ -2364,6 +2364,30 @@
       "latest_close": 24.71,
       "latest_change_pct": 1.6872427983539051,
       "created_at": "2026-10-21T08:48:39.048220+08:00"
+    },
+    {
+      "data_day": "2026-10-21",
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "display_name": "300115（长盈精密）",
+      "trigger_count": 4,
+      "total_score": 80.0,
+      "signal_level": "强势金叉",
+      "latest_close": 26.41,
+      "latest_change_pct": 7.053100932306444,
+      "created_at": "2026-10-22T08:53:03.912672+08:00"
+    },
+    {
+      "data_day": "2026-10-21",
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "display_name": "002472（双环传动）",
+      "trigger_count": 6,
+      "total_score": 73.0,
+      "signal_level": "较强金叉",
+      "latest_close": 38.72,
+      "latest_change_pct": -0.6415191172696955,
+      "created_at": "2026-10-22T08:53:03.912692+08:00"
     }
   ]
 }
