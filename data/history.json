@@ -1,66 +1,6 @@
 {
-  "updated_at": "2026-10-26T08:32:19.939804+08:00",
+  "updated_at": "2026-10-27T09:36:31.037720+08:00",
   "records": [
-    {
-      "data_day": "2026-08-26",
-      "ticker": "603666",
-      "company_name": "亿嘉和",
-      "display_name": "603666（亿嘉和）",
-      "trigger_count": 2,
-      "total_score": 70.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 27.66,
-      "latest_change_pct": 6.058282208588972,
-      "created_at": "2026-08-27T09:41:40.309978+08:00"
-    },
-    {
-      "data_day": "2026-08-26",
-      "ticker": "603083",
-      "company_name": "剑桥科技",
-      "display_name": "603083（剑桥科技）",
-      "trigger_count": 1,
-      "total_score": 64.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 190.85,
-      "latest_change_pct": 9.999999999999986,
-      "created_at": "2026-08-27T09:41:40.309986+08:00"
-    },
-    {
-      "data_day": "2026-08-26",
-      "ticker": "002506",
-      "company_name": "协鑫集成",
-      "display_name": "002506（协鑫集成）",
-      "trigger_count": 3,
-      "total_score": 62.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 2.75,
-      "latest_change_pct": 0.36496350364962904,
-      "created_at": "2026-08-27T09:41:40.309993+08:00"
-    },
-    {
-      "data_day": "2026-08-26",
-      "ticker": "603086",
-      "company_name": "先达股份",
-      "display_name": "603086（先达股份）",
-      "trigger_count": 1,
-      "total_score": 61.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 5.7,
-      "latest_change_pct": 0.7067137809187329,
-      "created_at": "2026-08-27T09:41:40.310001+08:00"
-    },
-    {
-      "data_day": "2026-08-27",
-      "ticker": "603083",
-      "company_name": "剑桥科技",
-      "display_name": "603083（剑桥科技）",
-      "trigger_count": 2,
-      "total_score": 79.0,
-      "signal_level": "较强金叉",
-      "latest_close": 198.21,
-      "latest_change_pct": 3.856431752685352,
-      "created_at": "2026-08-28T09:33:19.314620+08:00"
-    },
     {
       "data_day": "2026-08-27",
       "ticker": "002837",
@@ -2400,6 +2340,66 @@
       "latest_close": 17.65,
       "latest_change_pct": 1.5535097813578869,
       "created_at": "2026-10-26T08:32:19.939800+08:00"
+    },
+    {
+      "data_day": "2026-10-26",
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "display_name": "002405（四维图新）",
+      "trigger_count": 4,
+      "total_score": 81.0,
+      "signal_level": "强势金叉",
+      "latest_close": 6.42,
+      "latest_change_pct": 2.2292993630573132,
+      "created_at": "2026-10-27T09:36:31.037696+08:00"
+    },
+    {
+      "data_day": "2026-10-26",
+      "ticker": "600845",
+      "company_name": "宝信软件",
+      "display_name": "600845（宝信软件）",
+      "trigger_count": 5,
+      "total_score": 78.0,
+      "signal_level": "较强金叉",
+      "latest_close": 18.24,
+      "latest_change_pct": 3.1674208144796268,
+      "created_at": "2026-10-27T09:36:31.037707+08:00"
+    },
+    {
+      "data_day": "2026-10-26",
+      "ticker": "002241",
+      "company_name": "歌尔股份",
+      "display_name": "002241（歌尔股份）",
+      "trigger_count": 6,
+      "total_score": 75.0,
+      "signal_level": "较强金叉",
+      "latest_close": 23.52,
+      "latest_change_pct": 1.774123755949808,
+      "created_at": "2026-10-27T09:36:31.037712+08:00"
+    },
+    {
+      "data_day": "2026-10-26",
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "display_name": "600699（均胜电子）",
+      "trigger_count": 9,
+      "total_score": 69.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 21.9,
+      "latest_change_pct": -1.4844804318488558,
+      "created_at": "2026-10-27T09:36:31.037715+08:00"
+    },
+    {
+      "data_day": "2026-10-26",
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "display_name": "002472（双环传动）",
+      "trigger_count": 9,
+      "total_score": 65.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 41.0,
+      "latest_change_pct": -0.07311723129417302,
+      "created_at": "2026-10-27T09:36:31.037718+08:00"
     }
   ]
 }
