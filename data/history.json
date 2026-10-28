@@ -1,18 +1,6 @@
 {
-  "updated_at": "2026-10-27T09:36:31.037720+08:00",
+  "updated_at": "2026-10-28T09:29:41.001594+08:00",
   "records": [
-    {
-      "data_day": "2026-08-27",
-      "ticker": "002837",
-      "company_name": "英维克",
-      "display_name": "002837（英维克）",
-      "trigger_count": 3,
-      "total_score": 68.0,
-      "signal_level": "普通有效信号",
-      "latest_close": 65.97,
-      "latest_change_pct": 6.28322861285644,
-      "created_at": "2026-08-28T09:33:19.314638+08:00"
-    },
     {
       "data_day": "2026-08-27",
       "ticker": "600183",
@@ -2400,6 +2388,18 @@
       "latest_close": 41.0,
       "latest_change_pct": -0.07311723129417302,
       "created_at": "2026-10-27T09:36:31.037718+08:00"
+    },
+    {
+      "data_day": "2026-10-27",
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "display_name": "002472（双环传动）",
+      "trigger_count": 10,
+      "total_score": 68.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 41.41,
+      "latest_change_pct": 1.0000000000000009,
+      "created_at": "2026-10-28T09:29:41.001577+08:00"
     }
   ]
 }
