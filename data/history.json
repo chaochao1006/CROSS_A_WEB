@@ -1,18 +1,6 @@
 {
-  "updated_at": "2026-10-30T10:02:16.066865+08:00",
+  "updated_at": "2026-11-02T09:33:16.981333+08:00",
   "records": [
-    {
-      "data_day": "2026-08-31",
-      "ticker": "603596",
-      "company_name": "伯特利",
-      "display_name": "603596（伯特利）",
-      "trigger_count": 2,
-      "total_score": 85.0,
-      "signal_level": "强势金叉",
-      "latest_close": 28.07,
-      "latest_change_pct": 0.24999999999999467,
-      "created_at": "2026-09-01T09:25:50.484936+08:00"
-    },
     {
       "data_day": "2026-08-31",
       "ticker": "600183",
@@ -2400,6 +2388,18 @@
       "latest_close": 18.7,
       "latest_change_pct": -0.31982942430704986,
       "created_at": "2026-10-30T10:02:16.066862+08:00"
+    },
+    {
+      "data_day": "2026-10-30",
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "display_name": "001270（铖昌科技）",
+      "trigger_count": 2,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 80.15,
+      "latest_change_pct": -5.639274782199188,
+      "created_at": "2026-11-02T09:33:16.981316+08:00"
     }
   ]
 }
