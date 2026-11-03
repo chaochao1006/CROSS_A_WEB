@@ -1,18 +1,6 @@
 {
-  "updated_at": "2026-11-02T09:33:16.981333+08:00",
+  "updated_at": "2026-11-03T11:36:11.723374+08:00",
   "records": [
-    {
-      "data_day": "2026-08-31",
-      "ticker": "600183",
-      "company_name": "生益科技",
-      "display_name": "600183（生益科技）",
-      "trigger_count": 3,
-      "total_score": 78.0,
-      "signal_level": "较强金叉",
-      "latest_close": 153.4,
-      "latest_change_pct": 5.320974939924472,
-      "created_at": "2026-09-01T09:25:50.484943+08:00"
-    },
     {
       "data_day": "2026-08-31",
       "ticker": "002837",
@@ -2400,6 +2388,18 @@
       "latest_close": 80.15,
       "latest_change_pct": -5.639274782199188,
       "created_at": "2026-11-02T09:33:16.981316+08:00"
+    },
+    {
+      "data_day": "2026-11-02",
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "display_name": "300115（长盈精密）",
+      "trigger_count": 8,
+      "total_score": 63.0,
+      "signal_level": "普通有效信号",
+      "latest_close": 29.12,
+      "latest_change_pct": 11.357552581261965,
+      "created_at": "2026-11-03T11:36:11.723365+08:00"
     }
   ]
 }
