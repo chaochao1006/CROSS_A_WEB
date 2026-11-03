@@ -1,14 +1,17 @@
-name: A-CROSS Monitor
+name: Supertrend Monitor
 
 on:
   schedule:
-    # GitHub Actions cron uses UTC.
-    # 22:17 UTC Sunday-Thursday = 06:17 Beijing time Monday-Friday.
-    - cron: "17 22 * * 0-4"
+    # 10:17 UTC = 18:17 Beijing time, after A-share and HK closes.
+    - cron: "17 10 * * 1-5"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: supertrend-monitor-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   run-monitor:
@@ -18,6 +21,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,17 +34,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run A-CROSS monitor
+      - name: Verify Supertrend calculation
+        run: python -m unittest discover -s tests -v
+
+      - name: Run Supertrend monitor
         run: python run_monitor.py
 
       - name: Commit updated data
+        if: ${{ always() && !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/history.json data/.gitkeep
+          git add data/latest.json data/history.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git commit -m "Update A-CROSS monitor data"
+            git commit -m "Update Supertrend monitor data"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi

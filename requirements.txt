@@ -1,7 +1,6 @@
-streamlit>=1.36
-akshare==1.16.99
-yfinance
-pandas>=2.0,<2.4
-numpy<2
-openpyxl
-python-docx
+streamlit>=1.50,<2
+akshare==1.19.1
+pandas>=2.3,<2.4
+numpy>=1.26.4,<2
+exchange-calendars>=4.5,<5
+requests>=2.31,<3
