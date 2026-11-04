@@ -2,5 +2,7 @@ streamlit>=1.50,<2
 akshare==1.19.1
 pandas>=2.3,<2.4
 numpy>=1.26.4,<2
+# Keep the dataframe renderer compatible with the project's NumPy 1.x range.
+pyarrow==19.0.1
 exchange-calendars>=4.5,<5
 requests>=2.31,<3
