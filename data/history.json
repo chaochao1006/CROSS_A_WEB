@@ -1,8 +1,17 @@
 {
   "module": "super-trend",
   "schema_version": 1,
-  "updated_at": "2026-11-04T11:22:21.642425+08:00",
+  "updated_at": "2026-11-05T01:59:41.302789+08:00",
   "records": [
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2026-11-03",
+      "signal": "卖出",
+      "close": 22.57,
+      "supertrend": 27.03808442256377
+    },
     {
       "ticker": "603667",
       "company_name": "五洲新春",
@@ -171,8 +180,8 @@
       "market": "A",
       "data_date": "2026-10-12",
       "signal": "卖出",
-      "close": 117.15313795217656,
-      "supertrend": 143.58167554436818
+      "close": 117.02122355963454,
+      "supertrend": 143.4200026276996
     },
     {
       "ticker": "02476.HK",
@@ -180,8 +189,8 @@
       "market": "HK",
       "data_date": "2026-10-09",
       "signal": "卖出",
-      "close": 180.8000030517578,
-      "supertrend": 224.85203587906824
+      "close": 180.8,
+      "supertrend": 224.8520383656316
     },
     {
       "ticker": "002916",
@@ -477,8 +486,8 @@
       "market": "A",
       "data_date": "2026-08-07",
       "signal": "买入",
-      "close": 135.63246106683013,
-      "supertrend": 98.54505304201936
+      "close": 135.47973896289542,
+      "supertrend": 98.43409134660693
     },
     {
       "ticker": "02476.HK",
@@ -486,8 +495,8 @@
       "market": "HK",
       "data_date": "2026-08-07",
       "signal": "买入",
-      "close": 256.20001220703125,
-      "supertrend": 168.7406379693743
+      "close": 256.2,
+      "supertrend": 168.74064051987685
     },
     {
       "ticker": "002428",
@@ -747,8 +756,8 @@
       "market": "A",
       "data_date": "2026-07-08",
       "signal": "卖出",
-      "close": 140.7018614347026,
-      "supertrend": 181.81150256084652
+      "close": 140.54343118771882,
+      "supertrend": 181.60678287226887
     },
     {
       "ticker": "002709",
@@ -829,7 +838,7 @@
       "data_date": "2026-07-06",
       "signal": "卖出",
       "close": 1530.0,
-      "supertrend": 2648.52589092384
+      "supertrend": 2648.5295867863306
     },
     {
       "ticker": "603667",
@@ -1054,7 +1063,7 @@
       "data_date": "2026-06-17",
       "signal": "买入",
       "close": 1660.0,
-      "supertrend": 917.2272951557532
+      "supertrend": 917.2227323625548
     },
     {
       "ticker": "600703",
@@ -1108,7 +1117,7 @@
       "data_date": "2026-06-09",
       "signal": "卖出",
       "close": 1136.0,
-      "supertrend": 1791.9375346648494
+      "supertrend": 1791.945261795196
     },
     {
       "ticker": "603596",
@@ -1134,8 +1143,8 @@
       "market": "HK",
       "data_date": "2026-06-08",
       "signal": "卖出",
-      "close": 338.3999938964844,
-      "supertrend": 453.1683600398119
+      "close": 338.4,
+      "supertrend": 453.1683646624032
     },
     {
       "ticker": "002472",
@@ -1314,8 +1323,8 @@
       "market": "HK",
       "data_date": "2026-05-11",
       "signal": "买入",
-      "close": 392.6000061035156,
-      "supertrend": 296.42545801361086
+      "close": 392.6,
+      "supertrend": 296.425456
     },
     {
       "ticker": "001270",
@@ -1548,8 +1557,8 @@
       "market": "A",
       "data_date": "2026-04-10",
       "signal": "买入",
-      "close": 62.037248313917836,
-      "supertrend": 53.461950150978126
+      "close": 61.96739439391742,
+      "supertrend": 53.40175201372331
     },
     {
       "ticker": "300604",
@@ -1890,8 +1899,8 @@
       "market": "HK",
       "data_date": "2026-02-10",
       "signal": "买入",
-      "close": 317.79998779296875,
-      "supertrend": 201.31860542279108
+      "close": 317.8,
+      "supertrend": 201.31860662846856
     },
     {
       "ticker": "600584",
@@ -1908,8 +1917,8 @@
       "market": "A",
       "data_date": "2026-02-06",
       "signal": "卖出",
-      "close": 63.72984426732066,
-      "supertrend": 74.1546143300277
+      "close": 63.658084484866066,
+      "supertrend": 74.07111626011236
     },
     {
       "ticker": "300308",
@@ -2358,8 +2367,8 @@
       "market": "A",
       "data_date": "2025-12-09",
       "signal": "买入",
-      "close": 64.49813856529735,
-      "supertrend": 53.755236396670256
+      "close": 64.42551368373076,
+      "supertrend": 53.69470801920491
     },
     {
       "ticker": "002475",
@@ -2556,8 +2565,8 @@
       "market": "A",
       "data_date": "2025-11-19",
       "signal": "卖出",
-      "close": 57.034947884733285,
-      "supertrend": 66.10701484633123
+      "close": 56.97072655327435,
+      "supertrend": 66.0325783706324
     },
     {
       "ticker": "002185",
@@ -3699,8 +3708,8 @@
       "market": "A",
       "data_date": "2025-05-08",
       "signal": "买入",
-      "close": 28.685223789086447,
-      "supertrend": 25.651584641947945
+      "close": 28.652924237087984,
+      "supertrend": 25.622700966572864
     },
     {
       "ticker": "603667",
@@ -4239,8 +4248,8 @@
       "market": "A",
       "data_date": "2025-02-28",
       "signal": "卖出",
-      "close": 31.10920907418761,
-      "supertrend": 36.623323400294574
+      "close": 31.074180115602143,
+      "supertrend": 36.582085550897894
     },
     {
       "ticker": "002916",
@@ -4563,8 +4572,8 @@
       "market": "A",
       "data_date": "2025-01-09",
       "signal": "买入",
-      "close": 28.713741263028812,
-      "supertrend": 25.086625797615458
+      "close": 28.68140960036462,
+      "supertrend": 25.058378265702377
     },
     {
       "ticker": "002050",
@@ -4581,8 +4590,8 @@
       "market": "A",
       "data_date": "2025-01-06",
       "signal": "卖出",
-      "close": 25.44932924586143,
-      "supertrend": 28.20643571616896
+      "close": 25.42067330999192,
+      "supertrend": 28.174675279373897
     },
     {
       "ticker": "001309",
@@ -5238,8 +5247,8 @@
       "market": "A",
       "data_date": "2024-11-05",
       "signal": "买入",
-      "close": 25.430876762722253,
-      "supertrend": 22.104233185650553
+      "close": 25.40224160434233,
+      "supertrend": 22.079343826780097
     },
     {
       "ticker": "002709",
@@ -5427,8 +5436,8 @@
       "market": "A",
       "data_date": "2024-10-11",
       "signal": "卖出",
-      "close": 22.211757204169217,
-      "supertrend": 25.448810900949606
+      "close": 22.186746773291343,
+      "supertrend": 25.420155548736282
     },
     {
       "ticker": "600105",
@@ -5553,8 +5562,8 @@
       "market": "A",
       "data_date": "2024-09-27",
       "signal": "买入",
-      "close": 22.248662170447574,
-      "supertrend": 19.91723565675536
+      "close": 22.223610184590523,
+      "supertrend": 19.894808856340934
     },
     {
       "ticker": "300604",
@@ -5746,6 +5755,42 @@
       "supertrend": 28.30465578377181
     },
     {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-09-24",
+      "signal": "买入",
+      "close": 33.3,
+      "supertrend": 29.947136336299124
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-09-24",
+      "signal": "买入",
+      "close": 3.77,
+      "supertrend": 3.4825414047830354
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2024-09-13",
+      "signal": "卖出",
+      "close": 3.37,
+      "supertrend": 3.7617894567456625
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-09-13",
+      "signal": "买入",
+      "close": 112.85,
+      "supertrend": 92.95404691590673
+    },
+    {
       "ticker": "002428",
       "company_name": "云南锗业",
       "market": "A",
@@ -5753,6 +5798,87 @@
       "signal": "卖出",
       "close": 11.37,
       "supertrend": 13.315099630929852
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-09-10",
+      "signal": "买入",
+      "close": 28.06,
+      "supertrend": 23.363141929304422
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2024-09-05",
+      "signal": "买入",
+      "close": 8.95,
+      "supertrend": 8.18478229648949
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-09-05",
+      "signal": "买入",
+      "close": 33.94,
+      "supertrend": 29.432732538357275
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2024-09-05",
+      "signal": "买入",
+      "close": 17.07,
+      "supertrend": 14.923659738421987
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-08-30",
+      "signal": "买入",
+      "close": 24.64,
+      "supertrend": 20.84672258518905
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-08-30",
+      "signal": "买入",
+      "close": 20.17,
+      "supertrend": 17.917293363016118
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2024-08-29",
+      "signal": "买入",
+      "close": 13.68,
+      "supertrend": 11.618305902065567
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-08-22",
+      "signal": "卖出",
+      "close": 12.91,
+      "supertrend": 15.068267362964685
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2024-08-21",
+      "signal": "卖出",
+      "close": 21.92,
+      "supertrend": 24.609141226785507
     },
     {
       "ticker": "600879",
@@ -5764,6 +5890,51 @@
       "supertrend": 8.083385538243931
     },
     {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2024-08-19",
+      "signal": "买入",
+      "close": 29.94,
+      "supertrend": 27.20805912337365
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2024-08-16",
+      "signal": "卖出",
+      "close": 8.88,
+      "supertrend": 9.953484926942476
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2024-08-16",
+      "signal": "卖出",
+      "close": 31.21,
+      "supertrend": 37.14328055394439
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2024-08-15",
+      "signal": "买入",
+      "close": 21.5,
+      "supertrend": 18.12895712079106
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-08-12",
+      "signal": "卖出",
+      "close": 19.17,
+      "supertrend": 21.546960101623363
+    },
+    {
       "ticker": "603019",
       "company_name": "中科曙光",
       "market": "A",
@@ -5773,6 +5944,24 @@
       "supertrend": 43.52004690662831
     },
     {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2024-08-07",
+      "signal": "买入",
+      "close": 23.81,
+      "supertrend": 21.481302576156875
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2024-08-07",
+      "signal": "买入",
+      "close": 3.69,
+      "supertrend": 3.2022904200461912
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -5780,6 +5969,33 @@
       "signal": "卖出",
       "close": 234.79,
       "supertrend": 262.8825840621631
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2024-08-06",
+      "signal": "卖出",
+      "close": 13.8,
+      "supertrend": 15.918395851892573
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2024-08-06",
+      "signal": "卖出",
+      "close": 7.89,
+      "supertrend": 8.82081108818712
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2024-08-05",
+      "signal": "卖出",
+      "close": 29.49,
+      "supertrend": 35.32773605760456
     },
     {
       "ticker": "300604",
@@ -5800,6 +6016,60 @@
       "supertrend": 25.91090989839533
     },
     {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2024-08-05",
+      "signal": "卖出",
+      "close": 10.05,
+      "supertrend": 12.338024226244746
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2024-08-05",
+      "signal": "卖出",
+      "close": 21.35,
+      "supertrend": 26.686428175563535
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-08-05",
+      "signal": "卖出",
+      "close": 34.21,
+      "supertrend": 38.607032685897266
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-07-31",
+      "signal": "买入",
+      "close": 15.54,
+      "supertrend": 12.742496869062663
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2024-07-31",
+      "signal": "买入",
+      "close": 9.84,
+      "supertrend": 8.583681423095584
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-07-31",
+      "signal": "买入",
+      "close": 21.87,
+      "supertrend": 19.341792077843824
+    },
+    {
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
@@ -5807,6 +6077,24 @@
       "signal": "买入",
       "close": 7.89,
       "supertrend": 7.075009728456033
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2024-07-29",
+      "signal": "卖出",
+      "close": 23.193788145600692,
+      "supertrend": 25.812581436119753
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2024-07-26",
+      "signal": "买入",
+      "close": 34.22,
+      "supertrend": 28.631711382076347
     },
     {
       "ticker": "002475",
@@ -5818,6 +6106,60 @@
       "supertrend": 41.129718297693024
     },
     {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2024-07-25",
+      "signal": "卖出",
+      "close": 32.34,
+      "supertrend": 37.4631902664594
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2024-07-24",
+      "signal": "卖出",
+      "close": 85.21,
+      "supertrend": 97.67379970168214
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-07-24",
+      "signal": "卖出",
+      "close": 26.18,
+      "supertrend": 30.419015981594935
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-07-24",
+      "signal": "卖出",
+      "close": 34.4,
+      "supertrend": 40.84649159445739
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2024-07-24",
+      "signal": "卖出",
+      "close": 82.65,
+      "supertrend": 95.73271968597362
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2024-07-23",
+      "signal": "卖出",
+      "close": 40.93,
+      "supertrend": 48.83050749117227
+    },
+    {
       "ticker": "603019",
       "company_name": "中科曙光",
       "market": "A",
@@ -5825,6 +6167,15 @@
       "signal": "买入",
       "close": 42.8,
       "supertrend": 37.37970358847102
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-07-19",
+      "signal": "卖出",
+      "close": 131.89,
+      "supertrend": 154.90945311723192
     },
     {
       "ticker": "002463",
@@ -5836,6 +6187,33 @@
       "supertrend": 40.49277048494663
     },
     {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-07-17",
+      "signal": "卖出",
+      "close": 13.6,
+      "supertrend": 15.379013655906892
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-07-15",
+      "signal": "卖出",
+      "close": 3.87,
+      "supertrend": 4.302184509729678
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2024-07-12",
+      "signal": "买入",
+      "close": 6.63,
+      "supertrend": 5.746376985859107
+    },
+    {
       "ticker": "300604",
       "company_name": "长川科技",
       "market": "A",
@@ -5845,6 +6223,78 @@
       "supertrend": 27.048552980019664
     },
     {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-07-10",
+      "signal": "买入",
+      "close": 40.08,
+      "supertrend": 33.96731865552218
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-07-10",
+      "signal": "买入",
+      "close": 4.08,
+      "supertrend": 3.7860706313721852
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-07-09",
+      "signal": "买入",
+      "close": 38.9,
+      "supertrend": 34.5477877179328
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2024-07-05",
+      "signal": "卖出",
+      "close": 21.07,
+      "supertrend": 24.190321608038694
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2024-07-04",
+      "signal": "卖出",
+      "close": 27.16,
+      "supertrend": 31.202326217560334
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2024-07-04",
+      "signal": "卖出",
+      "close": 22.17,
+      "supertrend": 25.80678671782198
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-07-02",
+      "signal": "卖出",
+      "close": 21.81,
+      "supertrend": 25.353665311335803
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2024-07-02",
+      "signal": "买入",
+      "close": 45.42,
+      "supertrend": 38.30773548236186
+    },
+    {
       "ticker": "300604",
       "company_name": "长川科技",
       "market": "A",
@@ -5852,6 +6302,15 @@
       "signal": "卖出",
       "close": 26.77,
       "supertrend": 31.264311326046915
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-06-27",
+      "signal": "卖出",
+      "close": 35.63,
+      "supertrend": 40.75698044752306
     },
     {
       "ticker": "002428",
@@ -5872,6 +6331,123 @@
       "supertrend": 7.834441242004391
     },
     {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-06-24",
+      "signal": "卖出",
+      "close": 15.78,
+      "supertrend": 19.182384958647148
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-06-24",
+      "signal": "卖出",
+      "close": 31.73,
+      "supertrend": 37.917044827598296
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2024-06-24",
+      "signal": "卖出",
+      "close": 11.74,
+      "supertrend": 12.96303911410868
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2024-06-24",
+      "signal": "卖出",
+      "close": 20.02,
+      "supertrend": 22.97034045902435
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2024-06-24",
+      "signal": "卖出",
+      "close": 37.02,
+      "supertrend": 43.245948358943316
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2024-06-21",
+      "signal": "买入",
+      "close": 36.21,
+      "supertrend": 30.97757058797476
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-06-18",
+      "signal": "买入",
+      "close": 26.39,
+      "supertrend": 23.755157820778265
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-06-17",
+      "signal": "买入",
+      "close": 35.1,
+      "supertrend": 30.808071808839614
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-06-14",
+      "signal": "买入",
+      "close": 135.21,
+      "supertrend": 107.5795646170221
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-06-11",
+      "signal": "买入",
+      "close": 18.22,
+      "supertrend": 15.487395962872194
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-06-07",
+      "signal": "卖出",
+      "close": 34.95,
+      "supertrend": 39.41392878266032
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-06-06",
+      "signal": "买入",
+      "close": 23.83,
+      "supertrend": 20.629725699881938
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2024-06-06",
+      "signal": "买入",
+      "close": 70.58,
+      "supertrend": 61.90469635342187
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -5881,6 +6457,78 @@
       "supertrend": 214.9268505713423
     },
     {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2024-06-05",
+      "signal": "买入",
+      "close": 26.82,
+      "supertrend": 24.34393158769315
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2024-06-05",
+      "signal": "卖出",
+      "close": 31.83,
+      "supertrend": 36.58490728464091
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2024-06-03",
+      "signal": "卖出",
+      "close": 22.15,
+      "supertrend": 26.497267438081685
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2024-06-03",
+      "signal": "买入",
+      "close": 22.32,
+      "supertrend": 19.858191754353328
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-05-31",
+      "signal": "卖出",
+      "close": 109.59,
+      "supertrend": 127.79720722326826
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2024-05-31",
+      "signal": "买入",
+      "close": 11.03,
+      "supertrend": 9.747494973736664
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2024-05-28",
+      "signal": "买入",
+      "close": 22.15,
+      "supertrend": 19.221372808729193
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-05-28",
+      "signal": "卖出",
+      "close": 3.95,
+      "supertrend": 4.366764233149857
+    },
+    {
       "ticker": "300346",
       "company_name": "南大光电",
       "market": "A",
@@ -5888,6 +6536,42 @@
       "signal": "买入",
       "close": 21.44,
       "supertrend": 18.358583401346845
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-05-24",
+      "signal": "卖出",
+      "close": 20.28,
+      "supertrend": 22.752225750657345
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-05-24",
+      "signal": "卖出",
+      "close": 23.43,
+      "supertrend": 26.57175043187018
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-05-23",
+      "signal": "卖出",
+      "close": 21.33,
+      "supertrend": 23.272990579784317
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2024-05-20",
+      "signal": "买入",
+      "close": 23.81,
+      "supertrend": 19.969255188836417
     },
     {
       "ticker": "300604",
@@ -5908,6 +6592,87 @@
       "supertrend": 239.36703967090892
     },
     {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2024-05-08",
+      "signal": "买入",
+      "close": 25.66,
+      "supertrend": 21.234626471086983
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-05-07",
+      "signal": "买入",
+      "close": 22.11,
+      "supertrend": 19.836749525350264
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2024-05-07",
+      "signal": "买入",
+      "close": 43.45,
+      "supertrend": 36.51120723903705
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-05-06",
+      "signal": "买入",
+      "close": 13.13,
+      "supertrend": 11.678677249452441
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-04-30",
+      "signal": "买入",
+      "close": 27.11,
+      "supertrend": 23.98923944799559
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-04-30",
+      "signal": "买入",
+      "close": 40.58,
+      "supertrend": 35.01995651850102
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-04-29",
+      "signal": "买入",
+      "close": 43.12,
+      "supertrend": 35.936647593078305
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2024-04-29",
+      "signal": "买入",
+      "close": 12.4,
+      "supertrend": 10.87701798175069
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2024-04-29",
+      "signal": "买入",
+      "close": 21.179705400981998,
+      "supertrend": 18.782204986006157
+    },
+    {
       "ticker": "002475",
       "company_name": "立讯精密",
       "market": "A",
@@ -5915,6 +6680,60 @@
       "signal": "买入",
       "close": 28.92,
       "supertrend": 25.667785417631126
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-04-29",
+      "signal": "买入",
+      "close": 23.13,
+      "supertrend": 20.650335128586295
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2024-04-29",
+      "signal": "买入",
+      "close": 14.98,
+      "supertrend": 12.999196487830165
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2024-04-29",
+      "signal": "买入",
+      "close": 8.05,
+      "supertrend": 7.132222257290257
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2024-04-26",
+      "signal": "买入",
+      "close": 77.61,
+      "supertrend": 66.14596655985495
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2024-04-23",
+      "signal": "卖出",
+      "close": 59.61,
+      "supertrend": 70.12099980308429
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2024-04-22",
+      "signal": "买入",
+      "close": 27.08,
+      "supertrend": 22.007978458639236
     },
     {
       "ticker": "002709",
@@ -5926,6 +6745,60 @@
       "supertrend": 24.349520669767102
     },
     {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2024-04-22",
+      "signal": "卖出",
+      "close": 29.92,
+      "supertrend": 34.5326880453991
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-04-19",
+      "signal": "卖出",
+      "close": 35.52,
+      "supertrend": 41.90957596003442
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2024-04-17",
+      "signal": "买入",
+      "close": 12.49,
+      "supertrend": 11.06425288019424
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-04-16",
+      "signal": "卖出",
+      "close": 14.43,
+      "supertrend": 18.431521918441895
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-04-16",
+      "signal": "卖出",
+      "close": 35.5,
+      "supertrend": 41.387739009633776
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2024-04-16",
+      "signal": "卖出",
+      "close": 9.14,
+      "supertrend": 10.881406214123603
+    },
+    {
       "ticker": "002428",
       "company_name": "云南锗业",
       "market": "A",
@@ -5933,6 +6806,51 @@
       "signal": "卖出",
       "close": 9.89,
       "supertrend": 12.324068859111101
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2024-04-16",
+      "signal": "卖出",
+      "close": 41.43,
+      "supertrend": 52.633031000832645
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2024-04-15",
+      "signal": "卖出",
+      "close": 20.91,
+      "supertrend": 26.74608590520123
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2024-04-12",
+      "signal": "卖出",
+      "close": 23.58,
+      "supertrend": 26.54712599585045
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2024-04-11",
+      "signal": "卖出",
+      "close": 20.47,
+      "supertrend": 25.14883960436694
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-04-11",
+      "signal": "卖出",
+      "close": 25.27,
+      "supertrend": 29.142688562474817
     },
     {
       "ticker": "300604",
@@ -5953,6 +6871,33 @@
       "supertrend": 29.90340413130526
     },
     {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2024-04-11",
+      "signal": "卖出",
+      "close": 7.41,
+      "supertrend": 8.734452641538176
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2024-04-10",
+      "signal": "卖出",
+      "close": 11.22,
+      "supertrend": 12.394161238642075
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2024-04-10",
+      "signal": "卖出",
+      "close": 18.70315440551907,
+      "supertrend": 20.85277398672997
+    },
+    {
       "ticker": "603019",
       "company_name": "中科曙光",
       "market": "A",
@@ -5960,6 +6905,60 @@
       "signal": "卖出",
       "close": 44.59,
       "supertrend": 51.05929435481892
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2024-04-08",
+      "signal": "卖出",
+      "close": 68.65,
+      "supertrend": 80.34533906333297
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2024-04-08",
+      "signal": "卖出",
+      "close": 25.68,
+      "supertrend": 30.00066190983953
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2024-04-03",
+      "signal": "卖出",
+      "close": 17.34,
+      "supertrend": 21.190558523690804
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2024-04-03",
+      "signal": "卖出",
+      "close": 12.19,
+      "supertrend": 14.914583824994565
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-04-03",
+      "signal": "卖出",
+      "close": 12.54,
+      "supertrend": 14.17092278025126
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2024-04-03",
+      "signal": "卖出",
+      "close": 21.19,
+      "supertrend": 24.509859008787814
     },
     {
       "ticker": "600879",
@@ -5971,6 +6970,42 @@
       "supertrend": 6.6161006207605
     },
     {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 21.04,
+      "supertrend": 24.20369421685554
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 9.97,
+      "supertrend": 12.035508260346408
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 37.93,
+      "supertrend": 48.12399884885859
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 25.51,
+      "supertrend": 31.441837729031327
+    },
+    {
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
@@ -5978,6 +7013,24 @@
       "signal": "卖出",
       "close": 6.52,
       "supertrend": 7.283174636853376
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 11.91,
+      "supertrend": 13.346934294434776
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 4.49,
+      "supertrend": 5.225575125489847
     },
     {
       "ticker": "300346",
@@ -5989,6 +7042,51 @@
       "supertrend": 22.202848029224292
     },
     {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 21.51,
+      "supertrend": 24.670547594807655
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 13.69,
+      "supertrend": 16.1222637567966
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 7.48,
+      "supertrend": 8.52089528166671
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 21.66,
+      "supertrend": 25.94332840661457
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2024-03-27",
+      "signal": "卖出",
+      "close": 39.89,
+      "supertrend": 47.43276628546235
+    },
+    {
       "ticker": "002709",
       "company_name": "天赐材料",
       "market": "A",
@@ -5996,6 +7094,24 @@
       "signal": "买入",
       "close": 19.79,
       "supertrend": 16.631917790204874
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2024-02-27",
+      "signal": "买入",
+      "close": 12.53,
+      "supertrend": 11.08497155290059
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-02-27",
+      "signal": "买入",
+      "close": 12.28,
+      "supertrend": 10.523359248274403
     },
     {
       "ticker": "300604",
@@ -6007,6 +7123,114 @@
       "supertrend": 22.35203321418829
     },
     {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 18.82,
+      "supertrend": 14.285064224971325
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 16.22,
+      "supertrend": 11.640228066136324
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 15.78,
+      "supertrend": 11.48238643295797
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 21.67,
+      "supertrend": 15.945056857780713
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 38.16,
+      "supertrend": 28.64934826593522
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 9.2,
+      "supertrend": 7.346726699289875
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 7.21,
+      "supertrend": 6.012483072207409
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2024-02-23",
+      "signal": "买入",
+      "close": 23.83,
+      "supertrend": 18.862542838743675
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2024-02-22",
+      "signal": "买入",
+      "close": 9.38,
+      "supertrend": 7.722922942243102
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2024-02-22",
+      "signal": "买入",
+      "close": 24.59,
+      "supertrend": 20.906687353421518
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2024-02-22",
+      "signal": "买入",
+      "close": 18.934388530941185,
+      "supertrend": 16.64950404961331
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2024-02-22",
+      "signal": "买入",
+      "close": 4.34,
+      "supertrend": 3.52047208278906
+    },
+    {
       "ticker": "002428",
       "company_name": "云南锗业",
       "market": "A",
@@ -6014,6 +7238,51 @@
       "signal": "买入",
       "close": 9.8,
       "supertrend": 8.014019215263188
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2024-02-21",
+      "signal": "买入",
+      "close": 36.0,
+      "supertrend": 28.806643376487578
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2024-02-20",
+      "signal": "买入",
+      "close": 69.06,
+      "supertrend": 54.259439616825574
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2024-02-20",
+      "signal": "买入",
+      "close": 27.63,
+      "supertrend": 20.362359695252437
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-02-20",
+      "signal": "买入",
+      "close": 33.05,
+      "supertrend": 27.12596036569141
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-02-19",
+      "signal": "买入",
+      "close": 45.58,
+      "supertrend": 32.95598217678541
     },
     {
       "ticker": "603019",
@@ -6025,6 +7294,60 @@
       "supertrend": 29.31165648409762
     },
     {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2024-02-19",
+      "signal": "买入",
+      "close": 25.1,
+      "supertrend": 21.065870021164294
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2024-02-19",
+      "signal": "买入",
+      "close": 39.49,
+      "supertrend": 33.26132874838353
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2024-02-19",
+      "signal": "买入",
+      "close": 25.67,
+      "supertrend": 19.79093751648525
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2024-02-19",
+      "signal": "买入",
+      "close": 30.0,
+      "supertrend": 23.576697342538097
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-02-08",
+      "signal": "买入",
+      "close": 22.03,
+      "supertrend": 17.4168992123027
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2024-02-08",
+      "signal": "买入",
+      "close": 24.53,
+      "supertrend": 19.237371164299066
+    },
+    {
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
@@ -6032,6 +7355,15 @@
       "signal": "买入",
       "close": 6.59,
       "supertrend": 5.575513556073767
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2024-02-08",
+      "signal": "买入",
+      "close": 11.07,
+      "supertrend": 9.742060882153904
     },
     {
       "ticker": "002475",
@@ -6043,6 +7375,33 @@
       "supertrend": 24.29349408158492
     },
     {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2024-02-08",
+      "signal": "买入",
+      "close": 21.42,
+      "supertrend": 17.55058672460033
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-02-07",
+      "signal": "买入",
+      "close": 27.48,
+      "supertrend": 21.527345718075694
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2024-02-07",
+      "signal": "买入",
+      "close": 8.21,
+      "supertrend": 6.564275136592291
+    },
+    {
       "ticker": "300346",
       "company_name": "南大光电",
       "market": "A",
@@ -6050,6 +7409,15 @@
       "signal": "买入",
       "close": 17.55,
       "supertrend": 13.354694061420723
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-02-07",
+      "signal": "买入",
+      "close": 21.4,
+      "supertrend": 17.096306454310483
     },
     {
       "ticker": "002463",
@@ -6061,6 +7429,60 @@
       "supertrend": 17.701492570326035
     },
     {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2024-02-07",
+      "signal": "买入",
+      "close": 13.67,
+      "supertrend": 10.55162940523627
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2024-02-07",
+      "signal": "买入",
+      "close": 6.98,
+      "supertrend": 5.620613089300374
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-02-07",
+      "signal": "买入",
+      "close": 3.74,
+      "supertrend": 3.3744331578166396
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-02-05",
+      "signal": "卖出",
+      "close": 9.91,
+      "supertrend": 11.708380334567746
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-01-31",
+      "signal": "卖出",
+      "close": 27.74,
+      "supertrend": 33.42227311554949
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-01-30",
+      "signal": "卖出",
+      "close": 35.34,
+      "supertrend": 46.51069850782498
+    },
+    {
       "ticker": "002463",
       "company_name": "沪电股份",
       "market": "A",
@@ -6068,6 +7490,51 @@
       "signal": "卖出",
       "close": 18.32,
       "supertrend": 22.68568386116231
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-01-25",
+      "signal": "买入",
+      "close": 11.62,
+      "supertrend": 10.177201071795565
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-01-25",
+      "signal": "买入",
+      "close": 33.05,
+      "supertrend": 28.998786869064716
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-01-23",
+      "signal": "买入",
+      "close": 78.5,
+      "supertrend": 66.91582248888056
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-01-22",
+      "signal": "卖出",
+      "close": 3.44,
+      "supertrend": 3.7332978344724728
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-01-19",
+      "signal": "买入",
+      "close": 37.28,
+      "supertrend": 31.60984746435743
     },
     {
       "ticker": "002463",
@@ -6079,6 +7546,42 @@
       "supertrend": 18.40178613211568
     },
     {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2024-01-10",
+      "signal": "卖出",
+      "close": 16.86,
+      "supertrend": 21.328191911756072
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2024-01-10",
+      "signal": "卖出",
+      "close": 4.98,
+      "supertrend": 5.550462079586156
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-01-09",
+      "signal": "卖出",
+      "close": 10.67,
+      "supertrend": 11.788671855643628
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-01-08",
+      "signal": "卖出",
+      "close": 18.38,
+      "supertrend": 23.413149677415134
+    },
+    {
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
@@ -6088,6 +7591,15 @@
       "supertrend": 7.925643438965347
     },
     {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2024-01-08",
+      "signal": "卖出",
+      "close": 19.359993370486233,
+      "supertrend": 20.924799659873912
+    },
+    {
       "ticker": "300604",
       "company_name": "长川科技",
       "market": "A",
@@ -6095,6 +7607,15 @@
       "signal": "卖出",
       "close": 34.04,
       "supertrend": 40.33922538519341
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2024-01-08",
+      "signal": "卖出",
+      "close": 11.12,
+      "supertrend": 13.281741906750803
     },
     {
       "ticker": "002709",
@@ -6124,6 +7645,42 @@
       "supertrend": 20.89999298396508
     },
     {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2024-01-08",
+      "signal": "卖出",
+      "close": 20.15,
+      "supertrend": 22.84954668810264
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2024-01-08",
+      "signal": "卖出",
+      "close": 24.95,
+      "supertrend": 28.384272447442093
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-01-05",
+      "signal": "卖出",
+      "close": 68.46,
+      "supertrend": 81.22364061736162
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-01-04",
+      "signal": "卖出",
+      "close": 45.57,
+      "supertrend": 50.560814617266345
+    },
+    {
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
@@ -6131,6 +7688,42 @@
       "signal": "买入",
       "close": 7.81,
       "supertrend": 7.103515563229161
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2024-01-02",
+      "signal": "买入",
+      "close": 5.59,
+      "supertrend": 5.001933235135874
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2023-12-29",
+      "signal": "买入",
+      "close": 21.91,
+      "supertrend": 18.06810374632143
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-12-29",
+      "signal": "买入",
+      "close": 3.76,
+      "supertrend": 3.4914539303684835
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2023-12-28",
+      "signal": "买入",
+      "close": 11.62,
+      "supertrend": 10.221858169802843
     },
     {
       "ticker": "002709",
@@ -6151,6 +7744,15 @@
       "supertrend": 156.02286882077115
     },
     {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2023-12-27",
+      "signal": "卖出",
+      "close": 26.77,
+      "supertrend": 30.380944680831348
+    },
+    {
       "ticker": "603019",
       "company_name": "中科曙光",
       "market": "A",
@@ -6158,6 +7760,51 @@
       "signal": "卖出",
       "close": 36.38,
       "supertrend": 41.26661900615319
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2023-12-26",
+      "signal": "卖出",
+      "close": 27.76,
+      "supertrend": 31.693539558943247
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2023-12-26",
+      "signal": "卖出",
+      "close": 31.34,
+      "supertrend": 35.90024434970547
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2023-12-22",
+      "signal": "卖出",
+      "close": 24.77,
+      "supertrend": 28.414384493984727
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2023-12-20",
+      "signal": "卖出",
+      "close": 10.43,
+      "supertrend": 11.305651538272398
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2023-12-20",
+      "signal": "卖出",
+      "close": 24.15,
+      "supertrend": 26.97665922094306
     },
     {
       "ticker": "002428",
@@ -6178,6 +7825,51 @@
       "supertrend": 7.977073822619005
     },
     {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2023-12-18",
+      "signal": "卖出",
+      "close": 9.17,
+      "supertrend": 9.953356975482027
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2023-12-18",
+      "signal": "卖出",
+      "close": 17.07,
+      "supertrend": 18.814749053501505
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2023-12-15",
+      "signal": "卖出",
+      "close": 33.4,
+      "supertrend": 37.65845410296821
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2023-12-15",
+      "signal": "卖出",
+      "close": 27.21,
+      "supertrend": 29.635823130613854
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-12-14",
+      "signal": "卖出",
+      "close": 3.59,
+      "supertrend": 3.835758355819981
+    },
+    {
       "ticker": "002463",
       "company_name": "沪电股份",
       "market": "A",
@@ -6185,6 +7877,87 @@
       "signal": "买入",
       "close": 20.92,
       "supertrend": 18.079531300134406
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2023-12-06",
+      "signal": "卖出",
+      "close": 34.27,
+      "supertrend": 39.995441558587
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 30.56,
+      "supertrend": 33.45869901660197
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 31.17,
+      "supertrend": 35.12044755555982
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 29.04,
+      "supertrend": 31.500830604783506
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 5.48,
+      "supertrend": 6.1394269676957185
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 49.91,
+      "supertrend": 54.33587933763846
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 9.71,
+      "supertrend": 10.549816185968531
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 8.57,
+      "supertrend": 9.279323509687657
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2023-12-05",
+      "signal": "卖出",
+      "close": 58.7,
+      "supertrend": 66.27763588824291
     },
     {
       "ticker": "002428",
@@ -6196,6 +7969,15 @@
       "supertrend": 12.099684379841126
     },
     {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2023-12-01",
+      "signal": "买入",
+      "close": 29.57,
+      "supertrend": 25.523637237043364
+    },
+    {
       "ticker": "300346",
       "company_name": "南大光电",
       "market": "A",
@@ -6203,6 +7985,24 @@
       "signal": "卖出",
       "close": 23.25,
       "supertrend": 25.188872644060186
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2023-11-28",
+      "signal": "卖出",
+      "close": 37.1,
+      "supertrend": 43.67093941924094
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2023-11-27",
+      "signal": "卖出",
+      "close": 20.87,
+      "supertrend": 26.467483963056885
     },
     {
       "ticker": "002709",
@@ -6214,6 +8014,15 @@
       "supertrend": 27.32868724293387
     },
     {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2023-11-22",
+      "signal": "卖出",
+      "close": 94.6,
+      "supertrend": 105.3763877285453
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -6221,6 +8030,87 @@
       "signal": "卖出",
       "close": 172.39,
       "supertrend": 187.5667412543595
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2023-11-22",
+      "signal": "卖出",
+      "close": 32.17,
+      "supertrend": 38.019658627520734
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2023-11-20",
+      "signal": "买入",
+      "close": 38.62,
+      "supertrend": 33.86643026388289
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2023-11-17",
+      "signal": "买入",
+      "close": 42.68,
+      "supertrend": 34.24828282027139
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2023-11-17",
+      "signal": "买入",
+      "close": 31.32,
+      "supertrend": 27.66343233836014
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2023-11-15",
+      "signal": "买入",
+      "close": 27.51,
+      "supertrend": 24.626689549742768
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2023-11-13",
+      "signal": "买入",
+      "close": 71.96,
+      "supertrend": 60.65052605407456
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2023-11-13",
+      "signal": "买入",
+      "close": 30.23,
+      "supertrend": 26.602767103703105
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2023-11-09",
+      "signal": "买入",
+      "close": 34.67,
+      "supertrend": 28.256866587466675
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2023-11-08",
+      "signal": "买入",
+      "close": 19.01,
+      "supertrend": 15.57047912237265
     },
     {
       "ticker": "300346",
@@ -6232,6 +8122,15 @@
       "supertrend": 23.073704503767157
     },
     {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2023-11-07",
+      "signal": "买入",
+      "close": 10.96,
+      "supertrend": 9.933488099931292
+    },
+    {
       "ticker": "603019",
       "company_name": "中科曙光",
       "market": "A",
@@ -6239,6 +8138,114 @@
       "signal": "买入",
       "close": 39.2,
       "supertrend": 33.91346274820207
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2023-11-07",
+      "signal": "买入",
+      "close": 9.17,
+      "supertrend": 8.535544585307129
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2023-11-06",
+      "signal": "买入",
+      "close": 35.01,
+      "supertrend": 30.478754004664815
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2023-11-06",
+      "signal": "买入",
+      "close": 47.64,
+      "supertrend": 39.886439236267
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2023-11-06",
+      "signal": "买入",
+      "close": 9.79,
+      "supertrend": 8.73963599736235
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2023-11-03",
+      "signal": "买入",
+      "close": 26.81,
+      "supertrend": 23.23080086364011
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2023-11-03",
+      "signal": "买入",
+      "close": 10.09,
+      "supertrend": 9.193428536756011
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2023-11-02",
+      "signal": "卖出",
+      "close": 13.05,
+      "supertrend": 14.694750259945794
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2023-11-01",
+      "signal": "买入",
+      "close": 5.86,
+      "supertrend": 4.966325044302626
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2023-10-31",
+      "signal": "买入",
+      "close": 30.4,
+      "supertrend": 27.24716714313465
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2023-10-30",
+      "signal": "买入",
+      "close": 105.79,
+      "supertrend": 90.48258363845814
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2023-10-30",
+      "signal": "买入",
+      "close": 10.77,
+      "supertrend": 9.186091617643909
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2023-10-30",
+      "signal": "买入",
+      "close": 49.42,
+      "supertrend": 43.73289209735115
     },
     {
       "ticker": "002709",
@@ -6259,6 +8266,24 @@
       "supertrend": 166.9235536940444
     },
     {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2023-10-30",
+      "signal": "买入",
+      "close": 20.24,
+      "supertrend": 17.144137086681766
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-10-30",
+      "signal": "买入",
+      "close": 3.88,
+      "supertrend": 3.5073011019032605
+    },
+    {
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
@@ -6266,6 +8291,24 @@
       "signal": "买入",
       "close": 7.55,
       "supertrend": 6.9308913116761595
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2023-10-27",
+      "signal": "买入",
+      "close": 18.23,
+      "supertrend": 15.088342585843836
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2023-10-26",
+      "signal": "买入",
+      "close": 67.97,
+      "supertrend": 56.8533279010803
     },
     {
       "ticker": "300604",
@@ -6277,6 +8320,24 @@
       "supertrend": 30.771792404636372
     },
     {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2023-10-23",
+      "signal": "卖出",
+      "close": 93.61,
+      "supertrend": 104.38184052488926
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2023-10-23",
+      "signal": "卖出",
+      "close": 16.21,
+      "supertrend": 19.122122771780447
+    },
+    {
       "ticker": "300346",
       "company_name": "南大光电",
       "market": "A",
@@ -6284,6 +8345,42 @@
       "signal": "卖出",
       "close": 22.6,
       "supertrend": 25.50033339209039
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2023-10-23",
+      "signal": "卖出",
+      "close": 17.94,
+      "supertrend": 20.371326201989376
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-10-23",
+      "signal": "卖出",
+      "close": 3.55,
+      "supertrend": 3.824727426538535
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2023-10-20",
+      "signal": "卖出",
+      "close": 31.33,
+      "supertrend": 34.661390186366305
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2023-10-20",
+      "signal": "卖出",
+      "close": 30.92,
+      "supertrend": 33.47453899523133
     },
     {
       "ticker": "002463",
@@ -6295,6 +8392,42 @@
       "supertrend": 21.241514896532465
     },
     {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2023-10-20",
+      "signal": "卖出",
+      "close": 16.28,
+      "supertrend": 18.581300045989206
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2023-10-20",
+      "signal": "卖出",
+      "close": 27.65,
+      "supertrend": 33.58038908808869
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2023-10-20",
+      "signal": "卖出",
+      "close": 8.6,
+      "supertrend": 9.386582738085673
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2023-10-20",
+      "signal": "卖出",
+      "close": 25.27,
+      "supertrend": 28.04876247875583
+    },
+    {
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
@@ -6302,6 +8435,33 @@
       "signal": "卖出",
       "close": 7.19,
       "supertrend": 7.6717922827510865
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2023-10-19",
+      "signal": "卖出",
+      "close": 9.79,
+      "supertrend": 10.9758970356197
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2023-10-18",
+      "signal": "买入",
+      "close": 24.96,
+      "supertrend": 21.040436734865725
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2023-10-18",
+      "signal": "卖出",
+      "close": 66.61,
+      "supertrend": 78.5543385483536
     },
     {
       "ticker": "002428",
@@ -6313,6 +8473,42 @@
       "supertrend": 14.20800847763658
     },
     {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2023-10-17",
+      "signal": "卖出",
+      "close": 44.99,
+      "supertrend": 53.420621046017736
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2023-10-16",
+      "signal": "卖出",
+      "close": 60.11,
+      "supertrend": 67.47952994578834
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2023-10-13",
+      "signal": "卖出",
+      "close": 43.02,
+      "supertrend": 50.76062332748852
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2023-10-12",
+      "signal": "买入",
+      "close": 34.77,
+      "supertrend": 30.24004468778501
+    },
+    {
       "ticker": "002475",
       "company_name": "立讯精密",
       "market": "A",
@@ -6320,6 +8516,69 @@
       "signal": "买入",
       "close": 31.19,
       "supertrend": 28.354210438095887
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2023-10-12",
+      "signal": "买入",
+      "close": 18.84,
+      "supertrend": 16.672698594972534
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-10-12",
+      "signal": "买入",
+      "close": 3.83,
+      "supertrend": 3.6264530503155363
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2023-10-09",
+      "signal": "买入",
+      "close": 33.57,
+      "supertrend": 27.88434516936793
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2023-09-28",
+      "signal": "买入",
+      "close": 14.07,
+      "supertrend": 12.923801583376289
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2023-09-28",
+      "signal": "买入",
+      "close": 79.79,
+      "supertrend": 66.62173483445213
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2023-09-28",
+      "signal": "卖出",
+      "close": 27.56,
+      "supertrend": 32.90892952683441
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2023-09-25",
+      "signal": "买入",
+      "close": 52.11,
+      "supertrend": 44.113021559302524
     },
     {
       "ticker": "002463",
@@ -6331,6 +8590,24 @@
       "supertrend": 16.404190535416436
     },
     {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2023-09-21",
+      "signal": "卖出",
+      "close": 12.86,
+      "supertrend": 13.83189243953955
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2023-09-20",
+      "signal": "卖出",
+      "close": 29.94,
+      "supertrend": 34.838034001301295
+    },
+    {
       "ticker": "300604",
       "company_name": "长川科技",
       "market": "A",
@@ -6340,6 +8617,33 @@
       "supertrend": 37.06983060554498
     },
     {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2023-09-19",
+      "signal": "卖出",
+      "close": 27.69,
+      "supertrend": 33.102787588007146
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-09-19",
+      "signal": "卖出",
+      "close": 3.67,
+      "supertrend": 3.8896255622719553
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2023-09-18",
+      "signal": "卖出",
+      "close": 29.61,
+      "supertrend": 32.94474756933524
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -6347,6 +8651,15 @@
       "signal": "卖出",
       "close": 179.71,
       "supertrend": 200.03013466886617
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2023-09-12",
+      "signal": "买入",
+      "close": 31.35,
+      "supertrend": 25.5048404071074
     },
     {
       "ticker": "600879",
@@ -6367,6 +8680,42 @@
       "supertrend": 12.237249588272348
     },
     {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2023-09-06",
+      "signal": "买入",
+      "close": 34.62,
+      "supertrend": 30.557195260918768
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2023-09-06",
+      "signal": "买入",
+      "close": 30.8,
+      "supertrend": 25.760537400226635
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2023-09-06",
+      "signal": "买入",
+      "close": 32.16,
+      "supertrend": 29.532108575098416
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2023-09-06",
+      "signal": "买入",
+      "close": 18.490351985746543,
+      "supertrend": 17.107057572288433
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -6374,6 +8723,78 @@
       "signal": "买入",
       "close": 205.58,
       "supertrend": 181.51352196759242
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2023-09-06",
+      "signal": "买入",
+      "close": 21.19,
+      "supertrend": 18.197019994163487
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2023-09-05",
+      "signal": "买入",
+      "close": 98.55,
+      "supertrend": 87.34156239265411
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2023-09-05",
+      "signal": "买入",
+      "close": 33.12,
+      "supertrend": 28.31392679986719
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2023-09-04",
+      "signal": "买入",
+      "close": 33.22,
+      "supertrend": 29.020637140660863
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2023-09-04",
+      "signal": "买入",
+      "close": 14.01,
+      "supertrend": 12.73357143609177
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2023-09-04",
+      "signal": "买入",
+      "close": 8.98,
+      "supertrend": 8.211931935003852
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2023-09-04",
+      "signal": "买入",
+      "close": 28.46,
+      "supertrend": 22.98507387274631
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2023-09-04",
+      "signal": "买入",
+      "close": 69.68,
+      "supertrend": 57.88446723525723
     },
     {
       "ticker": "300604",
@@ -6394,6 +8815,78 @@
       "supertrend": 21.715976587227793
     },
     {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2023-08-31",
+      "signal": "买入",
+      "close": 9.93,
+      "supertrend": 8.675914070630945
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-08-31",
+      "signal": "买入",
+      "close": 3.87,
+      "supertrend": 3.5719442760025086
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2023-08-30",
+      "signal": "买入",
+      "close": 52.71,
+      "supertrend": 44.57184493154212
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2023-08-30",
+      "signal": "买入",
+      "close": 33.11,
+      "supertrend": 27.615599139226507
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2023-08-29",
+      "signal": "买入",
+      "close": 28.94,
+      "supertrend": 24.895939270573713
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2023-08-25",
+      "signal": "卖出",
+      "close": 37.13,
+      "supertrend": 41.90398411414259
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2023-08-25",
+      "signal": "卖出",
+      "close": 5.78,
+      "supertrend": 7.066354745622572
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2023-08-18",
+      "signal": "卖出",
+      "close": 17.42801549648843,
+      "supertrend": 19.063303849314124
+    },
+    {
       "ticker": "002475",
       "company_name": "立讯精密",
       "market": "A",
@@ -6412,2596 +8905,103 @@
       "supertrend": 23.074570882908098
     },
     {
-      "ticker": "002428",
-      "company_name": "云南锗业",
+      "ticker": "603667",
+      "company_name": "五洲新春",
       "market": "A",
-      "data_date": "2023-07-24",
-      "signal": "卖出",
-      "close": 14.06,
-      "supertrend": 16.5531635631495
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2023-07-13",
-      "signal": "卖出",
-      "close": 7.73,
-      "supertrend": 8.32004066126007
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-07-10",
-      "signal": "卖出",
-      "close": 44.39,
-      "supertrend": 51.04832936421814
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2023-06-28",
-      "signal": "卖出",
-      "close": 46.83,
-      "supertrend": 57.59499328509207
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2023-06-16",
-      "signal": "买入",
-      "close": 28.73,
-      "supertrend": 25.174100718889996
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2023-06-14",
-      "signal": "买入",
-      "close": 11.3,
-      "supertrend": 9.77177617436272
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2023-06-12",
-      "signal": "买入",
-      "close": 20.81,
-      "supertrend": 16.571517037371187
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2023-05-31",
-      "signal": "买入",
-      "close": 8.13,
-      "supertrend": 7.340475243406077
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2023-05-31",
-      "signal": "卖出",
-      "close": 40.04,
-      "supertrend": 45.02780328151106
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2023-05-30",
-      "signal": "买入",
-      "close": 52.85,
-      "supertrend": 40.74284796428766
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-05-30",
-      "signal": "买入",
-      "close": 49.14,
-      "supertrend": 40.67316126405129
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2023-05-16",
-      "signal": "卖出",
-      "close": 43.01,
-      "supertrend": 54.33376392477969
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2023-05-12",
-      "signal": "卖出",
-      "close": 18.46,
-      "supertrend": 23.703587382634943
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2023-05-12",
-      "signal": "卖出",
-      "close": 10.5,
-      "supertrend": 12.193986715525842
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2023-05-11",
-      "signal": "买入",
-      "close": 44.02,
-      "supertrend": 37.967158560509326
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2023-05-10",
-      "signal": "卖出",
-      "close": 211.99,
-      "supertrend": 252.19638837662046
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2023-05-09",
-      "signal": "卖出",
-      "close": 26.96,
-      "supertrend": 31.467744199700157
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2023-04-26",
-      "signal": "卖出",
-      "close": 7.31,
-      "supertrend": 8.065724924789198
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-04-26",
-      "signal": "卖出",
-      "close": 46.0,
-      "supertrend": 57.66382544734402
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2023-04-25",
-      "signal": "卖出",
-      "close": 37.64,
-      "supertrend": 43.4240856142889
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2023-04-21",
-      "signal": "卖出",
-      "close": 26.68,
-      "supertrend": 30.56013950216549
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2023-04-17",
-      "signal": "买入",
-      "close": 41.56,
-      "supertrend": 37.795358780581665
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-04-06",
-      "signal": "买入",
-      "close": 52.05,
-      "supertrend": 42.26699838768074
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2023-03-24",
-      "signal": "买入",
-      "close": 30.26,
-      "supertrend": 26.639978416387002
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-03-21",
-      "signal": "卖出",
-      "close": 44.01,
-      "supertrend": 53.21369405134023
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2023-03-08",
-      "signal": "买入",
-      "close": 27.05,
-      "supertrend": 23.8951342802727
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-03-06",
-      "signal": "买入",
-      "close": 49.25,
-      "supertrend": 42.03431574753721
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-03-01",
-      "signal": "卖出",
-      "close": 43.2,
-      "supertrend": 48.39759842587488
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2023-02-27",
-      "signal": "卖出",
-      "close": 24.83,
-      "supertrend": 27.059264928711023
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2023-02-27",
-      "signal": "卖出",
-      "close": 28.96,
-      "supertrend": 32.712609891708446
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2023-02-02",
-      "signal": "买入",
-      "close": 45.11,
-      "supertrend": 39.1905793231504
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2023-02-02",
-      "signal": "买入",
-      "close": 26.13,
-      "supertrend": 24.180791684168668
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2023-02-02",
-      "signal": "买入",
-      "close": 186.87,
-      "supertrend": 163.72833178168503
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2023-02-01",
-      "signal": "买入",
-      "close": 12.34,
-      "supertrend": 10.864760627362099
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2023-01-30",
-      "signal": "买入",
-      "close": 31.6,
-      "supertrend": 28.408192263152916
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2023-01-19",
-      "signal": "买入",
-      "close": 22.71,
-      "supertrend": 21.086457652252477
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2023-01-06",
-      "signal": "买入",
-      "close": 9.88,
-      "supertrend": 9.147710630322816
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2023-01-04",
-      "signal": "卖出",
-      "close": 27.33,
-      "supertrend": 32.41812800468452
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2023-01-03",
-      "signal": "买入",
-      "close": 6.77,
-      "supertrend": 6.1574282679575685
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-12-30",
-      "signal": "卖出",
-      "close": 42.41,
-      "supertrend": 51.14812235459622
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2022-12-23",
-      "signal": "卖出",
-      "close": 9.95,
-      "supertrend": 11.265853497539421
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2022-12-16",
-      "signal": "卖出",
-      "close": 6.24,
-      "supertrend": 6.742852989101983
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2022-12-13",
-      "signal": "卖出",
-      "close": 48.81,
-      "supertrend": 58.63498972714085
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2022-12-08",
-      "signal": "卖出",
-      "close": 24.99,
-      "supertrend": 27.85913682615434
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-12-06",
-      "signal": "买入",
-      "close": 47.97,
-      "supertrend": 40.62869669514043
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-11-28",
-      "signal": "卖出",
-      "close": 21.96,
-      "supertrend": 24.469985624289322
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2022-11-28",
-      "signal": "卖出",
-      "close": 9.6,
-      "supertrend": 10.331382103591116
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-11-23",
-      "signal": "卖出",
-      "close": 164.78,
-      "supertrend": 191.40313716945752
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-11-22",
-      "signal": "卖出",
-      "close": 42.44,
-      "supertrend": 48.44018743917905
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-11-07",
-      "signal": "买入",
-      "close": 47.44,
-      "supertrend": 41.24384843157289
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2022-11-04",
-      "signal": "买入",
-      "close": 30.74,
-      "supertrend": 26.18874595791341
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-11-04",
-      "signal": "买入",
-      "close": 199.47,
-      "supertrend": 164.08433323385526
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-10-26",
-      "signal": "买入",
-      "close": 22.55,
-      "supertrend": 19.474668347782345
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2022-10-24",
-      "signal": "买入",
-      "close": 26.71,
-      "supertrend": 23.23670797953319
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2022-10-20",
-      "signal": "买入",
-      "close": 58.5,
-      "supertrend": 43.831473746946116
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2022-10-18",
-      "signal": "买入",
-      "close": 6.28,
-      "supertrend": 5.616837413010296
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2022-10-17",
-      "signal": "买入",
-      "close": 9.04,
-      "supertrend": 7.809591241158886
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2022-10-17",
-      "signal": "买入",
-      "close": 10.39,
-      "supertrend": 9.105233484635233
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2022-10-10",
-      "signal": "卖出",
-      "close": 45.12,
-      "supertrend": 63.33808466109156
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-10-10",
-      "signal": "卖出",
-      "close": 183.15,
-      "supertrend": 224.26027924408217
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2022-09-26",
-      "signal": "卖出",
-      "close": 5.86,
-      "supertrend": 6.576865830681513
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2022-09-19",
-      "signal": "卖出",
-      "close": 32.78,
-      "supertrend": 36.90303077506782
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2022-09-15",
-      "signal": "卖出",
-      "close": 26.66,
-      "supertrend": 32.13213047205553
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2022-09-14",
-      "signal": "买入",
-      "close": 6.58,
-      "supertrend": 6.056590914864753
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2022-08-26",
-      "signal": "卖出",
-      "close": 6.17,
-      "supertrend": 6.627136701153971
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2022-08-24",
-      "signal": "卖出",
-      "close": 11.0,
-      "supertrend": 12.660753444536237
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-08-12",
-      "signal": "卖出",
-      "close": 28.68,
-      "supertrend": 35.2277911606221
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-08-05",
-      "signal": "买入",
-      "close": 232.7,
-      "supertrend": 182.3107800805384
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2022-08-03",
-      "signal": "买入",
-      "close": 28.58,
-      "supertrend": 24.10559524089764
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-07-29",
-      "signal": "卖出",
-      "close": 185.38,
-      "supertrend": 221.21981687998374
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-07-25",
-      "signal": "卖出",
-      "close": 53.11,
-      "supertrend": 62.50512038845292
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2022-07-12",
-      "signal": "卖出",
-      "close": 24.9,
-      "supertrend": 29.359437517790465
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2022-07-04",
-      "signal": "卖出",
-      "close": 12.66,
-      "supertrend": 15.0613730971371
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-06-07",
-      "signal": "买入",
-      "close": 26.19,
-      "supertrend": 22.760471623014638
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2022-06-06",
-      "signal": "买入",
-      "close": 11.05,
-      "supertrend": 9.84999363564301
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2022-05-20",
-      "signal": "买入",
-      "close": 6.02,
-      "supertrend": 5.538262588460258
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-05-18",
-      "signal": "买入",
-      "close": 39.31,
-      "supertrend": 32.53150083611939
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-05-18",
-      "signal": "买入",
-      "close": 192.35,
-      "supertrend": 157.43848978254863
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2022-05-11",
-      "signal": "买入",
-      "close": 34.5,
-      "supertrend": 27.781344292015174
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2022-05-11",
-      "signal": "买入",
-      "close": 23.0,
-      "supertrend": 18.78971190064783
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2022-04-29",
-      "signal": "买入",
-      "close": 29.73,
-      "supertrend": 24.114876757652755
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2022-04-29",
-      "signal": "买入",
-      "close": 11.2,
-      "supertrend": 8.635729572088957
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-04-11",
-      "signal": "卖出",
-      "close": 41.03,
-      "supertrend": 49.17979833948152
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2022-04-07",
-      "signal": "卖出",
-      "close": 12.28,
-      "supertrend": 14.31437025432616
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-04-07",
-      "signal": "卖出",
-      "close": 189.52,
-      "supertrend": 226.00108708490933
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-03-25",
-      "signal": "卖出",
-      "close": 28.54,
-      "supertrend": 32.48509919230846
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-03-17",
-      "signal": "买入",
-      "close": 50.73,
-      "supertrend": 42.62984625710984
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2022-03-11",
-      "signal": "卖出",
-      "close": 13.33,
-      "supertrend": 15.938137553989636
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-03-07",
-      "signal": "卖出",
-      "close": 43.0,
-      "supertrend": 51.38070687147149
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2022-02-25",
-      "signal": "买入",
-      "close": 49.11,
-      "supertrend": 42.53758239113752
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2022-02-25",
-      "signal": "买入",
-      "close": 220.76,
-      "supertrend": 185.50251390790206
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-02-09",
-      "signal": "买入",
-      "close": 30.83,
-      "supertrend": 26.165973104983287
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2022-02-08",
-      "signal": "卖出",
-      "close": 42.1,
-      "supertrend": 51.04726711568789
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-01-27",
-      "signal": "卖出",
-      "close": 27.72,
-      "supertrend": 30.59755560622283
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2022-01-07",
-      "signal": "卖出",
-      "close": 7.49,
-      "supertrend": 8.26752476412975
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2022-01-05",
-      "signal": "卖出",
-      "close": 47.4,
-      "supertrend": 58.84701454249095
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2022-01-04",
-      "signal": "买入",
-      "close": 27.38,
-      "supertrend": 25.30091132743229
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2021-12-20",
-      "signal": "卖出",
-      "close": 25.66,
-      "supertrend": 27.896473690879255
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2021-11-26",
-      "signal": "卖出",
-      "close": 273.02,
-      "supertrend": 322.5300197754058
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-11-22",
-      "signal": "买入",
-      "close": 60.1,
-      "supertrend": 45.56006186208229
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2021-11-18",
-      "signal": "买入",
-      "close": 11.58,
-      "supertrend": 10.124842681119203
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-11-16",
-      "signal": "卖出",
-      "close": 46.28,
-      "supertrend": 58.734321197862684
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2021-11-15",
-      "signal": "卖出",
-      "close": 65.8,
-      "supertrend": 81.44847121501454
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2021-11-12",
-      "signal": "买入",
-      "close": 8.09,
-      "supertrend": 7.284903772330629
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2021-11-10",
-      "signal": "买入",
-      "close": 301.84,
-      "supertrend": 247.9933911185712
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-11-08",
-      "signal": "买入",
-      "close": 50.75,
-      "supertrend": 41.54649209815824
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2021-11-05",
-      "signal": "买入",
-      "close": 27.49,
-      "supertrend": 25.195805526403912
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-11-01",
-      "signal": "买入",
-      "close": 9.46,
-      "supertrend": 7.803774371466644
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2021-10-08",
-      "signal": "买入",
-      "close": 36.53,
-      "supertrend": 31.674512848966078
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2021-09-29",
-      "signal": "卖出",
-      "close": 7.14,
-      "supertrend": 8.149402421528782
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-09-29",
-      "signal": "卖出",
-      "close": 9.42,
-      "supertrend": 10.770167901565152
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2021-09-27",
-      "signal": "卖出",
-      "close": 11.97,
-      "supertrend": 15.0730408132281
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-09-09",
-      "signal": "买入",
-      "close": 10.45,
-      "supertrend": 9.194996593530691
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2021-09-02",
-      "signal": "卖出",
-      "close": 232.27,
-      "supertrend": 307.1168267543421
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2021-08-31",
-      "signal": "卖出",
-      "close": 26.97,
-      "supertrend": 30.25697422718026
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-08-31",
-      "signal": "卖出",
-      "close": 42.58,
-      "supertrend": 56.43987746342093
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-08-27",
-      "signal": "卖出",
-      "close": 9.58,
-      "supertrend": 10.949380929577808
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2021-08-20",
-      "signal": "卖出",
-      "close": 38.24,
-      "supertrend": 48.38838852401757
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2021-08-10",
-      "signal": "买入",
-      "close": 7.58,
-      "supertrend": 6.776447298041598
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-08-02",
-      "signal": "买入",
-      "close": 11.98,
-      "supertrend": 9.892911325554682
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2021-07-23",
-      "signal": "卖出",
-      "close": 39.3,
-      "supertrend": 45.289227825354665
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-07-19",
-      "signal": "卖出",
-      "close": 11.09,
-      "supertrend": 12.462723087042736
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2021-07-02",
-      "signal": "卖出",
-      "close": 6.88,
-      "supertrend": 7.720111409749413
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2021-05-31",
-      "signal": "买入",
-      "close": 11.73,
-      "supertrend": 10.226152475831118
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-05-27",
-      "signal": "买入",
-      "close": 21.51,
-      "supertrend": 16.303048646759784
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2021-05-27",
-      "signal": "买入",
-      "close": 18.78,
-      "supertrend": 16.304031534102954
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-05-27",
-      "signal": "买入",
-      "close": 12.06,
-      "supertrend": 10.815145732665048
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2021-05-25",
-      "signal": "买入",
-      "close": 25.96,
-      "supertrend": 23.51684104017867
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-05-10",
-      "signal": "卖出",
-      "close": 17.29,
-      "supertrend": 20.652248790431862
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2021-04-30",
-      "signal": "卖出",
-      "close": 10.0,
-      "supertrend": 11.384636707444063
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2021-04-27",
-      "signal": "买入",
-      "close": 37.14,
-      "supertrend": 30.556560332445663
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2021-04-19",
-      "signal": "买入",
-      "close": 26.78,
-      "supertrend": 20.644799579107946
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2021-04-19",
-      "signal": "买入",
-      "close": 11.27,
-      "supertrend": 9.695500631628466
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-04-08",
-      "signal": "买入",
-      "close": 17.71,
-      "supertrend": 14.76821690459702
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2021-04-02",
-      "signal": "买入",
-      "close": 118.98,
-      "supertrend": 98.17472249159826
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2021-03-24",
-      "signal": "卖出",
-      "close": 9.85,
-      "supertrend": 11.331815039044987
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2021-03-04",
-      "signal": "买入",
-      "close": 7.41,
-      "supertrend": 6.366626551936908
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2021-02-19",
-      "signal": "买入",
-      "close": 11.23,
-      "supertrend": 9.334814755208598
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2021-02-18",
-      "signal": "卖出",
-      "close": 25.69,
-      "supertrend": 33.31390833920083
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2021-02-05",
-      "signal": "卖出",
-      "close": 137.83,
-      "supertrend": 166.05820309049483
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2021-02-03",
-      "signal": "卖出",
-      "close": 17.78,
-      "supertrend": 22.05640050194769
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2021-01-28",
-      "signal": "卖出",
-      "close": 29.11,
-      "supertrend": 33.8113549320981
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-01-28",
-      "signal": "卖出",
-      "close": 14.25,
-      "supertrend": 16.070143881341384
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2021-01-26",
-      "signal": "卖出",
-      "close": 51.52,
-      "supertrend": 61.040580361841705
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2021-01-22",
-      "signal": "卖出",
-      "close": 21.77,
-      "supertrend": 25.955488758876697
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2021-01-15",
-      "signal": "卖出",
-      "close": 7.5,
-      "supertrend": 9.025874945762927
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2021-01-05",
-      "signal": "买入",
-      "close": 16.06,
-      "supertrend": 14.175525952689762
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2021-01-04",
-      "signal": "买入",
-      "close": 33.26,
-      "supertrend": 29.79522230659809
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-12-31",
-      "signal": "买入",
-      "close": 131.19,
-      "supertrend": 112.37811832098123
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2020-12-23",
-      "signal": "买入",
-      "close": 6.89,
-      "supertrend": 6.149881201416815
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2020-12-23",
-      "signal": "买入",
-      "close": 54.21,
-      "supertrend": 47.677071204856915
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-12-16",
-      "signal": "卖出",
-      "close": 14.76,
-      "supertrend": 16.51237707222209
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2020-12-14",
-      "signal": "卖出",
-      "close": 13.04,
-      "supertrend": 16.01501931368988
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2020-12-07",
-      "signal": "买入",
-      "close": 13.82,
-      "supertrend": 11.85312984165547
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-11-26",
-      "signal": "卖出",
-      "close": 122.76,
-      "supertrend": 143.33006285312368
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2020-11-09",
-      "signal": "买入",
-      "close": 23.42,
-      "supertrend": 18.92689951664788
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-11-06",
-      "signal": "买入",
-      "close": 15.99,
-      "supertrend": 14.055058398534573
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-11-02",
-      "signal": "卖出",
-      "close": 14.37,
-      "supertrend": 15.925321869042907
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2020-10-30",
-      "signal": "卖出",
-      "close": 53.6,
-      "supertrend": 61.854931721100705
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2020-10-13",
-      "signal": "买入",
-      "close": 14.01,
-      "supertrend": 11.866392186448032
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-10-12",
-      "signal": "买入",
-      "close": 129.07,
-      "supertrend": 105.89352439986007
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2020-10-09",
-      "signal": "买入",
-      "close": 60.18,
-      "supertrend": 52.119760962869044
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2020-09-24",
-      "signal": "卖出",
-      "close": 6.73,
-      "supertrend": 7.476668904139284
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2020-09-24",
-      "signal": "卖出",
-      "close": 13.5,
-      "supertrend": 15.413300171200977
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-09-18",
-      "signal": "买入",
-      "close": 16.52,
-      "supertrend": 13.990898476305901
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2020-09-16",
-      "signal": "买入",
-      "close": 12.02,
-      "supertrend": 9.606370874154923
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2020-09-09",
-      "signal": "卖出",
-      "close": 9.38,
-      "supertrend": 11.952966817126587
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2020-09-04",
-      "signal": "买入",
-      "close": 15.74,
-      "supertrend": 13.560506081857225
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2020-09-02",
-      "signal": "买入",
-      "close": 11.36,
-      "supertrend": 9.20455059844098
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-08-26",
-      "signal": "卖出",
-      "close": 134.13,
-      "supertrend": 164.57491511800913
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2020-08-19",
-      "signal": "卖出",
-      "close": 49.03,
-      "supertrend": 57.981092147832456
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2020-08-13",
-      "signal": "卖出",
-      "close": 14.8,
-      "supertrend": 18.960748968320715
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-08-03",
-      "signal": "买入",
-      "close": 167.19,
-      "supertrend": 136.21387262664314
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2020-07-27",
-      "signal": "卖出",
-      "close": 9.09,
-      "supertrend": 11.26435113740692
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2020-07-24",
-      "signal": "卖出",
-      "close": 40.46,
-      "supertrend": 49.2697857339884
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2020-07-16",
-      "signal": "卖出",
-      "close": 15.39,
-      "supertrend": 18.95531574721007
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2020-07-16",
-      "signal": "卖出",
-      "close": 24.81,
-      "supertrend": 32.903307873404614
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-07-16",
-      "signal": "卖出",
-      "close": 19.94,
-      "supertrend": 23.733790905824318
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-07-16",
-      "signal": "卖出",
-      "close": 129.31,
-      "supertrend": 168.6905135342812
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2020-07-06",
-      "signal": "买入",
-      "close": 6.71,
-      "supertrend": 6.126547768634218
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-07-02",
-      "signal": "买入",
-      "close": 21.0,
-      "supertrend": 18.898772766057565
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-06-24",
-      "signal": "买入",
-      "close": 122.53,
-      "supertrend": 107.12844453241678
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-06-15",
-      "signal": "卖出",
-      "close": 103.13,
-      "supertrend": 122.05283726506113
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2020-05-06",
-      "signal": "买入",
-      "close": 35.55,
-      "supertrend": 29.525232539034533
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2020-05-06",
-      "signal": "买入",
-      "close": 17.15,
-      "supertrend": 12.424339705762886
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2020-05-06",
-      "signal": "买入",
-      "close": 10.83,
-      "supertrend": 9.063663081885059
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2020-04-30",
-      "signal": "买入",
-      "close": 13.26,
-      "supertrend": 10.752676643535688
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2020-04-28",
-      "signal": "买入",
-      "close": 33.65,
-      "supertrend": 28.268683370680485
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-04-22",
-      "signal": "买入",
-      "close": 100.39,
-      "supertrend": 81.0800713666014
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2020-04-14",
-      "signal": "买入",
-      "close": 5.32,
-      "supertrend": 4.0567870715861325
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2020-03-23",
-      "signal": "卖出",
-      "close": 6.02,
-      "supertrend": 7.502621630331271
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-03-18",
-      "signal": "卖出",
-      "close": 20.03,
-      "supertrend": 26.53601599221305
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2020-03-16",
-      "signal": "卖出",
-      "close": 9.8,
-      "supertrend": 12.133633090885702
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2020-03-09",
-      "signal": "卖出",
-      "close": 29.44,
-      "supertrend": 36.873298248710775
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2020-03-09",
-      "signal": "卖出",
-      "close": 15.89,
-      "supertrend": 21.85367236570565
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2020-03-09",
-      "signal": "卖出",
-      "close": 31.33,
-      "supertrend": 38.68374397898748
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2020-03-04",
-      "signal": "卖出",
-      "close": 94.84,
-      "supertrend": 124.08510502641046
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2020-02-28",
-      "signal": "卖出",
-      "close": 13.79,
-      "supertrend": 18.129429350868644
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2020-02-28",
-      "signal": "卖出",
-      "close": 5.49,
-      "supertrend": 7.585475556222698
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-02-17",
-      "signal": "买入",
-      "close": 20.3,
-      "supertrend": 16.42651907838811
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2020-02-07",
-      "signal": "买入",
-      "close": 31.44,
-      "supertrend": 24.755038506433483
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2020-02-06",
-      "signal": "买入",
-      "close": 6.09,
-      "supertrend": 4.91374578415052
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2020-02-03",
-      "signal": "卖出",
-      "close": 25.19,
-      "supertrend": 29.780233948432432
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2020-02-03",
-      "signal": "卖出",
-      "close": 5.28,
-      "supertrend": 5.888592888682414
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-02-03",
-      "signal": "卖出",
-      "close": 17.45,
-      "supertrend": 20.528619212059755
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2020-01-13",
-      "signal": "买入",
-      "close": 20.35,
-      "supertrend": 17.56147860441435
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2019-12-23",
-      "signal": "卖出",
-      "close": 17.68,
-      "supertrend": 20.548358702122048
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2019-12-17",
-      "signal": "买入",
-      "close": 5.71,
-      "supertrend": 5.433251406076874
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2019-12-16",
-      "signal": "买入",
-      "close": 8.03,
-      "supertrend": 6.530407631284216
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2019-12-16",
-      "signal": "买入",
-      "close": 19.97,
-      "supertrend": 17.247004010022103
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-12-12",
-      "signal": "买入",
-      "close": 7.83,
-      "supertrend": 6.780447318518043
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2019-12-09",
-      "signal": "买入",
-      "close": 23.7,
-      "supertrend": 21.555640353426817
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2019-12-06",
-      "signal": "买入",
-      "close": 11.13,
-      "supertrend": 9.45118507428773
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2019-11-22",
-      "signal": "卖出",
-      "close": 7.12,
-      "supertrend": 8.592775984060609
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2019-11-05",
-      "signal": "买入",
-      "close": 3.41,
-      "supertrend": 2.8963450933282937
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2019-10-31",
-      "signal": "买入",
-      "close": 49.67,
-      "supertrend": 43.1960018973176
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2019-10-08",
-      "signal": "卖出",
-      "close": 19.75,
-      "supertrend": 24.772598003476077
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2019-09-27",
-      "signal": "卖出",
-      "close": 10.81,
-      "supertrend": 13.457645267946077
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2019-09-27",
-      "signal": "卖出",
-      "close": 3.02,
-      "supertrend": 3.560549618222273
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2019-09-27",
-      "signal": "卖出",
-      "close": 48.38,
-      "supertrend": 58.053034024699215
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2019-09-26",
-      "signal": "卖出",
-      "close": 23.27,
-      "supertrend": 27.04000660263111
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-09-26",
-      "signal": "卖出",
-      "close": 8.12,
-      "supertrend": 10.281947705199228
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2019-09-25",
-      "signal": "卖出",
-      "close": 5.97,
-      "supertrend": 6.440508717045086
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2019-08-29",
-      "signal": "买入",
-      "close": 6.13,
-      "supertrend": 5.71202126330288
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2019-08-27",
-      "signal": "买入",
-      "close": 6.4,
-      "supertrend": 5.045045885706614
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2019-08-26",
-      "signal": "买入",
-      "close": 45.48,
-      "supertrend": 37.789527046355964
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2019-08-19",
-      "signal": "买入",
-      "close": 23.82,
-      "supertrend": 19.993909828876998
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2019-08-12",
-      "signal": "买入",
-      "close": 9.46,
-      "supertrend": 7.5499729448489905
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2019-08-09",
-      "signal": "卖出",
-      "close": 4.91,
-      "supertrend": 6.273636658292927
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-08-07",
-      "signal": "买入",
-      "close": 7.23,
-      "supertrend": 6.116568666289976
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2019-08-02",
-      "signal": "卖出",
-      "close": 8.17,
-      "supertrend": 9.591230786015775
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2019-08-01",
-      "signal": "卖出",
-      "close": 42.45,
-      "supertrend": 48.99562879065796
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-07-08",
-      "signal": "卖出",
-      "close": 6.81,
-      "supertrend": 8.070510470201345
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2019-07-02",
-      "signal": "买入",
-      "close": 3.0,
-      "supertrend": 2.4740282170228607
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2019-06-27",
-      "signal": "买入",
-      "close": 13.47,
-      "supertrend": 11.258666491239852
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2019-06-12",
-      "signal": "买入",
-      "close": 8.88,
-      "supertrend": 6.978318890110899
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2019-06-11",
-      "signal": "买入",
-      "close": 7.52,
-      "supertrend": 5.881345694453639
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-05-30",
-      "signal": "买入",
-      "close": 7.63,
-      "supertrend": 6.139969588523899
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2019-05-20",
-      "signal": "买入",
-      "close": 5.23,
-      "supertrend": 3.984385337096745
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2019-05-10",
-      "signal": "买入",
-      "close": 48.71,
-      "supertrend": 36.53011667501413
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2019-05-06",
-      "signal": "卖出",
-      "close": 24.43,
-      "supertrend": 30.59104512687434
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2019-05-06",
-      "signal": "卖出",
-      "close": 12.51,
-      "supertrend": 14.937060734924753
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2019-05-06",
-      "signal": "卖出",
-      "close": 7.06,
-      "supertrend": 9.20505407491086
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2019-05-06",
-      "signal": "卖出",
-      "close": 37.9,
-      "supertrend": 47.82523216733101
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2019-04-29",
-      "signal": "卖出",
-      "close": 8.03,
-      "supertrend": 10.400517924200456
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2019-04-29",
-      "signal": "卖出",
-      "close": 4.4,
-      "supertrend": 5.38096252798711
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-04-29",
-      "signal": "卖出",
-      "close": 6.6,
-      "supertrend": 8.320876660866316
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2019-04-25",
-      "signal": "卖出",
-      "close": 6.36,
-      "supertrend": 7.153219297898963
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2019-04-23",
-      "signal": "卖出",
-      "close": 3.64,
-      "supertrend": 4.451088238131171
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2019-02-18",
-      "signal": "买入",
-      "close": 8.41,
-      "supertrend": 6.71119656799844
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-02-18",
-      "signal": "买入",
-      "close": 5.98,
-      "supertrend": 5.191194994992374
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2019-02-11",
-      "signal": "买入",
-      "close": 3.42,
-      "supertrend": 2.8690284503554118
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2019-02-01",
-      "signal": "买入",
-      "close": 18.31,
-      "supertrend": 16.248503422698352
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-01-30",
-      "signal": "卖出",
-      "close": 5.28,
-      "supertrend": 6.111642314423034
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2019-01-23",
-      "signal": "买入",
-      "close": 2.69,
-      "supertrend": 1.9785163803323425
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2019-01-15",
-      "signal": "买入",
-      "close": 7.52,
-      "supertrend": 6.386823932449072
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2019-01-09",
-      "signal": "买入",
-      "close": 28.61,
-      "supertrend": 25.224227544024544
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2019-01-07",
-      "signal": "买入",
-      "close": 5.81,
-      "supertrend": 4.83018434942632
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2019-01-04",
+      "data_date": "2023-08-17",
       "signal": "买入",
-      "close": 5.67,
-      "supertrend": 5.125599482563971
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2018-12-27",
-      "signal": "卖出",
-      "close": 25.42,
-      "supertrend": 29.49172839919191
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2018-12-26",
-      "signal": "卖出",
-      "close": 2.34,
-      "supertrend": 2.916952048901946
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2018-12-26",
-      "signal": "卖出",
-      "close": 5.1,
-      "supertrend": 5.768470272489074
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2018-12-14",
-      "signal": "卖出",
-      "close": 3.31,
-      "supertrend": 4.145515675610289
+      "close": 14.82,
+      "supertrend": 11.65138722206727
     },
     {
-      "ticker": "002475",
-      "company_name": "立讯精密",
+      "ticker": "603773",
+      "company_name": "沃格光电",
       "market": "A",
-      "data_date": "2018-12-14",
+      "data_date": "2023-08-16",
       "signal": "卖出",
-      "close": 6.99,
-      "supertrend": 8.160922160370783
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2018-11-16",
-      "signal": "买入",
-      "close": 30.72,
-      "supertrend": 26.181417471426023
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2018-11-13",
-      "signal": "买入",
-      "close": 2.19,
-      "supertrend": 1.6296794456218289
-    },
-    {
-      "ticker": "002428",
-      "company_name": "云南锗业",
-      "market": "A",
-      "data_date": "2018-11-13",
-      "signal": "买入",
-      "close": 5.71,
-      "supertrend": 4.924901031323307
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2018-11-07",
-      "signal": "买入",
-      "close": 3.53,
-      "supertrend": 3.015218551974913
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2018-10-22",
-      "signal": "买入",
-      "close": 9.11,
-      "supertrend": 7.12387291024236
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2018-10-22",
-      "signal": "买入",
-      "close": 4.47,
-      "supertrend": 3.0414561167694383
+      "close": 20.9,
+      "supertrend": 24.205374907174587
     },
     {
-      "ticker": "600879",
-      "company_name": "航天电子",
+      "ticker": "601689",
+      "company_name": "拓普集团",
       "market": "A",
-      "data_date": "2018-10-11",
+      "data_date": "2023-08-16",
       "signal": "卖出",
-      "close": 5.63,
-      "supertrend": 6.553216944943252
+      "close": 45.37,
+      "supertrend": 52.236764364376
     },
     {
-      "ticker": "002709",
-      "company_name": "天赐材料",
+      "ticker": "600487",
+      "company_name": "亨通光电",
       "market": "A",
-      "data_date": "2018-10-11",
+      "data_date": "2023-08-16",
       "signal": "卖出",
-      "close": 1.96,
-      "supertrend": 2.758942971314017
+      "close": 13.52,
+      "supertrend": 14.571376085868208
     },
     {
-      "ticker": "002463",
-      "company_name": "沪电股份",
+      "ticker": "603186",
+      "company_name": "华正新材",
       "market": "A",
-      "data_date": "2018-10-11",
+      "data_date": "2023-08-11",
       "signal": "卖出",
-      "close": 2.93,
-      "supertrend": 4.049953650610242
-    },
-    {
-      "ticker": "600879",
-      "company_name": "航天电子",
-      "market": "A",
-      "data_date": "2018-09-25",
-      "signal": "买入",
-      "close": 6.81,
-      "supertrend": 6.22646422140045
-    },
-    {
-      "ticker": "002709",
-      "company_name": "天赐材料",
-      "market": "A",
-      "data_date": "2018-09-21",
-      "signal": "买入",
-      "close": 2.92,
-      "supertrend": 2.2247459637736995
+      "close": 31.03,
+      "supertrend": 36.1453558604531
     },
     {
-      "ticker": "300604",
-      "company_name": "长川科技",
+      "ticker": "600584",
+      "company_name": "长电科技",
       "market": "A",
-      "data_date": "2018-09-17",
+      "data_date": "2023-08-11",
       "signal": "卖出",
-      "close": 10.12,
-      "supertrend": 12.56435825668011
+      "close": 31.39,
+      "supertrend": 34.83150419642276
     },
     {
-      "ticker": "603019",
-      "company_name": "中科曙光",
+      "ticker": "002916",
+      "company_name": "深南电路",
       "market": "A",
-      "data_date": "2018-09-10",
+      "data_date": "2023-08-11",
       "signal": "卖出",
-      "close": 22.36,
-      "supertrend": 26.517251272237594
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2018-09-03",
-      "signal": "买入",
-      "close": 26.24,
-      "supertrend": 21.948743027481967
+      "close": 52.73,
+      "supertrend": 57.42962118417484
     },
     {
-      "ticker": "002371",
-      "company_name": "北方华创",
+      "ticker": "002185",
+      "company_name": "华天科技",
       "market": "A",
-      "data_date": "2018-08-08",
+      "data_date": "2023-08-11",
       "signal": "卖出",
-      "close": 31.73,
-      "supertrend": 38.85773459141838
+      "close": 9.06,
+      "supertrend": 9.75567176114395
     },
     {
-      "ticker": "603019",
-      "company_name": "中科曙光",
+      "ticker": "603667",
+      "company_name": "五洲新春",
       "market": "A",
-      "data_date": "2018-08-06",
+      "data_date": "2023-08-09",
       "signal": "卖出",
-      "close": 22.28,
-      "supertrend": 26.216305695950208
+      "close": 13.03,
+      "supertrend": 15.384164300720979
     },
     {
-      "ticker": "002475",
-      "company_name": "立讯精密",
+      "ticker": "600522",
+      "company_name": "中天科技",
       "market": "A",
-      "data_date": "2018-08-06",
+      "data_date": "2023-08-09",
       "signal": "卖出",
-      "close": 8.63,
-      "supertrend": 10.428026059875078
+      "close": 13.91,
+      "supertrend": 15.268492827471748
     },
     {
-      "ticker": "300346",
-      "company_name": "南大光电",
+      "ticker": "001309",
+      "company_name": "德明利",
       "market": "A",
-      "data_date": "2018-08-02",
+      "data_date": "2023-08-09",
       "signal": "卖出",
-      "close": 4.46,
-      "supertrend": 5.342860481944255
-    },
-    {
-      "ticker": "002475",
-      "company_name": "立讯精密",
-      "market": "A",
-      "data_date": "2018-07-17",
-      "signal": "买入",
-      "close": 9.85,
-      "supertrend": 8.252214323811815
-    },
-    {
-      "ticker": "002463",
-      "company_name": "沪电股份",
-      "market": "A",
-      "data_date": "2018-07-10",
-      "signal": "买入",
-      "close": 1.54,
-      "supertrend": 1.112919570577657
-    },
-    {
-      "ticker": "603019",
-      "company_name": "中科曙光",
-      "market": "A",
-      "data_date": "2018-07-03",
-      "signal": "买入",
-      "close": 22.83,
-      "supertrend": 18.641880215709737
-    },
-    {
-      "ticker": "300346",
-      "company_name": "南大光电",
-      "market": "A",
-      "data_date": "2018-07-03",
-      "signal": "买入",
-      "close": 5.27,
-      "supertrend": 4.140321718503879
-    },
-    {
-      "ticker": "002371",
-      "company_name": "北方华创",
-      "market": "A",
-      "data_date": "2018-07-02",
-      "signal": "买入",
-      "close": 34.07,
-      "supertrend": 27.658927181760987
-    },
-    {
-      "ticker": "300604",
-      "company_name": "长川科技",
-      "market": "A",
-      "data_date": "2018-06-29",
-      "signal": "买入",
-      "close": 9.39,
-      "supertrend": 6.6664131405127645
+      "close": 26.3,
+      "supertrend": 30.26001702250888
     }
   ]
 }
