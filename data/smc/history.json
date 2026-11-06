@@ -1,6 +1,3757 @@
 {
   "module": "smc",
   "schema_version": 1,
-  "updated_at": "2026-11-06T18:22:12.183321+08:00",
-  "records": []
+  "updated_at": "2026-11-06T18:25:35.568859+08:00",
+  "records": [
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2026-06-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 19.29,
+      "level": 18.77
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2026-06-11",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 64.3,
+      "level": 64.27
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2026-06-11",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 66.63,
+      "level": 64.68
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2026-05-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 16.95,
+      "level": 15.98
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2026-05-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.1,
+      "level": 4.67
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2026-05-11",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 55.68,
+      "level": 54.48
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2026-05-11",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 75.81,
+      "level": 71.79
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2026-05-11",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 61.14,
+      "level": 59.12
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2026-05-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 49.83,
+      "level": 46.81
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2026-04-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 536.23,
+      "level": 533.24
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2026-04-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 74.7933034790785,
+      "level": 74.61103032440056
+    },
+    {
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "market": "A",
+      "data_date": "2026-04-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 52.39,
+      "level": 49.33
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2026-04-20",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 73.08,
+      "level": 71.56
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2026-04-17",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 144.92,
+      "level": 144.33
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2026-04-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 33.18,
+      "level": 32.45
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2026-04-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 685.95,
+      "level": 656.61
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2026-03-04",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 101.3,
+      "level": 100.64
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2026-02-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 84.86,
+      "level": 83.95
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2026-02-12",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 36.23,
+      "level": 36.18
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2026-01-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 20.69,
+      "level": 19.97
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2026-01-23",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 42.55,
+      "level": 39.45
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2026-01-23",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 16.54,
+      "level": 16.49
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2026-01-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 22.51,
+      "level": 21.44
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2026-01-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 14.16,
+      "level": 13.49
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2026-01-19",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 48.11,
+      "level": 47.91
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2026-01-16",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 48.24,
+      "level": 47.45
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2026-01-14",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 77.12,
+      "level": 75.58
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2026-01-07",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 33.09,
+      "level": 32.49
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2026-01-07",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.38,
+      "level": 10.1
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2026-01-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 38.09,
+      "level": 37.59
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2026-01-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 111.13,
+      "level": 107.46
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2025-12-29",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 88.0,
+      "level": 86.33
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2025-12-23",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 480.66,
+      "level": 472.9
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2025-12-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 126.76,
+      "level": 120.33
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2025-12-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 25.87,
+      "level": 24.21
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2025-12-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 53.85,
+      "level": 52.38
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2025-12-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 48.91,
+      "level": 48.6
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2025-12-04",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 12.24,
+      "level": 12.14
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2025-09-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 76.01,
+      "level": 69.45
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2025-09-16",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 38.71,
+      "level": 36.19
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2025-09-12",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 43.48,
+      "level": 43.26
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2025-09-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 46.79,
+      "level": 46.39
+    },
+    {
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "market": "A",
+      "data_date": "2025-09-04",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 22.7,
+      "level": 21.95
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2025-08-29",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 33.01,
+      "level": 32.37
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2025-08-28",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 36.4,
+      "level": 36.27
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2025-08-28",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 16.15,
+      "level": 15.72
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2025-08-26",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.88,
+      "level": 26.33
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2025-08-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 25.93,
+      "level": 24.62
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2025-08-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 62.35,
+      "level": 60.54
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2025-08-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 82.38,
+      "level": 78.29
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2025-08-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 69.3,
+      "level": 69.03
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2025-08-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 136.41,
+      "level": 133.95
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2025-08-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 55.46,
+      "level": 54.54
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2025-08-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 360.22,
+      "level": 350.76
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2025-08-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 13.15,
+      "level": 13.06
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2025-08-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 49.35,
+      "level": 48.8
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2025-08-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 17.86,
+      "level": 17.78
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2025-08-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 34.15,
+      "level": 33.69
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2025-08-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 31.13,
+      "level": 29.08
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2025-08-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 24.02,
+      "level": 23.25
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2025-08-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 35.77,
+      "level": 34.67
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2025-07-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 48.06,
+      "level": 46.43
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2025-07-29",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 24.98,
+      "level": 23.66
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2025-07-28",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 34.83,
+      "level": 34.72
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2025-07-28",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 50.17,
+      "level": 49.63
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2025-07-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 22.93,
+      "level": 22.16
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2025-07-21",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 185.36,
+      "level": 182.74
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2025-07-15",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 37.609579924776675,
+      "level": 36.767809355900326
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2025-07-15",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 129.56,
+      "level": 122.82
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2025-07-04",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 46.8,
+      "level": 45.15
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2025-07-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.76,
+      "level": 10.23
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2025-06-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 30.05,
+      "level": 29.87
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2025-06-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 10.45,
+      "level": 10.0
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2025-06-27",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 37.58,
+      "level": 37.53
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2025-06-16",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 45.53,
+      "level": 45.1
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2025-03-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 7.13,
+      "level": 7.04
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2025-02-07",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 60.13,
+      "level": 59.3
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2025-02-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 36.88,
+      "level": 36.27
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2025-02-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 21.67,
+      "level": 20.68
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2025-01-24",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 50.63,
+      "level": 49.38
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2025-01-23",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 34.3,
+      "level": 32.41
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2024-12-27",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 15.46,
+      "level": 15.36
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2024-12-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 95.34,
+      "level": 92.99
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2024-12-23",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 14.36,
+      "level": 14.16
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2024-12-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 101.96,
+      "level": 98.77
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2024-12-17",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 26.855463798777617,
+      "level": 26.325214621532673
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2024-11-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 28.44,
+      "level": 28.37
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2024-11-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 20.19,
+      "level": 19.75
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2024-11-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 54.96,
+      "level": 51.7
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2024-11-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.71,
+      "level": 25.22
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2024-11-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 51.72,
+      "level": 48.86
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2024-10-31",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 31.41,
+      "level": 28.91
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2024-10-31",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 45.27,
+      "level": 42.4
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2024-10-29",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 58.93,
+      "level": 55.91
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2024-10-28",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.46,
+      "level": 5.21
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2024-10-16",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 27.92,
+      "level": 27.9
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.46,
+      "level": 26.45
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.14,
+      "level": 12.12
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 33.73,
+      "level": 32.72
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 13.69,
+      "level": 12.87
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 38.56,
+      "level": 36.4
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 15.72,
+      "level": 15.42
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 182.74,
+      "level": 156.59
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 43.18,
+      "level": 40.96
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 25.05,
+      "level": 24.87
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 37.72,
+      "level": 36.58
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 45.45,
+      "level": 41.85
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 4.61,
+      "level": 4.42
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 32.56,
+      "level": 31.51
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 45.25,
+      "level": 43.97
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 37.61,
+      "level": 35.43
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 28.83,
+      "level": 27.25
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 13.5,
+      "level": 13.15
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 42.85,
+      "level": 42.69
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 9.38,
+      "level": 9.29
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 269.55,
+      "level": 262.75
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 9.26,
+      "level": 8.91
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2024-09-27",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 24.25,
+      "level": 24.03
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2024-08-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.14,
+      "level": 8.06
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2024-07-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.69,
+      "level": 12.53
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2024-07-10",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 30.83,
+      "level": 30.23
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2024-07-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.79,
+      "level": 15.33
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2024-06-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 14.85,
+      "level": 14.66
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2024-06-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 30.88,
+      "level": 30.68
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2024-06-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 36.09,
+      "level": 34.05
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2024-06-14",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 16.87,
+      "level": 16.82
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2024-06-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 24.8,
+      "level": 24.52
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2024-05-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 4.38,
+      "level": 4.29
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2024-04-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 21.80318335684062,
+      "level": 21.374012929007993
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2024-03-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 42.08,
+      "level": 39.21
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2024-03-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.49,
+      "level": 10.29
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2024-03-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 122.32,
+      "level": 118.73
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2024-03-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 56.43,
+      "level": 55.72
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2024-03-04",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 25.04,
+      "level": 24.09
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2024-03-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 32.52,
+      "level": 32.1
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2024-03-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 33.09,
+      "level": 32.69
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2024-03-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 40.8,
+      "level": 38.51
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2024-02-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 23.49,
+      "level": 21.97
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2023-10-27",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 23.42,
+      "level": 22.26
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2023-10-19",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 26.4,
+      "level": 26.37
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2023-10-16",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 34.39,
+      "level": 33.68
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2023-10-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 38.26,
+      "level": 35.97
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2023-10-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 19.473401034320638,
+      "level": 19.436946403385047
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2023-07-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 33.51,
+      "level": 33.41
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2023-06-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 11.67,
+      "level": 11.1
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2023-06-28",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 33.2,
+      "level": 31.73
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2023-06-20",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.34,
+      "level": 15.2
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2023-06-15",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 27.83,
+      "level": 27.06
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2023-06-12",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 27.17,
+      "level": 25.58
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2023-05-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 10.19,
+      "level": 9.92
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2023-05-23",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 19.71,
+      "level": 19.21
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2023-04-07",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 16.57,
+      "level": 16.03
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2023-04-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 42.27,
+      "level": 40.92
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2023-04-03",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 21.76,
+      "level": 21.32
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2023-04-03",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 31.12,
+      "level": 30.24
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2023-04-03",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 27.25,
+      "level": 25.96
+    },
+    {
+      "ticker": "001309",
+      "company_name": "德明利",
+      "market": "A",
+      "data_date": "2023-03-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 20.84,
+      "level": 19.3
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2023-03-24",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 13.89,
+      "level": 13.45
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2023-03-23",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 50.15,
+      "level": 50.11
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2023-03-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 17.39,
+      "level": 15.66
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2023-03-16",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 29.99,
+      "level": 29.58
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2023-03-14",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 203.47,
+      "level": 203.1
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2023-03-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 4.44,
+      "level": 4.29
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2023-02-20",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 32.33,
+      "level": 31.29
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2023-02-16",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 31.46,
+      "level": 31.15
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2023-02-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 20.1047289609779,
+      "level": 19.756752938410905
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2023-02-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 22.3,
+      "level": 21.87
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2023-02-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 20.93,
+      "level": 19.95
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2023-02-10",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 21.72,
+      "level": 19.78
+    },
+    {
+      "ticker": "001270",
+      "company_name": "铖昌科技",
+      "market": "A",
+      "data_date": "2023-02-10",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 73.14,
+      "level": 72.95
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2023-02-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 14.93,
+      "level": 13.96
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2023-02-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.0,
+      "level": 25.1
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2023-02-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 59.57,
+      "level": 57.51
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2023-02-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.67,
+      "level": 12.63
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2023-02-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.49,
+      "level": 26.37
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2023-02-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.82,
+      "level": 10.7
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2023-01-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 7.18,
+      "level": 7.13
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2023-01-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 3.88,
+      "level": 3.86
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2023-01-19",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.53,
+      "level": 10.43
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2022-11-29",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 14.38,
+      "level": 14.26
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2022-11-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 6.93,
+      "level": 6.83
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2022-09-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 66.23,
+      "level": 62.79
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2022-09-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 11.18,
+      "level": 10.51
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2022-08-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 39.4,
+      "level": 35.68
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2022-08-16",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 20.53,
+      "level": 19.1
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2022-08-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 22.47,
+      "level": 21.77
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2022-08-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 28.33,
+      "level": 27.76
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2022-07-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 32.77,
+      "level": 32.16
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2022-07-20",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 17.76,
+      "level": 17.14
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2022-07-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.7,
+      "level": 8.6
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2022-06-27",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 42.91,
+      "level": 42.38
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2022-06-27",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.14,
+      "level": 24.78
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2022-06-20",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 19.85,
+      "level": 19.6
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2022-06-14",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 43.71,
+      "level": 41.86
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2022-03-01",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 18.73,
+      "level": 18.7
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2022-02-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 32.63,
+      "level": 32.06
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2022-01-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 14.92,
+      "level": 14.3
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2022-01-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 13.82,
+      "level": 13.78
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2022-01-04",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 49.85,
+      "level": 48.82
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2021-11-24",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 33.76,
+      "level": 33.63
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2021-11-19",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 7.62,
+      "level": 7.39
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2021-11-19",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 13.46,
+      "level": 12.95
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2021-11-15",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.79,
+      "level": 15.14
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2021-11-12",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 31.03,
+      "level": 30.5
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2021-11-11",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 332.13,
+      "level": 317.39
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2021-11-05",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 4.39,
+      "level": 4.32
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2021-11-04",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 22.95,
+      "level": 21.8
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2021-11-03",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.38,
+      "level": 11.27
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2021-10-14",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 29.4,
+      "level": 28.28
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2021-09-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 8.03,
+      "level": 7.94
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2021-09-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.5,
+      "level": 12.49
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2021-08-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 44.28,
+      "level": 44.26
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2021-08-02",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 19.77,
+      "level": 19.03
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2021-07-27",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.663248472026325,
+      "level": 26.416351198871645
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2021-07-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 36.36,
+      "level": 36.09
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "market": "A",
+      "data_date": "2021-07-20",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 98.65,
+      "level": 96.87
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2021-07-14",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.32,
+      "level": 12.28
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2021-07-07",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 9.16,
+      "level": 8.9
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2021-06-23",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 170.38,
+      "level": 163.52
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2021-06-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 7.75,
+      "level": 7.6
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2021-06-21",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 21.76,
+      "level": 21.73
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2021-06-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 23.69,
+      "level": 23.52
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2021-06-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.79,
+      "level": 12.16
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2021-06-15",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 173.63,
+      "level": 173.59
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2021-06-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 3.91,
+      "level": 3.65
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2021-06-01",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 38.88,
+      "level": 38.16
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2021-06-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 21.73,
+      "level": 20.25
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2021-05-31",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 22.34,
+      "level": 22.27
+    },
+    {
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "market": "A",
+      "data_date": "2021-05-19",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 36.15,
+      "level": 34.59
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2021-01-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 19.08,
+      "level": 18.93
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2021-01-12",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 8.56,
+      "level": 8.52
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2021-01-05",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 29.78,
+      "level": 29.34
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2021-01-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 30.15,
+      "level": 29.62
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2021-01-04",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 23.13,
+      "level": 22.99
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2020-12-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 5.45,
+      "level": 5.29
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2020-12-03",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 11.41,
+      "level": 11.27
+    },
+    {
+      "ticker": "603629",
+      "company_name": "利通电子",
+      "market": "A",
+      "data_date": "2020-11-27",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 11.71,
+      "level": 11.49
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2020-11-04",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 24.38,
+      "level": 24.08
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2020-10-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 8.9,
+      "level": 8.79
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2020-10-09",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 60.18,
+      "level": 59.86
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2020-08-18",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 6.26,
+      "level": 5.87
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2020-08-17",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 5.38,
+      "level": 5.35
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2020-08-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 8.14,
+      "level": 8.08
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2020-07-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 18.78,
+      "level": 18.77
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2020-07-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 22.73,
+      "level": 22.55
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2020-07-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 21.33,
+      "level": 21.21
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2020-07-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 18.82,
+      "level": 17.29
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2020-07-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 45.48,
+      "level": 45.46
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2020-07-09",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 142.83,
+      "level": 142.74
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2020-07-09",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 15.52,
+      "level": 14.1
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2020-07-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 25.58,
+      "level": 25.06
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2020-07-07",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 17.38,
+      "level": 17.11
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2020-07-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 36.66,
+      "level": 34.33
+    },
+    {
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "market": "A",
+      "data_date": "2020-06-29",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 8.29,
+      "level": 8.24
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2020-06-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 16.68,
+      "level": 16.47
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2020-06-05",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 38.54,
+      "level": 38.37
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "market": "A",
+      "data_date": "2020-06-02",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 16.93,
+      "level": 16.71
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2020-06-01",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 22.94,
+      "level": 22.85
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2020-05-19",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 133.41,
+      "level": 130.71
+    },
+    {
+      "ticker": "601869",
+      "company_name": "长飞光纤",
+      "market": "A",
+      "data_date": "2020-03-10",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 37.7,
+      "level": 35.15
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2020-02-25",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.38,
+      "level": 8.06
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2020-02-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 25.84,
+      "level": 24.75
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2020-02-24",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 31.77021086036671,
+      "level": 29.73372261401034
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2020-02-24",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 19.38,
+      "level": 19.35
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2020-02-24",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 32.81,
+      "level": 31.97
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2020-02-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 57.63,
+      "level": 54.52
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2020-02-12",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 26.68,
+      "level": 24.64
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2020-02-07",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 6.72,
+      "level": 6.65
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2020-01-20",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 14.7,
+      "level": 13.85
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "market": "A",
+      "data_date": "2020-01-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 11.84,
+      "level": 11.52
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2020-01-16",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 22.57,
+      "level": 22.25
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2020-01-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 28.03,
+      "level": 27.27
+    },
+    {
+      "ticker": "603773",
+      "company_name": "沃格光电",
+      "market": "A",
+      "data_date": "2020-01-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 18.1,
+      "level": 17.27
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2020-01-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 4.75,
+      "level": 4.6
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2020-01-07",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 11.01,
+      "level": 10.93
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2020-01-07",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 16.16,
+      "level": 16.01
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2020-01-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 11.06,
+      "level": 10.34
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2020-01-02",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 24.69,
+      "level": 22.87
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2019-12-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 7.92,
+      "level": 7.33
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2019-12-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 9.62,
+      "level": 9.31
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2019-12-17",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 32.54,
+      "level": 31.99
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2019-12-16",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 3.86,
+      "level": 3.82
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2019-12-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 9.32,
+      "level": 8.88
+    },
+    {
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "market": "A",
+      "data_date": "2019-12-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 3.76,
+      "level": 3.66
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2019-11-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 7.25,
+      "level": 6.99
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2019-11-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 28.49,
+      "level": 28.1
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2019-11-14",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 17.18,
+      "level": 16.34
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2019-10-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.96,
+      "level": 8.41
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2019-09-23",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 55.1,
+      "level": 51.31
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2019-09-09",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 13.02,
+      "level": 12.23
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2019-09-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 30.71,
+      "level": 29.12
+    },
+    {
+      "ticker": "002428",
+      "company_name": "云南锗业",
+      "market": "A",
+      "data_date": "2019-09-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 9.49,
+      "level": 9.25
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2019-09-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 9.75,
+      "level": 9.74
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2019-09-04",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.96,
+      "level": 15.3
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2019-09-03",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 20.37,
+      "level": 20.33
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2019-09-02",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 6.53,
+      "level": 6.43
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2019-09-02",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 18.26,
+      "level": 17.67
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2019-08-27",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 58.63,
+      "level": 57.22
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2019-08-27",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 27.55,
+      "level": 27.45
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2019-08-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 12.09,
+      "level": 11.63
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2019-08-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 18.95,
+      "level": 18.66
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2019-08-19",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.58,
+      "level": 5.56
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2019-07-29",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 34.3,
+      "level": 33.94
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2019-07-24",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 54.28,
+      "level": 53.44
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2019-07-18",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 6.12,
+      "level": 5.7
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2019-03-21",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 17.35,
+      "level": 17.23
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "market": "A",
+      "data_date": "2019-03-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.51,
+      "level": 5.37
+    },
+    {
+      "ticker": "603083",
+      "company_name": "剑桥科技",
+      "market": "A",
+      "data_date": "2019-03-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 17.96,
+      "level": 17.47
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2019-03-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.88,
+      "level": 26.63
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2019-03-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 9.8,
+      "level": 9.54
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2019-03-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 42.52,
+      "level": 39.06
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2019-02-28",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 6.0,
+      "level": 5.39
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2019-02-25",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 6.39,
+      "level": 6.18
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2019-02-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 13.032530559473436,
+      "level": 12.712724024447578
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2019-02-22",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 23.29,
+      "level": 21.42
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2019-02-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.73,
+      "level": 10.41
+    },
+    {
+      "ticker": "603667",
+      "company_name": "五洲新春",
+      "market": "A",
+      "data_date": "2019-02-20",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.01,
+      "level": 7.9
+    },
+    {
+      "ticker": "603881",
+      "company_name": "数据港",
+      "market": "A",
+      "data_date": "2019-02-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.02,
+      "level": 7.88
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2019-02-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.11,
+      "level": 5.02
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2019-02-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.23,
+      "level": 8.09
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2019-02-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 7.49,
+      "level": 7.44
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2019-02-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 27.73,
+      "level": 27.61
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2019-02-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 8.72,
+      "level": 8.48
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2019-02-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.5,
+      "level": 12.35
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2019-02-12",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 2.45,
+      "level": 2.41
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2019-02-01",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 11.63,
+      "level": 11.42
+    },
+    {
+      "ticker": "603186",
+      "company_name": "华正新材",
+      "market": "A",
+      "data_date": "2019-01-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 18.55,
+      "level": 18.53
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "market": "A",
+      "data_date": "2019-01-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 34.34,
+      "level": 33.5
+    },
+    {
+      "ticker": "600105",
+      "company_name": "永鼎股份",
+      "market": "A",
+      "data_date": "2018-12-03",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 3.72,
+      "level": 3.7
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2018-08-20",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 2.5,
+      "level": 2.26
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2018-07-20",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 25.0,
+      "level": 24.73
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "market": "A",
+      "data_date": "2018-05-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 6.64,
+      "level": 6.57
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2018-04-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 10.27,
+      "level": 10.19
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2018-04-18",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 27.87,
+      "level": 27.06
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2018-04-18",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 35.45,
+      "level": 32.72
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2018-03-27",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 22.28,
+      "level": 21.2
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2017-11-10",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 27.88,
+      "level": 26.98
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "market": "A",
+      "data_date": "2017-11-01",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 7.89,
+      "level": 7.51
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "market": "A",
+      "data_date": "2017-10-27",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 2.54,
+      "level": 2.49
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2017-10-10",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 19.31,
+      "level": 19.2
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2017-09-28",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 3.88,
+      "level": 3.62
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "market": "A",
+      "data_date": "2017-09-18",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 42.85,
+      "level": 42.69
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "market": "A",
+      "data_date": "2017-09-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.35,
+      "level": 10.25
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2017-09-14",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 11.06,
+      "level": 10.92
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "market": "A",
+      "data_date": "2017-09-12",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 18.25,
+      "level": 17.58
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "market": "A",
+      "data_date": "2017-09-11",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 17.87,
+      "level": 17.41
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "market": "A",
+      "data_date": "2017-09-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.4,
+      "level": 14.33
+    },
+    {
+      "ticker": "002405",
+      "company_name": "四维图新",
+      "market": "A",
+      "data_date": "2017-08-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.33,
+      "level": 14.18
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2017-08-17",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.18,
+      "level": 15.17
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "market": "A",
+      "data_date": "2017-07-19",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 10.636467089797836,
+      "level": 10.371342501175365
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2017-07-11",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 25.68,
+      "level": 25.38
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2017-06-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 14.31,
+      "level": 14.25
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2017-06-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 18.27,
+      "level": 17.79
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2017-06-19",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 16.59,
+      "level": 16.53
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "market": "A",
+      "data_date": "2017-06-15",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 5.98,
+      "level": 5.73
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2017-04-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 4.48,
+      "level": 4.41
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2017-04-05",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 14.52,
+      "level": 14.23
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "market": "A",
+      "data_date": "2017-03-24",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.59,
+      "level": 10.39
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "market": "A",
+      "data_date": "2017-03-24",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 24.94,
+      "level": 24.19
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "market": "A",
+      "data_date": "2017-03-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 16.44,
+      "level": 15.92
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2017-03-14",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 5.66,
+      "level": 5.62
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "market": "A",
+      "data_date": "2017-03-10",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 13.65,
+      "level": 12.15
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "market": "A",
+      "data_date": "2017-03-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 12.99,
+      "level": 12.74
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2017-03-03",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 8.9,
+      "level": 8.75
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2017-01-03",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 12.85,
+      "level": 12.45
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "market": "A",
+      "data_date": "2016-11-07",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 2.03,
+      "level": 1.99
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "market": "A",
+      "data_date": "2016-10-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 13.76,
+      "level": 13.12
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "market": "A",
+      "data_date": "2016-10-10",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 20.1,
+      "level": 20.08
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "market": "A",
+      "data_date": "2016-10-10",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 3.83,
+      "level": 3.75
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "market": "A",
+      "data_date": "2016-09-05",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 4.88,
+      "level": 4.74
+    },
+    {
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "market": "A",
+      "data_date": "2016-07-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 11.85,
+      "level": 11.79
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "market": "A",
+      "data_date": "2016-06-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 7.54,
+      "level": 7.51
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "market": "A",
+      "data_date": "2016-06-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 10.83,
+      "level": 10.71
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "market": "A",
+      "data_date": "2016-06-27",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 20.34,
+      "level": 20.12
+    },
+    {
+      "ticker": "000988",
+      "company_name": "华工科技",
+      "market": "A",
+      "data_date": "2016-06-27",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 19.51,
+      "level": 19.39
+    }
+  ]
 }
