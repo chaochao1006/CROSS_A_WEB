@@ -1,4 +1,4 @@
-"""GitHub Actions / local entry point for the Supertrend-only monitor."""
+"""GitHub Actions / local entry point for the stock monitors."""
 import json
 import os
 from pathlib import Path
@@ -17,18 +17,27 @@ def save_json(path,payload):
     temp.replace(path)
 
 
-def run_monitor():
-    snapshot=build_snapshot()
-    events=snapshot.pop('_events')
-    path=DATA_DIR/'history.json'
+def save_snapshot(folder, snapshot):
+    module = snapshot['module']
+    events = snapshot.pop('_events')
+    path = folder / 'history.json'
     try:
         previous=json.loads(path.read_text(encoding='utf-8'))
-        history=previous.get('records',[]) if previous.get('module')=='super-trend' else []
+        history=previous.get('records',[]) if previous.get('module')==module else []
     except (FileNotFoundError,ValueError,AttributeError):
         history=[]
     history=merge_history(history,events)
-    save_json(path,{'module':'super-trend','schema_version':1,'updated_at':snapshot['run_time_cn'],'records':history})
-    save_json(DATA_DIR/'latest.json',snapshot)
+    save_json(path,{'module':module,'schema_version':1,'updated_at':snapshot['run_time_cn'],'records':history})
+    save_json(folder/'latest.json',snapshot)
+
+
+def run_monitor(snapshot=None):
+    snapshot = build_snapshot() if snapshot is None else snapshot
+    smc = snapshot.pop('_smc', None)
+    save_snapshot(DATA_DIR, snapshot)
+    if smc is not None:
+        save_snapshot(DATA_DIR/'smc', smc)
+        print(f"SMC: {len(smc['triggers'])} triggers")
     print(f"Supertrend: {snapshot['success_count']}/{snapshot['stock_pool_count']} fresh, "
           f"{snapshot['stale_count']} stale, {snapshot['failure_count']} failed, {len(snapshot['triggers'])} triggers")
     if snapshot['success_count']==0:
@@ -37,4 +46,4 @@ def run_monitor():
 
 
 if __name__=='__main__':
-    print(run_monitor())
+    print(run_monitor(build_snapshot(include_smc=True)))

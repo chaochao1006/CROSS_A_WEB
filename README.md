@@ -1,6 +1,8 @@
 # Supertrend 股票网页监控
 
-网页仅保留日线 Supertrend 模块，ATR(10) × 3，与此前本地回测使用相同的SMA初始化Wilder算法。
+网页包含日线 Supertrend 和 SMC 两个模块。Supertrend 使用 ATR(10) × 3。
+
+SMC 和 Supertrend 共用 `stock_pool.json` 及同一批已收盘复权日线。SMC 使用 Swing 长度 50，监控绿色 Swing BOS 和 CHoCH，页面显示当日触发、股票池状态和历史触发。SMC 快照与历史分别保存为 `data/smc/latest.json` 和 `data/smc/history.json`。
 
 页面依次显示：当日买入/卖出触发、当前持有、当前观望；历史触发和异常取数放在折叠区。
 买入/卖出只在收盘趋势翻转当天出现，订单规则为下一可交易日开盘执行。当前持有/观望是策略方向，不是实际账户仓位。

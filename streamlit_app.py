@@ -1,4 +1,4 @@
-"""Supertrend-only dashboard; daily events and persistent trend states."""
+"""Daily Supertrend and SMC dashboard."""
 from __future__ import annotations
 
 import json
@@ -34,7 +34,49 @@ def table(records,events=False):
     return pd.DataFrame(rows)
 
 
-st.set_page_config(page_title='Supertrend 股票监控',page_icon='📈',layout='wide')
+def render_smc():
+    st.title('SMC 股票监控')
+    latest = load_json(DATA_DIR/'smc'/'latest.json')
+    if latest.get('module') != 'smc' or latest.get('schema_version') != 1 or latest.get('data_interval') != '1d':
+        st.info('等待首次 SMC 数据更新。可运行 GitHub Actions 中的 Supertrend Monitor。')
+        return
+    st.caption(f"日线 Swing 长度 {latest['swing_length']} · 收盘确认绿色 Swing BOS 或 CHoCH")
+    dates = ' ｜ '.join(f"{'A股' if market == 'A' else '港股'} {day}" for market, day in latest['market_dates'].items())
+    st.caption(f"快照交易日 {dates} ｜ 北京时间更新于 {latest['run_time_cn']}")
+    records = latest['records']
+    fresh = sum(row['health'] == '正常' for row in records)
+    st.caption(f"股票池 {len(records)} 只 ｜ 正常 {fresh} 只 ｜ 行情异常或不足 {len(records) - fresh} 只")
+    labels = {'ticker':'代码','company_name':'名称','market':'市场','data_date':'行情日期',
+              'signal':'触发信号','close':'复权收盘价','level':'突破结构价位','health':'数据状态',
+              'last_event':'最近触发','last_event_date':'最近触发日','error':'原因'}
+    event_columns = ['ticker','company_name','market','data_date','signal','close','level']
+    st.subheader('当日触发记录')
+    if latest['triggers']:
+        st.dataframe(pd.DataFrame(latest['triggers']).reindex(columns=event_columns).rename(columns=labels),
+                     width='stretch',hide_index=True)
+    elif fresh:
+        st.info('行情正常的股票中，快照交易日无绿色 Swing BOS 或 CHoCH。')
+    else:
+        st.warning('本次没有可确认的日线行情。')
+    with st.expander('股票池与数据状态'):
+        columns = ['ticker','company_name','market','data_date','health','last_event','last_event_date','error']
+        st.dataframe(pd.DataFrame(records).reindex(columns=columns).rename(columns=labels),
+                     width='stretch',hide_index=True)
+    with st.expander('历史触发'):
+        history = load_json(DATA_DIR/'smc'/'history.json')
+        if history.get('module') == 'smc' and history.get('records'):
+            st.dataframe(pd.DataFrame(history['records']).reindex(columns=event_columns).rename(columns=labels),
+                         width='stretch',hide_index=True)
+        else:
+            st.info('暂无历史触发。')
+
+
+st.set_page_config(page_title='股票监控',page_icon='📈',layout='wide')
+if st.sidebar.radio('监控模块', ['Supertrend', 'SMC']) == 'SMC':
+    if st.button('刷新数据'):
+        st.rerun()
+    render_smc()
+    st.stop()
 st.title('Supertrend 股票监控')
 st.caption('日线 ATR(10) × 3 · 收盘确认信号 · 下一交易日开盘执行')
 if st.button('刷新数据',help='重新读取已生成的监控结果；行情由GitHub Actions更新。'):

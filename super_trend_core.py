@@ -14,6 +14,8 @@ import pandas as pd
 import exchange_calendars as xc
 import requests
 
+from smc_core import SWING_LENGTH, analyze_smc
+
 ROOT = Path(__file__).resolve().parent
 LENGTH, MULTIPLIER = 10, 3.0
 SCHEMA_VERSION = 1
@@ -186,10 +188,18 @@ def fetch_daily(ticker, expected):
     raise ValueError('；'.join(errors))
 
 
-def analyze(ticker, name, expected, execution_date):
+def completed_prices(ticker, expected):
     df,source,note=fetch_daily(ticker,expected)
     df=df.loc[START:expected].copy()
     validate_daily(df)
+    return df, source, note
+
+
+def analyze(ticker, name, expected, execution_date):
+    return analyze_supertrend(*completed_prices(ticker, expected), ticker, name, expected, execution_date)
+
+
+def analyze_supertrend(df, source, note, ticker, name, expected, execution_date):
     bars=len(df)
     df=calculate_supertrend(df)
     latest=df.iloc[-1]
@@ -208,7 +218,7 @@ def analyze(ticker, name, expected, execution_date):
     return record,events
 
 
-def build_snapshot(tickers=None,names=None,now=None):
+def build_snapshot(tickers=None,names=None,now=None,*,include_smc=False):
     if tickers is None:
         tickers,names=load_pool()
     names=names or {}
@@ -221,26 +231,51 @@ def build_snapshot(tickers=None,names=None,now=None):
             calendar_errors[market]=str(exc)
     def worker(ticker):
         name=names.get(ticker,ticker)
+        market=market_of(ticker)
+        base={'ticker':ticker,'company_name':name,'market':market}
         try:
-            if market_of(ticker) in calendar_errors:
-                raise ValueError(calendar_errors[market_of(ticker)])
-            expected,execution=contexts[market_of(ticker)]
-            return analyze(ticker,name,expected,execution)
+            if market in calendar_errors:
+                raise ValueError(calendar_errors[market])
+            expected,execution=contexts[market]
+            prices=completed_prices(ticker,expected)
         except Exception as exc:
-            return {'ticker':ticker,'company_name':name,'market':market_of(ticker),'state':None,'event':'',
-                    'health':'更新失败','error':str(exc)},[]
-    records,events=[],[]
+            failed={**base,'health':'更新失败','error':str(exc)}
+            return ({**failed,'state':None,'event':''},[]),(failed,[])
+        try:
+            st_result=analyze_supertrend(*prices,ticker,name,expected,execution)
+        except Exception as exc:
+            st_result=({**base,'state':None,'event':'','health':'更新失败','error':str(exc)},[])
+        smc_result=(None,[])
+        if include_smc:
+            try:
+                smc_result=analyze_smc(prices[0],ticker,name,market,expected)
+            except Exception as exc:
+                smc_result=({**base,'health':'更新失败','error':str(exc)},[])
+        return st_result,smc_result
+    records,events,smc_records,smc_events=[],[],[],[]
     with ThreadPoolExecutor(max_workers=4) as executor:
-        for row,history in executor.map(worker,tickers):
+        for (row,history),(smc_row,smc_history) in executor.map(worker,tickers):
             records.append(row);events.extend(history)
+            if include_smc:
+                smc_records.append(smc_row)
+                smc_events.extend(smc_history)
     triggers=[dict(r,signal=r['event']) for r in records if r['health']=='正常' and r['event'] in ('买入','卖出')]
-    return {'module':'super-trend','schema_version':SCHEMA_VERSION,'data_interval':'1d',
+    snapshot={'module':'super-trend','schema_version':SCHEMA_VERSION,'data_interval':'1d',
             'strategy':{'atr_length':LENGTH,'multiplier':MULTIPLIER,'signal':'收盘确认，下一交易日开盘执行'},
             'run_time_cn':now.tz_convert('Asia/Shanghai').isoformat(),'market_dates':{k:v[0] for k,v in contexts.items()},
             'stock_pool_count':len(tickers),'success_count':sum(r['health']=='正常' for r in records),
             'failure_count':sum(r['health']=='更新失败' for r in records),
             'stale_count':sum(r['health']=='行情过期/停牌' for r in records),
             'triggers':triggers,'records':records,'_events':events}
+    if include_smc:
+        snapshot['_smc']={
+            'module':'smc','schema_version':1,'data_interval':'1d','swing_length':SWING_LENGTH,
+            'run_time_cn':snapshot['run_time_cn'],'market_dates':snapshot['market_dates'],
+            'records':smc_records,
+            'triggers':[event for event in smc_events if event['data_date']==contexts[event['market']][0]],
+            '_events':smc_events,
+        }
+    return snapshot
 
 
 def merge_history(previous,events):
