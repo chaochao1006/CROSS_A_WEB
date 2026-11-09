@@ -3,7 +3,7 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-09T17:50:06.501230+08:00",
+  "run_time_cn": "2026-11-10T04:45:14.991868+08:00",
   "market_dates": {
     "A": "2026-11-09",
     "HK": "2026-11-09"
@@ -429,7 +429,7 @@
       "company_name": "海光芯正",
       "market": "HK",
       "health": "更新失败",
-      "error": "OHLC价格关系异常；OHLC价格关系异常；OHLC价格关系异常；OHLC价格关系异常"
+      "error": "OHLC价格关系异常；OHLC价格关系异常；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "03308.HK",
