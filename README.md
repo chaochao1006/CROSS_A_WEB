@@ -1,8 +1,10 @@
 # Supertrend 股票网页监控
 
-网页包含日线 Supertrend 和 SMC 两个模块。Supertrend 使用 ATR(10) × 3。
+网页包含日线 Supertrend、SMC 和 SMC-选。Supertrend 使用 ATR(10) × 3。
 
 SMC 和 Supertrend 共用 `stock_pool.json` 及同一批已收盘复权日线。SMC 使用 Swing 长度 50，监控绿色 Swing BOS 和 CHoCH，页面显示当日触发、股票池状态和历史触发。SMC 快照与历史分别保存为 `data/smc/latest.json` 和 `data/smc/history.json`。
+
+SMC-选使用相同的 SMC 规则，独立股票池为 `smc_selected_pool.json`，初始包含 2026-11-09 估值筛选表中的 660 只 A 股。GitHub Actions 分步更新，结果保存在 `data/smc-selected/`。本地可单独运行 `python run_smc_selected.py`。
 
 页面依次显示：当日买入/卖出触发、当前持有、当前观望；历史触发和异常取数放在折叠区。
 买入/卖出只在收盘趋势翻转当天出现，订单规则为下一可交易日开盘执行。当前持有/观望是策略方向，不是实际账户仓位。

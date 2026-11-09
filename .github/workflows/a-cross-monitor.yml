@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 155
 
     steps:
       - name: Checkout
@@ -34,11 +34,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Verify Supertrend calculation
+      - name: Verify monitor calculation
+        id: verify
         run: python -m unittest discover -s tests -v
 
       - name: Run Supertrend and SMC monitors
+        timeout-minutes: 45
         run: python run_monitor.py
+
+      - name: Run SMC selected watchlist
+        if: ${{ !cancelled() && steps.verify.outcome == 'success' }}
+        timeout-minutes: 100
+        run: python run_smc_selected.py
 
       - name: Commit updated data
         if: ${{ always() && !cancelled() }}
@@ -48,6 +55,9 @@ jobs:
           git add data/latest.json data/history.json
           if [ -d data/smc ]; then
             git add data/smc/latest.json data/smc/history.json
+          fi
+          if [ -f data/smc-selected/latest.json ] && [ -f data/smc-selected/history.json ]; then
+            git add data/smc-selected/latest.json data/smc-selected/history.json
           fi
           if git diff --cached --quiet; then
             echo "No data changes to commit."

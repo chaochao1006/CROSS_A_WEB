@@ -34,11 +34,12 @@ def table(records,events=False):
     return pd.DataFrame(rows)
 
 
-def render_smc():
-    st.title('SMC 股票监控')
-    latest = load_json(DATA_DIR/'smc'/'latest.json')
-    if latest.get('module') != 'smc' or latest.get('schema_version') != 1 or latest.get('data_interval') != '1d':
-        st.info('等待首次 SMC 数据更新。可运行 GitHub Actions 中的 Supertrend Monitor。')
+def render_smc(module, title):
+    st.title(f'{title} 股票监控')
+    folder = DATA_DIR / module
+    latest = load_json(folder/'latest.json')
+    if latest.get('module') != module or latest.get('schema_version') != 1 or latest.get('data_interval') != '1d':
+        st.info(f'等待首次 {title} 数据更新。可运行 GitHub Actions 中的 Supertrend Monitor。')
         return
     st.caption(f"日线 Swing 长度 {latest['swing_length']} · 收盘确认绿色 Swing BOS 或 CHoCH")
     dates = ' ｜ '.join(f"{'A股' if market == 'A' else '港股'} {day}" for market, day in latest['market_dates'].items())
@@ -63,8 +64,8 @@ def render_smc():
         st.dataframe(pd.DataFrame(records).reindex(columns=columns).rename(columns=labels),
                      width='stretch',hide_index=True)
     with st.expander('历史触发'):
-        history = load_json(DATA_DIR/'smc'/'history.json')
-        if history.get('module') == 'smc' and history.get('records'):
+        history = load_json(folder/'history.json')
+        if history.get('module') == module and history.get('records'):
             st.dataframe(pd.DataFrame(history['records']).reindex(columns=event_columns).rename(columns=labels),
                          width='stretch',hide_index=True)
         else:
@@ -72,10 +73,11 @@ def render_smc():
 
 
 st.set_page_config(page_title='股票监控',page_icon='📈',layout='wide')
-if st.sidebar.radio('监控模块', ['Supertrend', 'SMC']) == 'SMC':
+module = st.sidebar.radio('监控模块', ['Supertrend', 'SMC', 'SMC-选'])
+if module in ('SMC', 'SMC-选'):
     if st.button('刷新数据'):
         st.rerun()
-    render_smc()
+    render_smc('smc' if module == 'SMC' else 'smc-selected', module)
     st.stop()
 st.title('Supertrend 股票监控')
 st.caption('日线 ATR(10) × 3 · 收盘确认信号 · 下一交易日开盘执行')
