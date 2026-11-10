@@ -4,7 +4,7 @@
 
 SMC 和 Supertrend 共用 `stock_pool.json` 及同一批已收盘复权日线。SMC 使用 Swing 长度 50，监控绿色 Swing BOS 和 CHoCH，页面显示当日触发、股票池状态和历史触发。SMC 快照与历史分别保存为 `data/smc/latest.json` 和 `data/smc/history.json`。
 
-SMC-选和 Supertrend-选共用 `smc_selected_pool.json` 中的 660 只 A 股，名单来自 2026-11-09 的估值筛选表。定时任务对选股池拉取一批日线，再分别按 SMC 和 Supertrend 的规则计算。结果保存在 `data/smc-selected/` 和 `data/super-trend-selected/`。本地可用 `python run_smc_selected.py` 更新这两个模块。
+SMC-选和 Supertrend-选共用 `smc_selected_pool.json` 中的 621 只 A 股，名单来自 2026-11-09 的估值筛选表行业更新版。定时任务对选股池拉取一批日线，再分别按 SMC 和 Supertrend 的规则计算。结果保存在 `data/smc-selected/` 和 `data/super-trend-selected/`。本地可用 `python run_smc_selected.py` 更新这两个模块。
 
 页面依次显示：当日买入/卖出触发、当前持有、当前观望；历史触发和异常取数放在折叠区。
 买入/卖出只在收盘趋势翻转当天出现，订单规则为下一可交易日开盘执行。当前持有/观望是策略方向，不是实际账户仓位。
