@@ -1,7 +1,7 @@
 {
   "module": "smc",
   "schema_version": 1,
-  "updated_at": "2026-11-10T04:45:14.991868+08:00",
+  "updated_at": "2026-11-10T15:18:57.942867+08:00",
   "records": [
     {
       "ticker": "001216",
@@ -154,6 +154,16 @@
       "level": 78.46
     },
     {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2026-05-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 97.18,
+      "level": 94.53
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -180,8 +190,8 @@
       "data_date": "2026-04-22",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 74.81025114315864,
-      "level": 74.62793668659867
+      "close": 74.83270013790526,
+      "level": 74.65033097258258
     },
     {
       "ticker": "002709",
@@ -404,6 +414,26 @@
       "level": 75.58
     },
     {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2026-01-12",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 18.29,
+      "level": 18.16
+    },
+    {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2026-01-09",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 68.53,
+      "level": 62.86
+    },
+    {
       "ticker": "002428",
       "company_name": "云南锗业",
       "market": "A",
@@ -440,8 +470,8 @@
       "data_date": "2026-01-06",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 38.09,
-      "level": 37.59
+      "close": 26.82,
+      "level": 26.47
     },
     {
       "ticker": "300604",
@@ -484,6 +514,16 @@
       "level": 86.33
     },
     {
+      "ticker": "002865",
+      "company_name": "钧达股份",
+      "market": "A",
+      "data_date": "2025-12-26",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 54.87,
+      "level": 50.1
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -500,8 +540,8 @@
       "data_date": "2025-12-22",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 126.76,
-      "level": 120.33
+      "close": 125.7,
+      "level": 119.27
     },
     {
       "ticker": "600487",
@@ -522,6 +562,16 @@
       "signal": "Swing BOS",
       "close": 13.57,
       "level": 13.39
+    },
+    {
+      "ticker": "002149",
+      "company_name": "西部材料",
+      "market": "A",
+      "data_date": "2025-12-09",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 23.72,
+      "level": 22.61
     },
     {
       "ticker": "603667",
@@ -582,6 +632,16 @@
       "signal": "Swing BOS",
       "close": 36.75,
       "level": 34.44
+    },
+    {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2025-10-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 29.55,
+      "level": 28.02
     },
     {
       "ticker": "603296",
@@ -650,8 +710,8 @@
       "data_date": "2025-09-05",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 129.96454039930325,
-      "level": 113.71649537719418
+      "close": 130.12588928398043,
+      "level": 113.85767257554485
     },
     {
       "ticker": "300207",
@@ -814,6 +874,16 @@
       "level": 350.76
     },
     {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2025-08-19",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 12.18,
+      "level": 11.41
+    },
+    {
       "ticker": "600703",
       "company_name": "三安光电",
       "market": "A",
@@ -934,14 +1004,24 @@
       "level": 34.67
     },
     {
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "market": "A",
+      "data_date": "2025-08-04",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 29.56,
+      "level": 29.21
+    },
+    {
       "ticker": "601869",
       "company_name": "长飞光纤",
       "market": "A",
       "data_date": "2025-07-30",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 48.06,
-      "level": 46.43
+      "close": 47.0,
+      "level": 45.37
     },
     {
       "ticker": "002428",
@@ -1040,8 +1120,8 @@
       "data_date": "2025-07-15",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 37.61810200492438,
-      "level": 36.77614069644741
+      "close": 37.62939041207957,
+      "level": 36.7871764485894
     },
     {
       "ticker": "002916",
@@ -1184,6 +1264,16 @@
       "level": 11.42
     },
     {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2025-05-21",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.45,
+      "level": 25.85
+    },
+    {
       "ticker": "002842",
       "company_name": "翔鹭钨业",
       "market": "A",
@@ -1244,6 +1334,16 @@
       "level": 18.55
     },
     {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2025-02-07",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 10.08,
+      "level": 9.87
+    },
+    {
       "ticker": "000977",
       "company_name": "浪潮信息",
       "market": "A",
@@ -1260,8 +1360,8 @@
       "data_date": "2025-02-06",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 36.88,
-      "level": 36.27
+      "close": 25.97,
+      "level": 25.54
     },
     {
       "ticker": "300124",
@@ -1300,8 +1400,8 @@
       "data_date": "2025-01-23",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 34.3,
-      "level": 32.41
+      "close": 33.24,
+      "level": 31.35
     },
     {
       "ticker": "601137",
@@ -1360,8 +1460,8 @@
       "data_date": "2024-12-17",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 26.86154906788604,
-      "level": 26.331179739711576
+      "close": 26.86960965804175,
+      "level": 26.33908117710306
     },
     {
       "ticker": "603296",
@@ -1484,6 +1584,16 @@
       "level": 5.21
     },
     {
+      "ticker": "002149",
+      "company_name": "西部材料",
+      "market": "A",
+      "data_date": "2024-10-23",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.63,
+      "level": 15.6
+    },
+    {
       "ticker": "603186",
       "company_name": "华正新材",
       "market": "A",
@@ -1564,6 +1674,16 @@
       "level": 15.42
     },
     {
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.97,
+      "level": 26.79
+    },
+    {
       "ticker": "600111",
       "company_name": "北方稀土",
       "market": "A",
@@ -1572,6 +1692,16 @@
       "signal": "Swing CHoCH",
       "close": 22.21,
       "level": 21.57
+    },
+    {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2024-10-08",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 36.86,
+      "level": 34.56
     },
     {
       "ticker": "300308",
@@ -1680,8 +1810,8 @@
       "data_date": "2024-09-30",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 32.56,
-      "level": 31.51
+      "close": 22.93,
+      "level": 22.19
     },
     {
       "ticker": "601689",
@@ -1734,6 +1864,16 @@
       "level": 18.78
     },
     {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 23.1,
+      "level": 21.5
+    },
+    {
       "ticker": "300115",
       "company_name": "长盈精密",
       "market": "A",
@@ -1784,6 +1924,16 @@
       "level": 8.91
     },
     {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2024-09-30",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 22.9,
+      "level": 22.2
+    },
+    {
       "ticker": "000636",
       "company_name": "风华高科",
       "market": "A",
@@ -1820,8 +1970,8 @@
       "data_date": "2024-09-27",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 81.64287953905936,
-      "level": 76.8298030282728
+      "close": 81.74423785968273,
+      "level": 76.92518599189114
     },
     {
       "ticker": "002472",
@@ -1880,8 +2030,8 @@
       "data_date": "2024-07-10",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 30.83,
-      "level": 30.23
+      "close": 21.71,
+      "level": 21.29
     },
     {
       "ticker": "600487",
@@ -1892,6 +2042,16 @@
       "signal": "Swing CHoCH",
       "close": 15.79,
       "level": 15.33
+    },
+    {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2024-06-26",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.98,
+      "level": 5.87
     },
     {
       "ticker": "600522",
@@ -1980,8 +2140,8 @@
       "data_date": "2024-04-30",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 21.808123812873728,
-      "level": 21.378856137882522
+      "close": 21.81466797559779,
+      "level": 21.385271486338038
     },
     {
       "ticker": "601179",
@@ -2002,6 +2162,16 @@
       "signal": "Swing CHoCH",
       "close": 29.07,
       "level": 28.94
+    },
+    {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2024-03-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 32.01,
+      "level": 26.41
     },
     {
       "ticker": "601137",
@@ -2230,8 +2400,18 @@
       "data_date": "2023-10-13",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 19.477813577207176,
-      "level": 19.441350685895184
+      "close": 19.483658462473414,
+      "level": 19.44718462940888
+    },
+    {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2023-10-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 21.68,
+      "level": 20.49
     },
     {
       "ticker": "000426",
@@ -2384,6 +2564,16 @@
       "level": 10.86
     },
     {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2023-04-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 6.09,
+      "level": 6.02
+    },
+    {
       "ticker": "000636",
       "company_name": "风华高科",
       "market": "A",
@@ -2514,6 +2704,16 @@
       "level": 4.29
     },
     {
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "market": "A",
+      "data_date": "2023-02-21",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 25.03,
+      "level": 24.64
+    },
+    {
       "ticker": "603186",
       "company_name": "华正新材",
       "market": "A",
@@ -2550,8 +2750,8 @@
       "data_date": "2023-02-13",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 20.109284558564898,
-      "level": 19.761229686950408
+      "close": 20.115318935091047,
+      "level": 19.76715961947503
     },
     {
       "ticker": "300308",
@@ -2634,6 +2834,16 @@
       "level": 25.1
     },
     {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2023-02-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 18.53,
+      "level": 18.4
+    },
+    {
       "ticker": "002916",
       "company_name": "深南电路",
       "market": "A",
@@ -2662,6 +2872,16 @@
       "signal": "Swing CHoCH",
       "close": 26.49,
       "level": 26.37
+    },
+    {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2023-02-06",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.76,
+      "level": 25.58
     },
     {
       "ticker": "001339",
@@ -2800,8 +3020,8 @@
       "data_date": "2022-08-18",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 39.4,
-      "level": 35.68
+      "close": 38.34,
+      "level": 34.62
     },
     {
       "ticker": "603667",
@@ -2870,8 +3090,8 @@
       "data_date": "2022-06-27",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 42.91,
-      "level": 42.38
+      "close": 30.22,
+      "level": 29.84
     },
     {
       "ticker": "002050",
@@ -2912,6 +3132,16 @@
       "signal": "Swing CHoCH",
       "close": 19.04,
       "level": 18.96
+    },
+    {
+      "ticker": "002865",
+      "company_name": "钧达股份",
+      "market": "A",
+      "data_date": "2022-06-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 73.13,
+      "level": 68.21
     },
     {
       "ticker": "601899",
@@ -2992,6 +3222,16 @@
       "signal": "Swing BOS",
       "close": 46.18,
       "level": 45.86
+    },
+    {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2021-11-30",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 66.12,
+      "level": 65.58
     },
     {
       "ticker": "000977",
@@ -3164,6 +3404,16 @@
       "level": 10.61
     },
     {
+      "ticker": "002149",
+      "company_name": "西部材料",
+      "market": "A",
+      "data_date": "2021-08-10",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 20.17,
+      "level": 19.23
+    },
+    {
       "ticker": "002842",
       "company_name": "翔鹭钨业",
       "market": "A",
@@ -3200,8 +3450,8 @@
       "data_date": "2021-08-02",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 19.77,
-      "level": 19.03
+      "close": 13.93,
+      "level": 13.4
     },
     {
       "ticker": "600183",
@@ -3210,8 +3460,8 @@
       "data_date": "2021-07-27",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 26.669290186422796,
-      "level": 26.42233696799156
+      "close": 26.677293083701475,
+      "level": 26.430265759764396
     },
     {
       "ticker": "600703",
@@ -3250,8 +3500,8 @@
       "data_date": "2021-07-15",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 88.52347179418464,
-      "level": 82.87274889454643
+      "close": 88.63337225932582,
+      "level": 82.97563407817563
     },
     {
       "ticker": "603773",
@@ -3324,6 +3574,16 @@
       "level": 23.84
     },
     {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2021-07-07",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 46.9,
+      "level": 45.04
+    },
+    {
       "ticker": "603799",
       "company_name": "华友钴业",
       "market": "A",
@@ -3342,6 +3602,16 @@
       "signal": "Swing BOS",
       "close": 78.76,
       "level": 76.34
+    },
+    {
+      "ticker": "002865",
+      "company_name": "钧达股份",
+      "market": "A",
+      "data_date": "2021-07-01",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 13.75,
+      "level": 13.73
     },
     {
       "ticker": "601137",
@@ -3390,8 +3660,8 @@
       "data_date": "2021-06-18",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 23.69,
-      "level": 23.52
+      "close": 22.63,
+      "level": 22.46
     },
     {
       "ticker": "002396",
@@ -3504,6 +3774,16 @@
       "level": 5.48
     },
     {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2021-02-25",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 24.39,
+      "level": 22.88
+    },
+    {
       "ticker": "600111",
       "company_name": "北方稀土",
       "market": "A",
@@ -3592,6 +3872,16 @@
       "signal": "Swing BOS",
       "close": 5.81,
       "level": 5.8
+    },
+    {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2020-12-21",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 37.04,
+      "level": 35.78
     },
     {
       "ticker": "603993",
@@ -3684,6 +3974,16 @@
       "level": 8.79
     },
     {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2020-10-26",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 12.94,
+      "level": 12.83
+    },
+    {
       "ticker": "002475",
       "company_name": "立讯精密",
       "market": "A",
@@ -3714,6 +4014,16 @@
       "level": 5.87
     },
     {
+      "ticker": "002865",
+      "company_name": "钧达股份",
+      "market": "A",
+      "data_date": "2020-08-18",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 10.95,
+      "level": 10.81
+    },
+    {
       "ticker": "002472",
       "company_name": "双环传动",
       "market": "A",
@@ -3732,6 +4042,16 @@
       "signal": "Swing BOS",
       "close": 8.14,
       "level": 8.08
+    },
+    {
+      "ticker": "002149",
+      "company_name": "西部材料",
+      "market": "A",
+      "data_date": "2020-08-03",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 7.05,
+      "level": 7.04
     },
     {
       "ticker": "600089",
@@ -3762,6 +4082,16 @@
       "signal": "Swing BOS",
       "close": 18.78,
       "level": 18.77
+    },
+    {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2020-07-13",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 57.79,
+      "level": 57.04
     },
     {
       "ticker": "300115",
@@ -3804,6 +4134,16 @@
       "level": 45.46
     },
     {
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "market": "A",
+      "data_date": "2020-07-09",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 36.8,
+      "level": 36.77
+    },
+    {
       "ticker": "002916",
       "company_name": "深南电路",
       "market": "A",
@@ -3840,8 +4180,8 @@
       "data_date": "2020-07-07",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 17.38,
-      "level": 17.11
+      "close": 12.24,
+      "level": 12.05
     },
     {
       "ticker": "002460",
@@ -3894,14 +4234,24 @@
       "level": 9.55
     },
     {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2020-07-03",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 8.78,
+      "level": 8.55
+    },
+    {
       "ticker": "300274",
       "company_name": "阳光电源",
       "market": "A",
       "data_date": "2020-06-30",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 9.96413238643977,
-      "level": 9.88276698378668
+      "close": 9.976502696390378,
+      "level": 9.895036279899752
     },
     {
       "ticker": "002709",
@@ -3974,6 +4324,16 @@
       "level": 6.13
     },
     {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2020-05-29",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 29.5,
+      "level": 29.2
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -4000,8 +4360,8 @@
       "data_date": "2020-03-10",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 37.7,
-      "level": 35.15
+      "close": 36.64,
+      "level": 34.09
     },
     {
       "ticker": "601179",
@@ -4040,8 +4400,8 @@
       "data_date": "2020-02-24",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 31.777409778403097,
-      "level": 29.740460077383048
+      "close": 31.78694551574224,
+      "level": 29.749384568637083
     },
     {
       "ticker": "002405",
@@ -4090,8 +4450,8 @@
       "data_date": "2020-02-20",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 9.294432533833579,
-      "level": 9.280871633391397
+      "close": 9.305971422198311,
+      "level": 9.29239368611654
     },
     {
       "ticker": "002015",
@@ -4134,6 +4494,26 @@
       "level": 6.65
     },
     {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2020-02-05",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 7.14,
+      "level": 7.02
+    },
+    {
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "market": "A",
+      "data_date": "2020-01-20",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 26.28,
+      "level": 24.53
+    },
+    {
       "ticker": "300604",
       "company_name": "长川科技",
       "market": "A",
@@ -4150,8 +4530,8 @@
       "data_date": "2020-01-17",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 11.84,
-      "level": 11.52
+      "close": 8.34,
+      "level": 8.11
     },
     {
       "ticker": "000988",
@@ -4232,6 +4612,16 @@
       "signal": "Swing BOS",
       "close": 11.06,
       "level": 10.34
+    },
+    {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2020-01-06",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 14.72,
+      "level": 14.7
     },
     {
       "ticker": "000021",
@@ -4434,6 +4824,16 @@
       "level": 8.41
     },
     {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2019-10-14",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 6.75,
+      "level": 6.68
+    },
+    {
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
@@ -4594,6 +4994,16 @@
       "level": 18.66
     },
     {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2019-08-19",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 6.82,
+      "level": 6.61
+    },
+    {
       "ticker": "002185",
       "company_name": "华天科技",
       "market": "A",
@@ -4612,6 +5022,16 @@
       "signal": "Swing BOS",
       "close": 8.64,
       "level": 8.02
+    },
+    {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2019-08-15",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 32.3,
+      "level": 31.93
     },
     {
       "ticker": "000938",
@@ -4684,6 +5104,26 @@
       "level": 12.77
     },
     {
+      "ticker": "002149",
+      "company_name": "西部材料",
+      "market": "A",
+      "data_date": "2019-04-08",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 9.54,
+      "level": 9.25
+    },
+    {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "market": "A",
+      "data_date": "2019-03-21",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.98,
+      "level": 5.91
+    },
+    {
       "ticker": "002384",
       "company_name": "东山精密",
       "market": "A",
@@ -4692,6 +5132,16 @@
       "signal": "Swing CHoCH",
       "close": 17.35,
       "level": 17.23
+    },
+    {
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "market": "A",
+      "data_date": "2019-03-12",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 25.09,
+      "level": 24.88
     },
     {
       "ticker": "002396",
@@ -4834,14 +5284,24 @@
       "level": 6.18
     },
     {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2019-02-25",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 29.41,
+      "level": 29.05
+    },
+    {
       "ticker": "600183",
       "company_name": "生益科技",
       "market": "A",
       "data_date": "2019-02-22",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 13.03548364403799,
-      "level": 12.715604642982766
+      "close": 13.03939532057126,
+      "level": 12.719420330505109
     },
     {
       "ticker": "300308",
@@ -4954,6 +5414,16 @@
       "level": 12.35
     },
     {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2019-02-14",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 14.2,
+      "level": 12.91
+    },
+    {
       "ticker": "600176",
       "company_name": "中国巨石",
       "market": "A",
@@ -4962,6 +5432,16 @@
       "signal": "Swing BOS",
       "close": 7.08,
       "level": 6.65
+    },
+    {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2019-02-13",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 3.03,
+      "level": 2.85
     },
     {
       "ticker": "000021",
@@ -5052,6 +5532,16 @@
       "signal": "Swing CHoCH",
       "close": 3.72,
       "level": 3.7
+    },
+    {
+      "ticker": "002865",
+      "company_name": "钧达股份",
+      "market": "A",
+      "data_date": "2018-11-22",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 15.75,
+      "level": 15.29
     },
     {
       "ticker": "002463",
@@ -5394,6 +5884,16 @@
       "level": 1.17
     },
     {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "market": "A",
+      "data_date": "2017-07-31",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 30.22,
+      "level": 30.12
+    },
+    {
       "ticker": "000426",
       "company_name": "兴业银锡",
       "market": "A",
@@ -5410,8 +5910,8 @@
       "data_date": "2017-07-19",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 10.638877242349631,
-      "level": 10.3736925782624
+      "close": 10.642069747329549,
+      "level": 10.376805506860205
     },
     {
       "ticker": "300115",
@@ -5500,8 +6000,8 @@
       "data_date": "2017-06-08",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 7.450150073696905,
-      "level": 7.39590647192818
+      "close": 7.45939931507748,
+      "level": 7.405088370750397
     },
     {
       "ticker": "600176",
@@ -5634,6 +6134,16 @@
       "level": 8.75
     },
     {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2017-03-03",
+      "health": "正常",
+      "signal": "Swing BOS",
+      "close": 29.4,
+      "level": 28.85
+    },
+    {
       "ticker": "002008",
       "company_name": "大族激光",
       "market": "A",
@@ -5672,6 +6182,16 @@
       "signal": "Swing BOS",
       "close": 3.27,
       "level": 3.24
+    },
+    {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "market": "A",
+      "data_date": "2017-02-09",
+      "health": "正常",
+      "signal": "Swing CHoCH",
+      "close": 5.09,
+      "level": 5.04
     },
     {
       "ticker": "601137",
