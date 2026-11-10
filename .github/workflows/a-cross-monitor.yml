@@ -42,7 +42,7 @@ jobs:
         timeout-minutes: 45
         run: python run_monitor.py
 
-      - name: Run SMC selected watchlist
+      - name: Run Supertrend and SMC for the selected watchlist
         if: ${{ !cancelled() && steps.verify.outcome == 'success' }}
         timeout-minutes: 100
         run: python run_smc_selected.py
@@ -58,6 +58,9 @@ jobs:
           fi
           if [ -f data/smc-selected/latest.json ] && [ -f data/smc-selected/history.json ]; then
             git add data/smc-selected/latest.json data/smc-selected/history.json
+          fi
+          if [ -f data/super-trend-selected/latest.json ] && [ -f data/super-trend-selected/history.json ]; then
+            git add data/super-trend-selected/latest.json data/super-trend-selected/history.json
           fi
           if git diff --cached --quiet; then
             echo "No data changes to commit."

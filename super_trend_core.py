@@ -218,7 +218,7 @@ def analyze_supertrend(df, source, note, ticker, name, expected, execution_date)
     return record,events
 
 
-def build_snapshot(tickers=None,names=None,now=None,*,include_smc=False):
+def build_snapshot(tickers=None,names=None,now=None,*,include_smc=False,max_workers=4):
     if tickers is None:
         tickers,names=load_pool()
     names=names or {}
@@ -253,7 +253,7 @@ def build_snapshot(tickers=None,names=None,now=None,*,include_smc=False):
                 smc_result=({**base,'health':'更新失败','error':str(exc)},[])
         return st_result,smc_result
     records,events,smc_records,smc_events=[],[],[],[]
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
         for (row,history),(smc_row,smc_history) in executor.map(worker,tickers):
             records.append(row);events.extend(history)
             if include_smc:

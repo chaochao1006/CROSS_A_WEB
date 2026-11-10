@@ -1,10 +1,10 @@
 # Supertrend 股票网页监控
 
-网页包含日线 Supertrend、SMC 和 SMC-选。Supertrend 使用 ATR(10) × 3。
+网页包含日线 Supertrend、SMC、SMC-选和 Supertrend-选。两个 Supertrend 模块使用 ATR(10) × 3。
 
 SMC 和 Supertrend 共用 `stock_pool.json` 及同一批已收盘复权日线。SMC 使用 Swing 长度 50，监控绿色 Swing BOS 和 CHoCH，页面显示当日触发、股票池状态和历史触发。SMC 快照与历史分别保存为 `data/smc/latest.json` 和 `data/smc/history.json`。
 
-SMC-选使用相同的 SMC 规则，独立股票池为 `smc_selected_pool.json`，初始包含 2026-11-09 估值筛选表中的 660 只 A 股。GitHub Actions 分步更新，结果保存在 `data/smc-selected/`。本地可单独运行 `python run_smc_selected.py`。
+SMC-选和 Supertrend-选共用 `smc_selected_pool.json` 中的 660 只 A 股，名单来自 2026-11-09 的估值筛选表。定时任务对选股池拉取一批日线，再分别按 SMC 和 Supertrend 的规则计算。结果保存在 `data/smc-selected/` 和 `data/super-trend-selected/`。本地可用 `python run_smc_selected.py` 更新这两个模块。
 
 页面依次显示：当日买入/卖出触发、当前持有、当前观望；历史触发和异常取数放在折叠区。
 买入/卖出只在收盘趋势翻转当天出现，订单规则为下一可交易日开盘执行。当前持有/观望是策略方向，不是实际账户仓位。
@@ -12,7 +12,7 @@ SMC-选使用相同的 SMC 规则，独立股票池为 `smc_selected_pool.json`�
 ## 股票池
 
 编辑 `stock_pool.json` 的 `tickers` 列表即可调整股票池；`names` 是中文名称映射。
-当前监控76只股票（72只A股、4只港股）。代码必须用引号保留前导零，港股格式如 `02476.HK`。
+普通股票池共84只（80只A股、4只港股）。代码必须用引号保留前导零，港股格式如 `02476.HK`。
 
 ## 本地运行
 

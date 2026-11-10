@@ -73,19 +73,21 @@ def render_smc(module, title):
 
 
 st.set_page_config(page_title='股票监控',page_icon='📈',layout='wide')
-module = st.sidebar.radio('监控模块', ['Supertrend', 'SMC', 'SMC-选'])
+module = st.sidebar.radio('监控模块', ['Supertrend', 'SMC', 'SMC-选', 'Supertrend-选'])
 if module in ('SMC', 'SMC-选'):
     if st.button('刷新数据'):
         st.rerun()
     render_smc('smc' if module == 'SMC' else 'smc-selected', module)
     st.stop()
-st.title('Supertrend 股票监控')
+supertrend_module = 'super-trend-selected' if module == 'Supertrend-选' else 'super-trend'
+supertrend_folder = DATA_DIR / supertrend_module if module == 'Supertrend-选' else DATA_DIR
+st.title(f'{module} 股票监控')
 st.caption('日线 ATR(10) × 3 · 收盘确认信号 · 下一交易日开盘执行')
 if st.button('刷新数据',help='重新读取已生成的监控结果；行情由GitHub Actions更新。'):
     st.rerun()
-latest=load_json(DATA_DIR/'latest.json')
-if latest.get('module')!='super-trend' or latest.get('schema_version')!=1 or latest.get('data_interval')!='1d':
-    st.info('等待首次Supertrend数据更新。请运行GitHub Actions中的Supertrend Monitor。')
+latest=load_json(supertrend_folder/'latest.json')
+if latest.get('module')!=supertrend_module or latest.get('schema_version')!=1 or latest.get('data_interval')!='1d':
+    st.info(f'等待首次{module}数据更新。请运行GitHub Actions中的Supertrend Monitor。')
     st.stop()
 records=latest.get('records',[])
 fresh=[r for r in records if r.get('health')=='正常']
@@ -117,8 +119,8 @@ if waits:
 else:
     st.info('暂无观望信号。')
 with st.expander('历史买卖触发记录'):
-    history=load_json(DATA_DIR/'history.json')
-    rows=history.get('records',[]) if history.get('module')=='super-trend' else []
+    history=load_json(supertrend_folder/'history.json')
+    rows=history.get('records',[]) if history.get('module')==supertrend_module else []
     if rows:
         st.dataframe(table(rows,True),width='stretch',hide_index=True)
     else:
