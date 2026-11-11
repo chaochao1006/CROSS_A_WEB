@@ -3,10 +3,10 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-10T15:18:57.942867+08:00",
+  "run_time_cn": "2026-11-11T01:51:39.840618+08:00",
   "market_dates": {
     "A": "2026-11-10",
-    "HK": "2026-11-09"
+    "HK": "2026-11-10"
   },
   "records": [
     {
@@ -414,14 +414,14 @@
       "ticker": "02476.HK",
       "company_name": "胜宏科技",
       "market": "HK",
-      "data_date": "2026-11-09",
+      "data_date": "2026-11-10",
       "health": "正常"
     },
     {
       "ticker": "02513.HK",
       "company_name": "智谱",
       "market": "HK",
-      "data_date": "2026-11-09",
+      "data_date": "2026-11-10",
       "health": "正常"
     },
     {
@@ -429,13 +429,13 @@
       "company_name": "海光芯正",
       "market": "HK",
       "health": "更新失败",
-      "error": "OHLC价格关系异常；OHLC价格关系异常；OHLC价格关系异常；OHLC价格关系异常"
+      "error": "OHLC价格关系异常；OHLC价格关系异常；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "03308.HK",
       "company_name": "中际旭创",
       "market": "HK",
-      "data_date": "2026-11-09",
+      "data_date": "2026-11-10",
       "health": "正常"
     },
     {
