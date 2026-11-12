@@ -1,8 +1,98 @@
 {
   "module": "super-trend-selected",
   "schema_version": 1,
-  "updated_at": "2026-11-12T01:55:29.261070+08:00",
+  "updated_at": "2026-11-12T10:38:38.844643+08:00",
   "records": [
+    {
+      "ticker": "603786",
+      "company_name": "科博达",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 39.4,
+      "supertrend": 34.18197961466552
+    },
+    {
+      "ticker": "603730",
+      "company_name": "岱美股份",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 11.19,
+      "supertrend": 8.227660813496694
+    },
+    {
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 22.92,
+      "supertrend": 18.57302566728187
+    },
+    {
+      "ticker": "301071",
+      "company_name": "力量钻石",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 59.38,
+      "supertrend": 45.577326535588384
+    },
+    {
+      "ticker": "300607",
+      "company_name": "拓斯达",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 33.37,
+      "supertrend": 25.69170439751964
+    },
+    {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 51.27,
+      "supertrend": 38.83195710499917
+    },
+    {
+      "ticker": "002703",
+      "company_name": "浙江世宝",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 16.56,
+      "supertrend": 12.895022253279066
+    },
+    {
+      "ticker": "001339",
+      "company_name": "智微智能",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 69.73,
+      "supertrend": 51.639759911644234
+    },
+    {
+      "ticker": "000887",
+      "company_name": "中鼎股份",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 18.68,
+      "supertrend": 15.542300807379895
+    },
+    {
+      "ticker": "000506",
+      "company_name": "招金黄金",
+      "market": "A",
+      "data_date": "2026-11-11",
+      "signal": "买入",
+      "close": 14.83,
+      "supertrend": 11.969662495754731
+    },
     {
       "ticker": "603283",
       "company_name": "赛腾股份",
@@ -369,8 +459,8 @@
       "market": "A",
       "data_date": "2026-11-05",
       "signal": "买入",
-      "close": 40.2661965837943,
-      "supertrend": 32.60875470047948
+      "close": 40.27955954075914,
+      "supertrend": 32.61957641752028
     },
     {
       "ticker": "300049",
@@ -558,8 +648,8 @@
       "market": "A",
       "data_date": "2026-11-04",
       "signal": "买入",
-      "close": 35.924173646186304,
-      "supertrend": 32.21917369044763
+      "close": 35.92525023969319,
+      "supertrend": 32.22013925067273
     },
     {
       "ticker": "300558",
@@ -612,8 +702,8 @@
       "market": "A",
       "data_date": "2026-11-04",
       "signal": "买入",
-      "close": 15.402740286298567,
-      "supertrend": 14.567413376758408
+      "close": 15.372712351251538,
+      "supertrend": 14.539013927403953
     },
     {
       "ticker": "002555",
@@ -792,8 +882,8 @@
       "market": "A",
       "data_date": "2026-11-02",
       "signal": "买入",
-      "close": 344.5979072994125,
-      "supertrend": 316.7398649059931
+      "close": 344.6900918444709,
+      "supertrend": 316.82459705244474
     },
     {
       "ticker": "603338",
@@ -1125,8 +1215,8 @@
       "market": "A",
       "data_date": "2026-10-29",
       "signal": "买入",
-      "close": 13.62,
-      "supertrend": 12.14829985991367
+      "close": 13.47,
+      "supertrend": 11.998299859913672
     },
     {
       "ticker": "603667",
@@ -2970,8 +3060,8 @@
       "market": "A",
       "data_date": "2026-10-14",
       "signal": "卖出",
-      "close": 21.91,
-      "supertrend": 28.01489580877221
+      "close": 21.86,
+      "supertrend": 27.964895808772212
     },
     {
       "ticker": "300568",
@@ -3150,8 +3240,8 @@
       "market": "A",
       "data_date": "2026-10-13",
       "signal": "卖出",
-      "close": 38.38021586602799,
-      "supertrend": 41.110268192759065
+      "close": 38.243466700559225,
+      "supertrend": 40.96379181839002
     },
     {
       "ticker": "300001",
@@ -3555,8 +3645,8 @@
       "market": "A",
       "data_date": "2026-10-09",
       "signal": "卖出",
-      "close": 20.92783568904594,
-      "supertrend": 23.228076346610088
+      "close": 20.975266118563393,
+      "supertrend": 23.280719995688457
     },
     {
       "ticker": "600566",
@@ -4050,8 +4140,8 @@
       "market": "A",
       "data_date": "2026-10-08",
       "signal": "卖出",
-      "close": 88.82101497504159,
-      "supertrend": 123.84457206933007
+      "close": 89.27349988826816,
+      "supertrend": 124.47547907328762
     },
     {
       "ticker": "300666",
@@ -4284,8 +4374,8 @@
       "market": "A",
       "data_date": "2026-10-08",
       "signal": "买入",
-      "close": 42.649992918501184,
-      "supertrend": 40.62164232683463
+      "close": 42.540506654286595,
+      "supertrend": 40.51736301609419
     },
     {
       "ticker": "001389",
@@ -5886,8 +5976,8 @@
       "market": "A",
       "data_date": "2026-09-17",
       "signal": "卖出",
-      "close": 11.193554451456961,
-      "supertrend": 12.08961738918558
+      "close": 11.175269396551727,
+      "supertrend": 12.06986858475503
     },
     {
       "ticker": "000758",
@@ -6201,8 +6291,8 @@
       "market": "A",
       "data_date": "2026-09-14",
       "signal": "卖出",
-      "close": 357.1187230905977,
-      "supertrend": 383.4942395248807
+      "close": 357.2142571211957,
+      "supertrend": 383.59682935858035
     },
     {
       "ticker": "601179",
@@ -6534,8 +6624,8 @@
       "market": "A",
       "data_date": "2026-09-11",
       "signal": "卖出",
-      "close": 14.988654396728014,
-      "supertrend": 16.04730943418875
+      "close": 14.959433729995895,
+      "supertrend": 16.01602489933244
     },
     {
       "ticker": "002555",
@@ -7308,8 +7398,8 @@
       "market": "A",
       "data_date": "2026-09-01",
       "signal": "买入",
-      "close": 12.2924130522358,
-      "supertrend": 11.368159987962855
+      "close": 12.272332974137933,
+      "supertrend": 11.34958970892836
     },
     {
       "ticker": "605118",
@@ -7812,8 +7902,8 @@
       "market": "A",
       "data_date": "2026-08-24",
       "signal": "卖出",
-      "close": 37.866504699188035,
-      "supertrend": 42.42357588874212
+      "close": 37.86763950143816,
+      "supertrend": 42.424847259568644
     },
     {
       "ticker": "300378",
@@ -7866,8 +7956,8 @@
       "market": "A",
       "data_date": "2026-08-24",
       "signal": "卖出",
-      "close": 12.57,
-      "supertrend": 13.733929238829603
+      "close": 12.42,
+      "supertrend": 13.583929238829604
     },
     {
       "ticker": "002139",
@@ -8253,8 +8343,8 @@
       "market": "A",
       "data_date": "2026-08-19",
       "signal": "卖出",
-      "close": 9.3,
-      "supertrend": 10.355679850048595
+      "close": 9.2,
+      "supertrend": 10.255679850048596
     },
     {
       "ticker": "002065",
@@ -8829,8 +8919,8 @@
       "market": "A",
       "data_date": "2026-08-14",
       "signal": "买入",
-      "close": 67.34142311833219,
-      "supertrend": 52.36031180156947
+      "close": 67.684483575419,
+      "supertrend": 52.627053305803656
     },
     {
       "ticker": "300661",
@@ -8912,96 +9002,6 @@
       "signal": "买入",
       "close": 6.59,
       "supertrend": 5.048248838774492
-    },
-    {
-      "ticker": "002980",
-      "company_name": "华盛昌",
-      "market": "A",
-      "data_date": "2026-08-13",
-      "signal": "买入",
-      "close": 90.21,
-      "supertrend": 69.85644004275807
-    },
-    {
-      "ticker": "002407",
-      "company_name": "多氟多",
-      "market": "A",
-      "data_date": "2026-08-13",
-      "signal": "买入",
-      "close": 38.97,
-      "supertrend": 30.329376296627945
-    },
-    {
-      "ticker": "002015",
-      "company_name": "协鑫能科",
-      "market": "A",
-      "data_date": "2026-08-13",
-      "signal": "买入",
-      "close": 16.44,
-      "supertrend": 13.653847371335877
-    },
-    {
-      "ticker": "000973",
-      "company_name": "佛塑科技",
-      "market": "A",
-      "data_date": "2026-08-13",
-      "signal": "买入",
-      "close": 14.12,
-      "supertrend": 11.845354719644424
-    },
-    {
-      "ticker": "000157",
-      "company_name": "中联重科",
-      "market": "A",
-      "data_date": "2026-08-13",
-      "signal": "卖出",
-      "close": 6.97,
-      "supertrend": 7.520979898343718
-    },
-    {
-      "ticker": "600285",
-      "company_name": "羚锐制药",
-      "market": "A",
-      "data_date": "2026-08-12",
-      "signal": "卖出",
-      "close": 20.47,
-      "supertrend": 22.916656654293504
-    },
-    {
-      "ticker": "301183",
-      "company_name": "东田微",
-      "market": "A",
-      "data_date": "2026-08-12",
-      "signal": "买入",
-      "close": 200.69,
-      "supertrend": 143.61013044580028
-    },
-    {
-      "ticker": "300827",
-      "company_name": "上能电气",
-      "market": "A",
-      "data_date": "2026-08-12",
-      "signal": "买入",
-      "close": 27.54,
-      "supertrend": 23.911906091393526
-    },
-    {
-      "ticker": "300395",
-      "company_name": "菲利华",
-      "market": "A",
-      "data_date": "2026-08-12",
-      "signal": "买入",
-      "close": 94.82,
-      "supertrend": 71.58952235714656
-    },
-    {
-      "ticker": "300031",
-      "company_name": "宝通科技",
-      "market": "A",
-      "data_date": "2026-08-12",
-      "signal": "买入",
-      "close": 22.42,
-      "supertrend": 19.013647156869926
     }
   ]
 }
