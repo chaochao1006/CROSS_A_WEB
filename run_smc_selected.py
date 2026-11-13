@@ -1,6 +1,6 @@
 """Update both selected-pool monitors from one batch of daily prices."""
 
-from run_monitor import DATA_DIR, ROOT, save_snapshot
+from run_monitor import DATA_DIR, ROOT, save_snapshot, require_fresh_coverage
 from super_trend_core import build_snapshot, load_pool
 
 
@@ -15,15 +15,12 @@ def build_selected_snapshots(now=None):
 
 
 def main():
-    failed = []
-    for label, snapshot in zip(("Supertrend-选", "SMC-选"), build_selected_snapshots()):
+    snapshots = list(zip(("Supertrend-选", "SMC-选"), build_selected_snapshots()))
+    for label, snapshot in snapshots:
         save_snapshot(DATA_DIR / snapshot["module"], snapshot)
         fresh = sum(record["health"] == "正常" for record in snapshot["records"])
         print(f"{label}: {fresh}/{len(snapshot['records'])} 行情正常，{len(snapshot['triggers'])} 个触发")
-        if not fresh:
-            failed.append(label)
-    if failed:
-        raise RuntimeError(f"{'、'.join(failed)}无新鲜行情，已保存数据状态")
+    require_fresh_coverage(snapshots)
 
 
 if __name__ == "__main__":

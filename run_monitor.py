@@ -1,6 +1,7 @@
 """GitHub Actions / local entry point for the stock monitors."""
 import json
 import os
+from collections import Counter
 from pathlib import Path
 
 from super_trend_core import build_snapshot, merge_history
@@ -31,6 +32,23 @@ def save_snapshot(folder, snapshot):
     save_json(folder/'latest.json',snapshot)
 
 
+def require_fresh_coverage(snapshots, minimum=.9):
+    """Persist actual failures, but do not label a nearly empty scan successful."""
+    problems = []
+    for label, snapshot in snapshots:
+        records = snapshot.get('records', [])
+        total = snapshot.get('stock_pool_count', len(records))
+        fresh = snapshot.get('success_count', sum(r.get('health') == '正常' for r in records))
+        errors = Counter(r.get('error', r.get('health', '未知')) for r in records if r.get('health') != '正常')
+        print(f'{label}: 新鲜行情 {fresh}/{total}，最低覆盖要求 {minimum:.0%}', flush=True)
+        for error, count in errors.most_common(3):
+            print(f'  {count}只: {str(error).replace(chr(10), " ")[:350]}', flush=True)
+        if not total or fresh / total < minimum:
+            problems.append(f'{label}新鲜行情覆盖不足: {fresh}/{total}，要求至少{minimum:.0%}')
+    if problems:
+        raise RuntimeError('；'.join(problems) + '。真实失败状态已保存，请查看行情错误详情')
+
+
 def run_monitor(snapshot=None):
     snapshot = build_snapshot() if snapshot is None else snapshot
     smc = snapshot.pop('_smc', None)
@@ -40,8 +58,10 @@ def run_monitor(snapshot=None):
         print(f"SMC: {len(smc['triggers'])} triggers")
     print(f"Supertrend: {snapshot['success_count']}/{snapshot['stock_pool_count']} fresh, "
           f"{snapshot['stale_count']} stale, {snapshot['failure_count']} failed, {len(snapshot['triggers'])} triggers")
-    if snapshot['success_count']==0:
-        raise RuntimeError('全部股票均无新鲜行情，已保存失败状态，请检查网络和数据源')
+    checks = [('Supertrend', snapshot)]
+    if smc is not None:
+        checks.append(('SMC', smc))
+    require_fresh_coverage(checks)
     return DATA_DIR/'latest.json'
 
 

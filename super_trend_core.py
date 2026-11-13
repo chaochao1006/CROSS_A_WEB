@@ -15,6 +15,7 @@ import exchange_calendars as xc
 import requests
 
 from smc_core import SWING_LENGTH, analyze_smc
+from market_data_fallback import tencent_a_daily
 
 ROOT = Path(__file__).resolve().parent
 LENGTH, MULTIPLIER = 10, 3.0
@@ -183,6 +184,13 @@ def fetch_daily(ticker, expected):
     if market_of(ticker)=='HK':
         try:
             return yahoo_hk(ticker,expected)
+        except Exception as exc:
+            errors.append(str(exc))
+    else:
+        try:
+            df, source, note = tencent_a_daily(ticker, expected, START)
+            validate_daily(df)
+            return df, source, note
         except Exception as exc:
             errors.append(str(exc))
     raise ValueError('；'.join(errors))
