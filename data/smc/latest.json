@@ -3,17 +3,17 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-13T14:56:55.843280+08:00",
+  "run_time_cn": "2026-11-14T01:46:32.066669+08:00",
   "market_dates": {
-    "A": "2026-11-12",
-    "HK": "2026-11-12"
+    "A": "2026-11-13",
+    "HK": "2026-11-13"
   },
   "records": [
     {
       "ticker": "000725",
       "company_name": "京东方A",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-05-22"
@@ -22,7 +22,7 @@
       "ticker": "000977",
       "company_name": "浪潮信息",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-04-20"
@@ -31,7 +31,7 @@
       "ticker": "603083",
       "company_name": "剑桥科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-04-17"
@@ -40,7 +40,7 @@
       "ticker": "603629",
       "company_name": "利通电子",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-21"
@@ -49,7 +49,7 @@
       "ticker": "601869",
       "company_name": "长飞光纤",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-12-22"
@@ -58,7 +58,7 @@
       "ticker": "600105",
       "company_name": "永鼎股份",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-04-08"
@@ -67,7 +67,7 @@
       "ticker": "002050",
       "company_name": "三花智控",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-09-16"
@@ -76,7 +76,7 @@
       "ticker": "600580",
       "company_name": "卧龙电驱",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-07-21"
@@ -85,7 +85,7 @@
       "ticker": "002472",
       "company_name": "双环传动",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-08-06"
@@ -94,7 +94,7 @@
       "ticker": "001309",
       "company_name": "德明利",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-08-22"
@@ -103,7 +103,7 @@
       "ticker": "600584",
       "company_name": "长电科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-11"
@@ -112,7 +112,7 @@
       "ticker": "600703",
       "company_name": "三安光电",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-06-22"
@@ -121,7 +121,7 @@
       "ticker": "002156",
       "company_name": "通富微电",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-11"
@@ -130,7 +130,7 @@
       "ticker": "000988",
       "company_name": "华工科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-03-04"
@@ -139,7 +139,7 @@
       "ticker": "001270",
       "company_name": "铖昌科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-12-05"
@@ -148,7 +148,7 @@
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-12-04"
@@ -157,7 +157,7 @@
       "ticker": "603596",
       "company_name": "伯特利",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-01-06"
@@ -166,7 +166,7 @@
       "ticker": "002405",
       "company_name": "四维图新",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-01-07"
@@ -175,7 +175,7 @@
       "ticker": "300346",
       "company_name": "南大光电",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-06-11"
@@ -184,7 +184,7 @@
       "ticker": "002371",
       "company_name": "北方华创",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-04-30"
@@ -193,7 +193,7 @@
       "ticker": "002384",
       "company_name": "东山精密",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-12-29"
@@ -202,7 +202,7 @@
       "ticker": "002428",
       "company_name": "云南锗业",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-07"
@@ -211,7 +211,7 @@
       "ticker": "002463",
       "company_name": "沪电股份",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-02-26"
@@ -220,7 +220,7 @@
       "ticker": "300604",
       "company_name": "长川科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-06"
@@ -229,7 +229,7 @@
       "ticker": "600183",
       "company_name": "生益科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-04-22"
@@ -238,7 +238,7 @@
       "ticker": "603019",
       "company_name": "中科曙光",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-08-22"
@@ -247,7 +247,7 @@
       "ticker": "300115",
       "company_name": "长盈精密",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-08-06"
@@ -256,7 +256,7 @@
       "ticker": "002709",
       "company_name": "天赐材料",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-04-21"
@@ -265,7 +265,7 @@
       "ticker": "002475",
       "company_name": "立讯精密",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-11"
@@ -274,7 +274,7 @@
       "ticker": "002281",
       "company_name": "光迅科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-14"
@@ -283,7 +283,7 @@
       "ticker": "603881",
       "company_name": "数据港",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-02-12"
@@ -292,7 +292,7 @@
       "ticker": "603667",
       "company_name": "五洲新春",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-12-08"
@@ -301,7 +301,7 @@
       "ticker": "603650",
       "company_name": "彤程新材",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-06-11"
@@ -310,7 +310,7 @@
       "ticker": "601689",
       "company_name": "拓普集团",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-08-21"
@@ -319,7 +319,7 @@
       "ticker": "300308",
       "company_name": "中际旭创",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-04-08"
@@ -328,7 +328,7 @@
       "ticker": "002185",
       "company_name": "华天科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-25"
@@ -337,21 +337,21 @@
       "ticker": "688825",
       "company_name": "长鑫科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常"
     },
     {
       "ticker": "688836",
       "company_name": "C宇树",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常"
     },
     {
       "ticker": "600522",
       "company_name": "中天科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-26"
@@ -360,7 +360,7 @@
       "ticker": "605358",
       "company_name": "立昂微",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-08"
@@ -369,7 +369,7 @@
       "ticker": "600487",
       "company_name": "亨通光电",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-12-22"
@@ -378,7 +378,7 @@
       "ticker": "002916",
       "company_name": "深南电路",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-07-15"
@@ -387,7 +387,7 @@
       "ticker": "603773",
       "company_name": "沃格光电",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-23"
@@ -396,7 +396,7 @@
       "ticker": "603986",
       "company_name": "兆易创新",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-08-21"
@@ -405,7 +405,7 @@
       "ticker": "603186",
       "company_name": "华正新材",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-06-30"
@@ -414,35 +414,35 @@
       "ticker": "02476.HK",
       "company_name": "胜宏科技",
       "market": "HK",
-      "data_date": "2026-11-12",
-      "health": "正常"
+      "health": "更新失败",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "02513.HK",
       "company_name": "智谱",
       "market": "HK",
-      "data_date": "2026-11-12",
-      "health": "正常"
+      "health": "更新失败",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "01191.HK",
       "company_name": "海光芯正",
       "market": "HK",
       "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；OHLC价格关系异常；OHLC价格关系异常"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "03308.HK",
       "company_name": "中际旭创",
       "market": "HK",
-      "data_date": "2026-11-12",
-      "health": "正常"
+      "health": "更新失败",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "000938",
       "company_name": "紫光股份",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-04-27"
@@ -451,7 +451,7 @@
       "ticker": "002396",
       "company_name": "星网锐捷",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-07-08"
@@ -460,7 +460,7 @@
       "ticker": "002015",
       "company_name": "协鑫能科",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-03-06"
@@ -469,7 +469,7 @@
       "ticker": "600176",
       "company_name": "中国巨石",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-05"
@@ -478,7 +478,7 @@
       "ticker": "600699",
       "company_name": "均胜电子",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-08-15"
@@ -487,7 +487,7 @@
       "ticker": "000021",
       "company_name": "深科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-18"
@@ -496,7 +496,7 @@
       "ticker": "300207",
       "company_name": "欣旺达",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-09-05"
@@ -505,7 +505,7 @@
       "ticker": "002008",
       "company_name": "大族激光",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-19"
@@ -514,7 +514,7 @@
       "ticker": "300274",
       "company_name": "阳光电源",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-09-05"
@@ -523,7 +523,7 @@
       "ticker": "600111",
       "company_name": "北方稀土",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-02-27"
@@ -532,7 +532,7 @@
       "ticker": "000426",
       "company_name": "兴业银锡",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-06"
@@ -541,7 +541,7 @@
       "ticker": "603799",
       "company_name": "华友钴业",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-06"
@@ -550,7 +550,7 @@
       "ticker": "600362",
       "company_name": "江西铜业",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-08-13"
@@ -559,7 +559,7 @@
       "ticker": "002842",
       "company_name": "翔鹭钨业",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-06-22"
@@ -568,7 +568,7 @@
       "ticker": "002460",
       "company_name": "赣锋锂业",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-03-27"
@@ -577,7 +577,7 @@
       "ticker": "000657",
       "company_name": "中钨高新",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-06-03"
@@ -586,7 +586,7 @@
       "ticker": "603993",
       "company_name": "洛阳钼业",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-06-27"
@@ -595,7 +595,7 @@
       "ticker": "600089",
       "company_name": "特变电工",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-09-17"
@@ -604,7 +604,7 @@
       "ticker": "601179",
       "company_name": "中国西电",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-10-27"
@@ -613,7 +613,7 @@
       "ticker": "601899",
       "company_name": "紫金矿业",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-06-12"
@@ -622,7 +622,7 @@
       "ticker": "300124",
       "company_name": "汇川技术",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-08-28"
@@ -631,7 +631,7 @@
       "ticker": "001339",
       "company_name": "智微智能",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-03-10"
@@ -640,7 +640,7 @@
       "ticker": "000636",
       "company_name": "风华高科",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-07-29"
@@ -649,7 +649,7 @@
       "ticker": "603296",
       "company_name": "华勤技术",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-07"
@@ -658,7 +658,7 @@
       "ticker": "603690",
       "company_name": "至纯科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-10-13"
@@ -667,7 +667,7 @@
       "ticker": "601137",
       "company_name": "博威合金",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-08-13"
@@ -676,7 +676,7 @@
       "ticker": "001216",
       "company_name": "华瓷股份",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2026-09-21"
@@ -685,7 +685,7 @@
       "ticker": "002074",
       "company_name": "国轩高科",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-05-21"
@@ -694,7 +694,7 @@
       "ticker": "300442",
       "company_name": "润泽科技",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-09"
@@ -703,7 +703,7 @@
       "ticker": "002600",
       "company_name": "领益智造",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-01-12"
@@ -712,7 +712,7 @@
       "ticker": "002149",
       "company_name": "西部材料",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2025-12-09"
@@ -721,14 +721,14 @@
       "ticker": "301682",
       "company_name": "宏明电子",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常"
     },
     {
       "ticker": "002865",
       "company_name": "钧达股份",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-12-26"
@@ -737,7 +737,7 @@
       "ticker": "300136",
       "company_name": "信维通信",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing BOS",
       "last_event_date": "2026-05-06"
@@ -746,7 +746,7 @@
       "ticker": "600118",
       "company_name": "中国卫星",
       "market": "A",
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "health": "正常",
       "last_event": "Swing CHoCH",
       "last_event_date": "2025-08-04"
