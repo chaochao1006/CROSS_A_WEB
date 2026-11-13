@@ -3,7 +3,7 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-13T02:20:50.805230+08:00",
+  "run_time_cn": "2026-11-13T09:17:24.620955+08:00",
   "market_dates": {
     "A": "2026-11-12",
     "HK": "2026-11-12"
@@ -119,15 +119,19 @@
       "ticker": "002156",
       "company_name": "通富微电",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2026-05-11"
     },
     {
       "ticker": "000988",
       "company_name": "华工科技",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2026-03-04"
     },
     {
       "ticker": "001270",
@@ -142,8 +146,10 @@
       "ticker": "600879",
       "company_name": "航天电子",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2025-12-04"
     },
     {
       "ticker": "603596",
@@ -244,8 +250,10 @@
       "ticker": "002709",
       "company_name": "天赐材料",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2026-04-21"
     },
     {
       "ticker": "002475",
@@ -278,8 +286,10 @@
       "ticker": "603667",
       "company_name": "五洲新春",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2025-12-08"
     },
     {
       "ticker": "603650",
@@ -312,29 +322,33 @@
       "ticker": "002185",
       "company_name": "华天科技",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2026-05-25"
     },
     {
       "ticker": "688825",
       "company_name": "长鑫科技",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常"
     },
     {
       "ticker": "688836",
       "company_name": "C宇树",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常"
     },
     {
       "ticker": "600522",
       "company_name": "中天科技",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2026-01-26"
     },
     {
       "ticker": "605358",
@@ -347,15 +361,19 @@
       "ticker": "600487",
       "company_name": "亨通光电",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2025-12-22"
     },
     {
       "ticker": "002916",
       "company_name": "深南电路",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2025-07-15"
     },
     {
       "ticker": "603773",
@@ -382,29 +400,29 @@
       "ticker": "02476.HK",
       "company_name": "胜宏科技",
       "market": "HK",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "data_date": "2026-11-12",
+      "health": "正常"
     },
     {
       "ticker": "02513.HK",
       "company_name": "智谱",
       "market": "HK",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "data_date": "2026-11-12",
+      "health": "正常"
     },
     {
       "ticker": "01191.HK",
       "company_name": "海光芯正",
       "market": "HK",
       "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；OHLC价格关系异常；OHLC价格关系异常"
     },
     {
       "ticker": "03308.HK",
       "company_name": "中际旭创",
       "market": "HK",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "data_date": "2026-11-12",
+      "health": "正常"
     },
     {
       "ticker": "000938",

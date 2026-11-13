@@ -3,7 +3,7 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-13T02:21:38.742151+08:00",
+  "run_time_cn": "2026-11-13T09:18:13.592089+08:00",
   "market_dates": {
     "A": "2026-11-12"
   },
@@ -803,8 +803,10 @@
       "ticker": "603596",
       "company_name": "伯特利",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing CHoCH",
+      "last_event_date": "2026-01-06"
     },
     {
       "ticker": "002130",
@@ -3631,15 +3633,19 @@
       "ticker": "603893",
       "company_name": "瑞芯微",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2026-11-10"
     },
     {
       "ticker": "600032",
       "company_name": "浙江新能",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2025-10-30"
     },
     {
       "ticker": "002065",
@@ -3666,8 +3672,10 @@
       "ticker": "002222",
       "company_name": "福晶科技",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2026-04-07"
     },
     {
       "ticker": "301526",
@@ -4142,8 +4150,10 @@
       "ticker": "300139",
       "company_name": "晓程科技",
       "market": "A",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "data_date": "2026-11-12",
+      "health": "正常",
+      "last_event": "Swing BOS",
+      "last_event_date": "2025-09-09"
     },
     {
       "ticker": "600550",
