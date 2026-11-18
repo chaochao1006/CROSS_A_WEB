@@ -72,8 +72,66 @@ def render_smc(module, title):
             st.info('暂无历史触发。')
 
 
+def render_short_risk():
+    st.title('短线风险监控')
+    folder = DATA_DIR / 'short-risk'
+    latest = load_json(folder / 'latest.json')
+    st.caption('日线反弹过滤与过热评分；风险分至少7分触发提醒，不是自动卖出指令。')
+    if latest.get('module') != 'short-risk' or latest.get('schema_version') != 1 or latest.get('data_interval') != '1d':
+        st.info('等待首次短线风险数据更新。请运行 GitHub Actions 中的 Supertrend Monitor。')
+        return
+    records = latest.get('records', [])
+    st.caption(f"最新完整交易日：{latest.get('market_dates', {}).get('A', '')} ｜ "
+               f"股票池 {len(records)} 只 ｜ 正常 {latest.get('success_count', 0)} 只 ｜ "
+               f"更新于北京时间 {latest.get('run_time_cn', '')}")
+    labels = {'ticker':'代码', 'company_name':'名称', 'data_date':'行情日期', 'close':'复权收盘价',
+              'rebound_state':'反弹状态', 'rebound_score':'反弹分', 'short_risk_score':'风险分',
+              'risk_level':'风险等级', 'risk_sources':'主要风险', 'rsi6':'RSI6', 'rsi12':'RSI12',
+              'deviation20':'偏离MA20(%)', 'return5':'近5日涨幅(%)', 'volume_ratio':'量比',
+              'health':'数据状态', 'error':'原因', 'data_warning':'数据提示'}
+    columns = ['ticker', 'company_name', 'data_date', 'close', 'rebound_state', 'rebound_score',
+               'short_risk_score', 'risk_level', 'risk_sources']
+
+    def show(rows, cols):
+        data = pd.DataFrame(rows).reindex(columns=cols)
+        if 'risk_sources' in data:
+            data['risk_sources'] = data['risk_sources'].map(lambda value: '；'.join(value) if isinstance(value, list) else value)
+        st.dataframe(data.rename(columns=labels), width='stretch', hide_index=True)
+
+    st.subheader('当日触发记录')
+    if latest.get('triggers'):
+        show(latest['triggers'], columns)
+    elif latest.get('success_count', 0):
+        st.info('最新完整交易日暂无风险分达到7分的股票。')
+    else:
+        st.warning('本次没有可确认的日线行情，不能据此判断风险。')
+    st.subheader('股票池风险排名')
+    fresh = [row for row in records if row.get('health') == '正常']
+    if fresh:
+        show(fresh, columns)
+    st.caption('未形成反弹时风险分为0，不代表股票安全。连续多日达标可逐日记录，同日重复运行不重复追加。')
+    with st.expander('指标明细与数据状态'):
+        show(records, ['ticker', 'company_name', 'data_date', 'rsi6', 'rsi12', 'deviation20',
+                       'return5', 'volume_ratio', 'health', 'error', 'data_warning'])
+    with st.expander('历史风险触发'):
+        history = load_json(folder / 'history.json')
+        if history.get('module') == 'short-risk' and history.get('records'):
+            show(history['records'], columns)
+        else:
+            st.info('暂无历史风险触发。')
+    with st.expander('评分规则'):
+        st.write('收盘价高于MA5/10/20、MA5高于MA10、RSI12大于50、近5日和10日涨幅为正：每项1分，至少4分才计算风险。')
+        st.write('风险加分：偏离MA20超过8%/15%为1/2分；RSI6超过75/85为1/2分；RSI12超过65/75为1/2分；K和D均大于80为1分；J大于100为2分；近5日涨幅超过15%/25%为1/2分；近5日曾量比至少1.8且当天量比下降为1分；收盘跌破MA5为1分；RSI6下降为1分；KDJ高位死叉为2分。同一项目取较高档。')
+        st.write('0—3分：反弹正常；4—5分：偏热；6—7分：过热；8分及以上：衰竭风险。触发门槛严格大于6分。行情过期、失败或不足60日不触发。')
+
+
 st.set_page_config(page_title='股票监控',page_icon='📈',layout='wide')
-module = st.sidebar.radio('监控模块', ['Supertrend', 'SMC', 'SMC-选', 'Supertrend-选'])
+module = st.sidebar.radio('监控模块', ['Supertrend', 'SMC', 'SMC-选', 'Supertrend-选', '短线风险'])
+if module == '短线风险':
+    if st.button('刷新数据'):
+        st.rerun()
+    render_short_risk()
+    st.stop()
 if module in ('SMC', 'SMC-选'):
     if st.button('刷新数据'):
         st.rerun()
