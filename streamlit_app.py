@@ -161,6 +161,8 @@ if problems:
     st.warning(f'{len(problems)}只股票更新失败或行情过期，已从持有/观望表和当日触发中排除。')
 st.subheader('当日触发记录')
 triggers=latest.get('triggers',[])
+if module == 'Supertrend-选':
+    triggers = sorted(triggers, key=lambda row: {'买入': 0, '卖出': 1}.get(row.get('signal', row.get('event', '')), 2))
 if triggers:
     st.dataframe(table(triggers,True),width='stretch',hide_index=True)
 else:
