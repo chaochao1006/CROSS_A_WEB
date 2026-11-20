@@ -3,10 +3,10 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-20T15:57:03.730614+08:00",
+  "run_time_cn": "2026-11-21T02:37:41.127159+08:00",
   "market_dates": {
     "A": "2026-11-20",
-    "HK": "2026-11-19"
+    "HK": "2026-11-20"
   },
   "records": [
     {
@@ -414,29 +414,29 @@
       "ticker": "02476.HK",
       "company_name": "胜宏科技",
       "market": "HK",
-      "data_date": "2026-11-19",
-      "health": "正常"
+      "health": "更新失败",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "02513.HK",
       "company_name": "智谱",
       "market": "HK",
-      "data_date": "2026-11-19",
-      "health": "正常"
+      "health": "更新失败",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "01191.HK",
       "company_name": "海光芯正",
       "market": "HK",
       "health": "更新失败",
-      "error": "OHLC价格关系异常；OHLC价格关系异常；OHLC价格关系异常；OHLC价格关系异常"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "03308.HK",
       "company_name": "中际旭创",
       "market": "HK",
-      "data_date": "2026-11-19",
-      "health": "正常"
+      "health": "更新失败",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
     },
     {
       "ticker": "000938",
