@@ -1,7 +1,7 @@
 {
   "module": "smc-selected",
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:39:50.130178+08:00",
+  "updated_at": "2026-11-23T15:42:10.991455+08:00",
   "records": [
     {
       "ticker": "002032",
@@ -1090,8 +1090,8 @@
       "data_date": "2026-05-27",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 10.368186187705541,
-      "level": 9.906835314950671
+      "close": 10.46,
+      "level": 9.99
     },
     {
       "ticker": "002534",
@@ -1900,8 +1900,8 @@
       "data_date": "2026-04-16",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 148.01381791761435,
-      "level": 136.65916540308314
+      "close": 148.48,
+      "level": 137.05
     },
     {
       "ticker": "002850",
@@ -2130,8 +2130,8 @@
       "data_date": "2026-03-24",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 22.72901298151545,
-      "level": 21.788946662903907
+      "close": 23.16,
+      "level": 22.18
     },
     {
       "ticker": "300438",
@@ -2340,8 +2340,8 @@
       "data_date": "2026-03-09",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 33.92897526501767,
-      "level": 31.632579505300352
+      "close": 38.41,
+      "level": 35.17
     },
     {
       "ticker": "600726",
@@ -2900,8 +2900,8 @@
       "data_date": "2026-02-09",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 7.033641791044776,
-      "level": 6.862089552238807
+      "close": 6.77,
+      "level": 6.56
     },
     {
       "ticker": "603618",
@@ -4940,8 +4940,8 @@
       "data_date": "2025-11-07",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 23.828000000000003,
-      "level": 23.52
+      "close": 24.6,
+      "level": 24.27
     },
     {
       "ticker": "002756",
@@ -5070,8 +5070,8 @@
       "data_date": "2025-10-30",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 7.812358208955224,
-      "level": 7.7838805970149245
+      "close": 7.89,
+      "level": 7.86
     },
     {
       "ticker": "300302",
@@ -5900,8 +5900,8 @@
       "data_date": "2025-09-05",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 9.021401467240072,
-      "level": 8.500935997976221
+      "close": 9.09,
+      "level": 8.56
     },
     {
       "ticker": "002128",
@@ -6100,8 +6100,8 @@
       "data_date": "2025-08-28",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 26.011307420494695,
-      "level": 24.44409893992933
+      "close": 27.22,
+      "level": 25.0
     },
     {
       "ticker": "600850",
@@ -6940,8 +6940,8 @@
       "data_date": "2025-08-15",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 44.89128745837959,
-      "level": 44.040857380688124
+      "close": 45.37,
+      "level": 44.47
     },
     {
       "ticker": "600699",
@@ -6970,8 +6970,8 @@
       "data_date": "2025-08-15",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 15.4699103993227,
-      "level": 14.767994214759415
+      "close": 15.59,
+      "level": 14.86
     },
     {
       "ticker": "300296",
@@ -7110,8 +7110,8 @@
       "data_date": "2025-08-13",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 84.29706280010109,
-      "level": 83.44954826889057
+      "close": 84.32,
+      "level": 83.47
     },
     {
       "ticker": "300570",
@@ -7240,8 +7240,8 @@
       "data_date": "2025-08-12",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 6.527084818246614,
-      "level": 6.469928724162508
+      "close": 6.76,
+      "level": 6.68
     },
     {
       "ticker": "600956",
@@ -7340,8 +7340,8 @@
       "data_date": "2025-08-08",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 10.525151921358356,
-      "level": 10.272587131367292
+      "close": 10.42,
+      "level": 10.09
     },
     {
       "ticker": "301363",
@@ -8270,8 +8270,8 @@
       "data_date": "2025-07-21",
       "health": "正常",
       "signal": "Swing BOS",
-      "close": 22.666590894159388,
-      "level": 21.96028119046055
+      "close": 22.93,
+      "level": 22.16
     },
     {
       "ticker": "600301",
@@ -8390,8 +8390,8 @@
       "data_date": "2025-07-18",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 25.13839065541856,
-      "level": 24.87523685918235
+      "close": 24.95,
+      "level": 24.66
     },
     {
       "ticker": "300236",
@@ -8670,8 +8670,8 @@
       "data_date": "2025-07-14",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 10.37426245522631,
-      "level": 10.34961771409964
+      "close": 10.42,
+      "level": 10.39
     },
     {
       "ticker": "601958",
@@ -8890,8 +8890,8 @@
       "data_date": "2025-07-07",
       "health": "正常",
       "signal": "Swing CHoCH",
-      "close": 5.9062985074626875,
-      "level": 5.734746268656716
+      "close": 5.39,
+      "level": 5.18
     },
     {
       "ticker": "601208",
