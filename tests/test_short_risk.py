@@ -73,8 +73,8 @@ class ShortRiskTests(unittest.TestCase):
 
     def test_dashboard_and_exact_pool(self):
         tickers, names = monitor.load_pool(monitor.ROOT/'short_risk_pool.json')
-        self.assertEqual(tickers, ['000977','002015','600483','000921','600619','000543'])
-        self.assertEqual(len(names), 6)
+        self.assertEqual(tickers, ['000977','002015','600483','000921','600619','000543','001339'])
+        self.assertEqual(len(names), 7)
         row = {'ticker':'000977', 'company_name':'浪潮信息', 'data_date':'2026-11-17',
                'health':'正常', 'rebound_state':'短线反弹确认', 'rebound_score':6,
                'short_risk_score':7, 'risk_level':'短线过热，容易回踩', 'risk_sources':['偏离MA20超过15%']}
