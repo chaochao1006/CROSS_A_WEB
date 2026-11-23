@@ -3,7 +3,7 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-23T15:42:10.991455+08:00",
+  "run_time_cn": "2026-11-23T16:01:35.826458+08:00",
   "market_dates": {
     "A": "2026-11-23"
   },
@@ -201,37 +201,29 @@
       "ticker": "300450",
       "company_name": "先导智能",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing CHoCH",
-      "last_event_date": "2025-07-18"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "301238",
       "company_name": "瑞泰新材",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2025-11-07"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "300953",
       "company_name": "震裕科技",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2026-04-16"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "300432",
       "company_name": "富临精工",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2026-03-24"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "002074",
@@ -244,19 +236,15 @@
       "ticker": "002249",
       "company_name": "大洋电机",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2025-08-12"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "600580",
       "company_name": "卧龙电驱",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2025-07-21"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "300660",
@@ -283,10 +271,8 @@
       "ticker": "600021",
       "company_name": "上海电力",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing CHoCH",
-      "last_event_date": "2025-08-08"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "003035",
@@ -313,28 +299,22 @@
       "ticker": "600032",
       "company_name": "浙江新能",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2025-10-30"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "001896",
       "company_name": "豫能控股",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2026-02-09"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "002617",
       "company_name": "露笑科技",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing CHoCH",
-      "last_event_date": "2026-05-27"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "600726",
@@ -347,28 +327,22 @@
       "ticker": "601877",
       "company_name": "正泰电器",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2026-03-09"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "000682",
       "company_name": "东方电子",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing CHoCH",
-      "last_event_date": "2025-07-14"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "603606",
       "company_name": "东方电缆",
       "market": "A",
-      "data_date": "2026-11-23",
-      "health": "正常",
-      "last_event": "Swing BOS",
-      "last_event_date": "2025-08-15"
+      "data_date": "2026-11-20",
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "600089",
