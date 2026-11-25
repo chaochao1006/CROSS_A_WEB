@@ -2,14 +2,14 @@
   "module": "short-risk",
   "schema_version": 1,
   "data_interval": "1d",
-  "run_time_cn": "2026-11-25T04:42:19.043832+08:00",
+  "run_time_cn": "2026-11-25T16:25:31.048948+08:00",
   "market_dates": {
-    "A": "2026-11-24"
+    "A": "2026-11-25"
   },
   "stock_pool_count": 7,
-  "success_count": 7,
+  "success_count": 0,
   "failure_count": 0,
-  "stale_count": 0,
+  "stale_count": 7,
   "trigger_rule": "反弹确认分至少4分，风险分大于6分（至少7分）",
   "records": [
     {
@@ -53,12 +53,12 @@
       "data_warning": "",
       "company_name": "福能股份",
       "market": "A",
-      "expected_date": "2026-11-24",
+      "expected_date": "2026-11-25",
       "data_source": "腾讯证券 daily (2-year chunks, verified 1d)",
       "adjustment_note": "后复权全历史归一至末日原始价；成交量为腾讯原始单位",
       "daily_bar_count": 366,
       "data_date": "2026-11-24",
-      "health": "正常"
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "000543",
@@ -98,12 +98,12 @@
       "data_warning": "",
       "company_name": "皖能电力",
       "market": "A",
-      "expected_date": "2026-11-24",
+      "expected_date": "2026-11-25",
       "data_source": "腾讯证券 daily (2-year chunks, verified 1d)",
       "adjustment_note": "后复权全历史归一至末日原始价；成交量为腾讯原始单位",
       "daily_bar_count": 366,
       "data_date": "2026-11-24",
-      "health": "正常"
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "000921",
@@ -145,12 +145,12 @@
       "data_warning": "",
       "company_name": "海信家电",
       "market": "A",
-      "expected_date": "2026-11-24",
+      "expected_date": "2026-11-25",
       "data_source": "腾讯证券 daily (2-year chunks, verified 1d)",
       "adjustment_note": "后复权全历史归一至末日原始价；成交量为腾讯原始单位",
       "daily_bar_count": 366,
       "data_date": "2026-11-24",
-      "health": "正常"
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "600619",
@@ -192,12 +192,12 @@
       "data_warning": "",
       "company_name": "海立股份",
       "market": "A",
-      "expected_date": "2026-11-24",
+      "expected_date": "2026-11-25",
       "data_source": "腾讯证券 daily (2-year chunks, verified 1d)",
       "adjustment_note": "后复权全历史归一至末日原始价；成交量为腾讯原始单位",
       "daily_bar_count": 366,
       "data_date": "2026-11-24",
-      "health": "正常"
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "000977",
@@ -230,12 +230,12 @@
       "data_warning": "",
       "company_name": "浪潮信息",
       "market": "A",
-      "expected_date": "2026-11-24",
+      "expected_date": "2026-11-25",
       "data_source": "腾讯证券 daily (2-year chunks, verified 1d)",
       "adjustment_note": "后复权全历史归一至末日原始价；成交量为腾讯原始单位",
       "daily_bar_count": 366,
       "data_date": "2026-11-24",
-      "health": "正常"
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "001339",
@@ -270,12 +270,12 @@
       "data_warning": "",
       "company_name": "智微智能",
       "market": "A",
-      "expected_date": "2026-11-24",
+      "expected_date": "2026-11-25",
       "data_source": "腾讯证券 daily (2-year chunks, verified 1d)",
       "adjustment_note": "后复权全历史归一至末日原始价；成交量为腾讯原始单位",
       "daily_bar_count": 366,
       "data_date": "2026-11-24",
-      "health": "正常"
+      "health": "行情过期/停牌"
     },
     {
       "ticker": "002015",
@@ -308,12 +308,12 @@
       "data_warning": "",
       "company_name": "协鑫能科",
       "market": "A",
-      "expected_date": "2026-11-24",
+      "expected_date": "2026-11-25",
       "data_source": "腾讯证券 daily (2-year chunks, verified 1d)",
       "adjustment_note": "后复权全历史归一至末日原始价；成交量为腾讯原始单位",
       "daily_bar_count": 366,
       "data_date": "2026-11-24",
-      "health": "正常"
+      "health": "行情过期/停牌"
     }
   ],
   "triggers": []
