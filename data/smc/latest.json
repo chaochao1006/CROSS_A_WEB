@@ -3,7 +3,7 @@
   "schema_version": 1,
   "data_interval": "1d",
   "swing_length": 50,
-  "run_time_cn": "2026-11-27T03:38:07.677156+08:00",
+  "run_time_cn": "2026-11-27T09:04:01.167223+08:00",
   "market_dates": {
     "A": "2026-11-26",
     "HK": "2026-11-26"
@@ -414,29 +414,29 @@
       "ticker": "02476.HK",
       "company_name": "胜宏科技",
       "market": "HK",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "data_date": "2026-11-26",
+      "health": "正常"
     },
     {
       "ticker": "02513.HK",
       "company_name": "智谱",
       "market": "HK",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "data_date": "2026-11-26",
+      "health": "正常"
     },
     {
       "ticker": "01191.HK",
       "company_name": "海光芯正",
       "market": "HK",
       "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "error": "OHLC价格关系异常；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；OHLC价格关系异常；OHLC价格关系异常"
     },
     {
       "ticker": "03308.HK",
       "company_name": "中际旭创",
       "market": "HK",
-      "health": "更新失败",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))；行情含非正价格或缺失OHLC；行情含非正价格或缺失OHLC"
+      "data_date": "2026-11-26",
+      "health": "正常"
     },
     {
       "ticker": "000938",

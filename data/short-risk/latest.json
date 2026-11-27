@@ -2,7 +2,7 @@
   "module": "short-risk",
   "schema_version": 1,
   "data_interval": "1d",
-  "run_time_cn": "2026-11-27T03:40:01.849568+08:00",
+  "run_time_cn": "2026-11-27T09:05:19.033124+08:00",
   "market_dates": {
     "A": "2026-11-26"
   },
